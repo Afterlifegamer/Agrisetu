@@ -1,11 +1,30 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+
+# Virtual environments
 venv/
 env/
+
+# IDEs
 .vscode/
-data/New/*.csv
+.idea/
+
+# Data and Models
 data/*.csv
+data/New/*.csv
 models/*.json
 models/*.pkl
+*.csv
+*.joblib
+scenario_results.csv
+
+# Temporary / Analysis artifacts
+tmp/
 scratch/
+analysis/
+*.log
+
+# Git backups that should never be tracked
+agri-setu-old-backup/
+agri-setu-master_original/
