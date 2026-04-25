@@ -1,0 +1,177 @@
+[
+  {
+    "id": "1",
+    "name": "Paddy",
+    "image": "images/products/paddy.jpg",
+    "price": 4500,
+    "keywords": ["paddy", "rice grain", "kerala", "farming"]
+  },
+  {
+    "id": "2",
+    "name": "Rice",
+    "image": "images/products/rice.jpg",
+    "price": 6000,
+    "keywords": ["rice", "white rice", "grain", "staple"]
+  },
+  {
+    "id": "3",
+    "name": "Pineapple",
+    "image": "images/products/pineapple.jpg",
+    "price": 3500,
+    "keywords": ["pineapple", "fruit", "tropical"]
+  },
+  {
+    "id": "4",
+    "name": "Arecanut",
+    "image": "images/products/arecanut.jpg",
+    "price": 8200,
+    "keywords": ["arecanut", "betel nut", "plantation"]
+  },
+  {
+    "id": "5",
+    "name": "Turmeric",
+    "image": "images/products/turmeric.jpg",
+    "price": 5000,
+    "keywords": ["turmeric", "spice", "medicinal"]
+  },
+  {
+    "id": "6",
+    "name": "Cashew",
+    "image": "images/products/cashew.jpg",
+    "price": 9500,
+    "keywords": ["cashew", "nuts", "export"]
+  },
+  {
+    "id": "7",
+    "name": "Coconut",
+    "image": "images/products/coconut.jpg",
+    "price": 3000,
+    "keywords": ["coconut", "kerala", "oil"]
+  },
+  {
+    "id": "8",
+    "name": "Ginger",
+    "image": "images/products/ginger.jpg",
+    "price": 4800,
+    "keywords": ["ginger", "spice", "fresh"]
+  },
+  {
+    "id": "9",
+    "name": "Pepper",
+    "image": "images/products/pepper.jpg",
+    "price": 12000,
+    "keywords": ["pepper", "black pepper", "export"]
+  },
+  {
+    "id": "10",
+    "name": "Coffee",
+    "image": "images/products/coffee.jpg",
+    "price": 11000,
+    "keywords": ["coffee", "beans", "arabica"]
+  },
+  {
+    "id": "11",
+    "name": "Papaya",
+    "image": "images/products/papaya.jpg",
+    "price": 2800,
+    "keywords": ["papaya", "fruit", "fresh"]
+  },
+  {
+    "id": "12",
+    "name": "Jackfruit",
+    "image": "images/products/jackfruit.jpg",
+    "price": 3200,
+    "keywords": ["jackfruit", "kerala", "organic"]
+  },
+  {
+    "id": "13",
+    "name": "Banana",
+    "image": "images/products/banana.jpg",
+    "price": 2600,
+    "keywords": ["banana", "nendran", "fruit"]
+  },
+  {
+    "id": "14",
+    "name": "Mango",
+    "image": "images/products/mango.jpg",
+    "price": 4000,
+    "keywords": ["mango", "sweet", "tropical"]
+  },
+  {
+    "id": "15",
+    "name": "Rubber",
+    "image": "images/products/rubber.jpg",
+    "price": 7000,
+    "keywords": ["rubber", "latex", "plantation"]
+  },
+  {
+    "id": "16",
+    "name": "Cardamom",
+    "image": "images/products/cardamom.jpg",
+    "price": 15000,
+    "keywords": ["cardamom", "spice", "export"]
+  },
+  {
+    "id": "17",
+    "name": "Tomato",
+    "image": "images/products/tomato.jpg",
+    "price": 2200,
+    "keywords": ["tomato", "vegetable", "fresh"]
+  },
+  {
+    "id": "18",
+    "name": "Onion",
+    "image": "images/products/onion.jpg",
+    "price": 2400,
+    "keywords": ["onion", "vegetable", "kitchen"]
+  },
+  {
+    "id": "19",
+    "name": "Potato",
+    "image": "images/products/potato.jpg",
+    "price": 2100,
+    "keywords": ["potato", "vegetable", "staple"]
+  },
+  {
+    "id": "20",
+    "name": "Chilli",
+    "image": "images/products/chilli.jpg",
+    "price": 5200,
+    "keywords": ["chilli", "spice", "hot"]
+  },
+  {
+    "id": "21",
+    "name": "Cabbage",
+    "image": "images/products/cabbage.jpg",
+    "price": 1800,
+    "keywords": ["cabbage", "vegetable", "fresh"]
+  },
+  {
+    "id": "22",
+    "name": "Carrot",
+    "image": "images/products/carrot.jpg",
+    "price": 2000,
+    "keywords": ["carrot", "vegetable", "organic"]
+  },
+  {
+    "id": "23",
+    "name": "Beetroot",
+    "image": "images/products/beetroot.jpg",
+    "price": 1900,
+    "keywords": ["beetroot", "vegetable", "healthy"]
+  },
+  {
+    "id": "24",
+    "name": "Green Gram",
+    "image": "images/products/greengram.jpg",
+    "price": 5400,
+    "keywords": ["green gram", "pulse", "protein"]
+  },
+  {
+    "id": "25",
+    "name": "Black Gram",
+    "image": "images/products/blackgram.jpg",
+    "price": 5600,
+    "keywords": ["black gram", "urad dal", "pulse"]
+  }
+]

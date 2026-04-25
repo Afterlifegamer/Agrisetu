@@ -1,0 +1,265 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>AgriSetu - Crop &amp; ROI Advisor</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#84B179",
+            "primary-dark": "#75a36a",
+            "background-light": "#E8F5BD",
+            "background-dark": "#161f17",
+            "text-primary-light": "#1a2c1a",
+            "text-primary-dark": "#f0f7d5",
+            "text-secondary-light": "#485e43",
+            "text-secondary-dark": "#A2CB8B",
+            "card-light": "#ffffff",
+            "card-dark": "#243325",
+            "surface-light": "#ffffff",
+            "surface-dark": "#243325",
+            "accent-yellow": "#f59e0b",
+            "accent-green": "#C7EABB",
+            "accent-blue": "#3b82f6",
+            "accent-orange": "#f97316",
+            "border-light": "#C7EABB",
+            "border-dark": "#3d523e",
+            "primary-green": "#84B179",
+            "secondary-brown": "#d97706",
+            "text-primary": "#1a2c1a",
+            "text-secondary": "#485e43",
+          },
+          fontFamily: {
+            display: ["Outfit", "sans-serif"],
+            body: ["Inter", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem",
+            lg: "0.75rem",
+            xl: "1rem",
+            "2xl": "1.5rem",
+            full: "9999px",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-body text-text-primary-light dark:text-text-primary-dark">
+  <div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+    <!-- Top App Bar -->
+    <header
+      class="flex items-center glass p-4 pb-2 justify-between sticky top-0 z-40 border-b border-border-light dark:border-border-dark">
+      <button onclick="history.back()"
+        class="text-text-primary dark:text-gray-200 flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+        <span class="material-symbols-outlined">arrow_back</span>
+      </button>
+      <h1
+        class="text-text-primary dark:text-gray-100 text-lg font-bold leading-tight tracking-tight flex-1 text-center">
+        Crop &amp; ROI Advisor
+      </h1>
+      <div class="size-10 shrink-0"></div>
+      <!-- Spacer -->
+    </header>
+    <main class="flex-grow px-4 pt-6 pb-24">
+      <!-- Headline & Body Text -->
+      <div class="mb-6">
+        <h2
+          class="text-text-primary dark:text-gray-100 tracking-tight text-[32px] font-bold leading-tight text-left pb-2">
+          Get Your Crop Recommendation
+        </h2>
+        <p class="text-text-secondary dark:text-gray-400 text-base font-normal leading-normal">
+          Enter your farm details to receive personalized crop and ROI
+          recommendations.
+        </p>
+      </div>
+      <!-- Input Form -->
+      <div class="flex flex-col gap-4">
+        <!-- Location Input -->
+        <div class="flex flex-col">
+          <label class="text-text-primary dark:text-gray-200 text-base font-medium leading-normal pb-2"
+            for="location">Your Location</label>
+          <div
+            class="flex w-full items-stretch rounded-lg border border-border-light dark:border-border-dark focus-within:ring-2 focus-within:ring-primary/50">
+            <input
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-l-lg text-text-primary dark:text-gray-100 focus:outline-0 focus:ring-0 border-0 bg-background-light dark:bg-background-dark h-14 placeholder:text-gray-400 p-[15px] text-base font-normal leading-normal"
+              id="location" placeholder="Enter your farm location" value="Sunnyvale, CA" />
+            <div
+              class="text-text-secondary flex bg-background-light dark:bg-background-dark items-center justify-center px-4 rounded-r-lg border-l-0">
+              <span class="material-symbols-outlined">location_on</span>
+            </div>
+          </div>
+        </div>
+        <!-- Land Area & Soil Type Inputs -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Land Area Input -->
+          <div class="flex flex-col">
+            <label class="text-text-primary dark:text-gray-200 text-base font-medium leading-normal pb-2"
+              for="land-area">Land Area</label>
+            <div
+              class="flex w-full items-stretch rounded-lg border border-border-light dark:border-border-dark focus-within:ring-2 focus-within:ring-primary/50">
+              <input
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-l-lg text-text-primary dark:text-gray-100 focus:outline-0 focus:ring-0 border-0 bg-background-light dark:bg-background-dark h-14 placeholder:text-gray-400 p-[15px] text-base font-normal leading-normal"
+                id="land-area" placeholder="e.g., 5" type="number" />
+              <select
+                class="form-select flex min-w-fit resize-none overflow-hidden rounded-r-lg text-text-secondary dark:text-gray-300 focus:outline-0 focus:ring-0 border-0 bg-background-light dark:bg-background-dark h-14 text-base font-normal leading-normal pr-8">
+                <option>Acres</option>
+                <option>Hectares</option>
+                <option>Bigha</option>
+              </select>
+            </div>
+          </div>
+          <!-- Soil Type Selector -->
+          <div class="flex flex-col">
+            <label class="text-text-primary dark:text-gray-200 text-base font-medium leading-normal pb-2"
+              for="soil-type">Soil Type</label>
+            <select
+              class="form-select flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-text-primary dark:text-gray-100 focus:outline-0 focus:ring-0 border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark h-14 placeholder:text-gray-400 p-[15px] text-base font-normal leading-normal focus:ring-2 focus:ring-primary/50 focus:border-primary/50"
+              id="soil-type">
+              <option disabled="" selected="" value="">
+                Select soil type
+              </option>
+              <option value="alluvial">Alluvial</option>
+              <option value="clay">Clay</option>
+              <option value="sandy">Sandy</option>
+              <option value="loam">Loam</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- Loading Indicator -->
+      <div class="flex flex-col items-center justify-center gap-4 py-12 hidden">
+        <div class="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+        <p class="text-text-secondary dark:text-gray-400">
+          Finding the best crop for you...
+        </p>
+      </div>
+      <!-- Results Section -->
+      <div class="pt-10">
+        <h3 class="text-text-primary dark:text-gray-100 text-xl font-bold pb-4">
+          Top Recommendation
+        </h3>
+        <!-- Recommendation Card -->
+        <div
+          class="bg-card-light dark:bg-card-dark rounded-xl shadow-md overflow-hidden transform hover:scale-[1.02] transition-transform duration-300 ease-in-out">
+          <img class="w-full h-48 object-cover"
+            data-alt="A vibrant image of ripe tomatoes on the vine, showcasing their bright red color."
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_g5t8yfBeT0EX4DbEVxADXJQT02zGBDuq-mc1NWM3PatqyP5MxUuYJ2JAmoQD-_HW71bVdL9-J_K5o7q0n2e6qswnFpEd3sicmbi6j11QlfsLPDXoh3jPIMhBbIc905ABXzxiJRQb2cb_7s0XiG7F4JLiDnXhCm9ER8HHUlLiDO0Vt3zYO6_WISPbkSSDkv05LqSKA_LW4dSg6SV0RZlxl_zH6Z4roBoQ_Npq3xG17o_APOxgj0Cs7w1hq3edAwvxuApd8V1MaDc2" />
+          <div class="p-6">
+            <div class="flex justify-between items-start">
+              <div>
+                <h4 class="text-2xl font-bold text-text-primary dark:text-gray-100">
+                  Tomato
+                </h4>
+                <p class="text-text-secondary dark:text-gray-400 mt-1">
+                  High-yield variety
+                </p>
+              </div>
+              <div class="text-right">
+                <p class="text-sm text-text-secondary dark:text-gray-400">
+                  Est. ROI
+                </p>
+                <p class="text-2xl font-bold text-accent-orange">150%</p>
+              </div>
+            </div>
+            <div class="mt-6 grid grid-cols-2 gap-4 text-center">
+              <div>
+                <p class="text-sm text-text-secondary dark:text-gray-400">
+                  Est. Yield
+                </p>
+                <p class="text-lg font-semibold text-text-primary dark:text-gray-200">
+                  25 tons/acre
+                </p>
+              </div>
+              <div>
+                <p class="text-sm text-text-secondary dark:text-gray-400">
+                  Market Price
+                </p>
+                <p class="text-lg font-semibold text-text-primary dark:text-gray-200">
+                  $0.80/kg
+                </p>
+              </div>
+            </div>
+            <button
+              class="mt-6 w-full bg-primary/20 text-primary dark:bg-primary/30 dark:text-primary font-bold py-3 px-4 rounded-lg hover:bg-primary/30 dark:hover:bg-primary/40 transition-colors">
+              View Details
+            </button>
+          </div>
+        </div>
+        <!-- Alternative Recommendations -->
+        <div class="mt-10">
+          <h3 class="text-text-primary dark:text-gray-100 text-xl font-bold pb-4">
+            Alternative Options
+          </h3>
+          <div class="space-y-4">
+            <!-- Alternative Card 1 -->
+            <div
+              class="flex items-center gap-4 p-4 bg-card-light dark:bg-card-dark rounded-2xl shadow-sm border border-border-light dark:border-border-dark hover-lift cursor-pointer">
+              <img class="size-20 object-cover rounded-lg" data-alt="Close-up of golden corn cobs with green husks."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCanczmjuktgs9n8BBbVPtWWoaMf8VxNyZdyQkYPeVRhDU7cfRLemgR70fnhvjjI4kc7tum2KNoPPb5cDpxsruEHr8EKgdB-kcfhGuZ6ysmlR1Cw4v_6kILb16XV_hrnjVnBCF9jR_56-kJoByBDAcc9M1WOUaxlL5sWep4ylvFg_FGepFiEtnWYqlUU5t8HysG_H1TpGmw9JP6xPkaPMEnRckJJMSmInW-SMZtfZ7fK-iBnqIC_zaSB2A_5ky9qacMtMB5n2NAYcyh" />
+              <div class="flex-1">
+                <h5 class="text-lg font-bold text-text-primary dark:text-gray-100">
+                  Corn
+                </h5>
+                <p class="text-text-secondary dark:text-gray-400 text-sm">
+                  Est. ROI: 120%
+                </p>
+              </div>
+              <span class="material-symbols-outlined text-text-secondary dark:text-gray-400">chevron_right</span>
+            </div>
+            <!-- Alternative Card 2 -->
+            <div
+              class="flex items-center gap-4 p-4 bg-card-light dark:bg-card-dark rounded-2xl shadow-sm border border-border-light dark:border-border-dark hover-lift cursor-pointer">
+              <img class="size-20 object-cover rounded-lg" data-alt="A field of wheat under a clear blue sky."
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnfZwPdNpxIslbBLcCW3SLdtA1mzHff0sFhdF4qXMDXGs_MZJQRNUg3gH8Ak37BQHqYaUtR-TEO6ngRvkBjW_VG80nL3p7TzWGAm1GWCeSFMRuA6-ghEhPdle1vx5Fnw5sYv4Sokg5ToUGaukFWqq2N5PspFha4T36st_xlO-kG3VDIQcXBL8I23PWR4YbSy4lSBn0adja5-W5ExTskOnT5HVpXIT3IREvzu9gTEv3CpOaXn4FQFFkViS2NK4waq8LXpMNFHg_EQCo" />
+              <div class="flex-1">
+                <h5 class="text-lg font-bold text-text-primary dark:text-gray-100">
+                  Wheat
+                </h5>
+                <p class="text-text-secondary dark:text-gray-400 text-sm">
+                  Est. ROI: 95%
+                </p>
+              </div>
+              <span class="material-symbols-outlined text-text-secondary dark:text-gray-400">chevron_right</span>
+            </div>
+          </div>
+        </div>
+        <!-- Disclaimer -->
+        <p class="mt-8 text-center text-xs text-text-secondary dark:text-gray-500 px-4">
+          Disclaimer: Recommendations are estimates based on our hybrid model
+          and market data. Actual results may vary.
+        </p>
+      </div>
+    </main>
+
+    <!-- Bottom CTA Button -->
+    <footer
+      class="fixed bottom-0 left-0 right-0 p-4 glass border-t border-border-light dark:border-border-dark flex gap-4 z-50">
+      <button
+        class="flex-1 btn-primary-gradient btn-shine text-white text-base font-bold py-4 px-4 rounded-xl shadow-md hover-lift focus:outline-none focus:ring-4 focus:ring-primary/50">
+        Calculate My Recommendation
+      </button>
+      <button onclick="window.location.href = 'product_listing.html'"
+        class="flex-1 btn-primary-gradient btn-shine text-white text-base font-bold py-4 px-4 rounded-xl shadow-md hover-lift focus:outline-none focus:ring-4 focus:ring-primary/50">
+        Add to Marketplace
+      </button>
+    </footer>
+  </div>
+</body>
+
+</html>

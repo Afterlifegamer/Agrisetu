@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AgriSetu | Digital Agrarian</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-fixed-dim": "#ffb59f",
+                    "surface-container": "#eeeee9",
+                    "on-surface": "#1a1c19",
+                    "error-container": "#ffdad6",
+                    "surface-container-low": "#f4f4ef",
+                    "primary-fixed": "#c3edc3",
+                    "secondary-fixed": "#ffdbce",
+                    "on-secondary": "#ffffff",
+                    "on-primary-fixed-variant": "#2b4e30",
+                    "on-primary-fixed": "#002109",
+                    "tertiary-fixed": "#ffdbd0",
+                    "primary-container": "#2e5233",
+                    "on-secondary-container": "#795c51",
+                    "on-primary-container": "#9cc49d",
+                    "on-secondary-fixed": "#2b160f",
+                    "tertiary": "#641800",
+                    "surface-container-highest": "#e3e3de",
+                    "surface": "#fafaf5",
+                    "inverse-primary": "#a8d1a9",
+                    "tertiary-container": "#8b2500",
+                    "primary": "#173b1e",
+                    "inverse-on-surface": "#f1f1ec",
+                    "secondary": "#75584d",
+                    "on-tertiary": "#ffffff",
+                    "surface-variant": "#e3e3de",
+                    "on-tertiary-fixed-variant": "#852300",
+                    "secondary-fixed-dim": "#e4beb2",
+                    "inverse-surface": "#2f312e",
+                    "on-primary": "#ffffff",
+                    "secondary-container": "#fed7ca",
+                    "surface-dim": "#dadad5",
+                    "on-secondary-fixed-variant": "#5b4137",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error": "#ffffff",
+                    "error": "#ba1a1a",
+                    "surface-bright": "#fafaf5",
+                    "on-background": "#1a1c19",
+                    "background": "#fafaf5",
+                    "surface-tint": "#426746",
+                    "on-surface-variant": "#424841",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-container": "#ffa286",
+                    "surface-container-high": "#e8e8e3",
+                    "primary-fixed-dim": "#a8d1a9",
+                    "outline-variant": "#c2c8be",
+                    "on-tertiary-fixed": "#3a0a00",
+                    "outline": "#727970"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Work Sans"],
+                    "label": ["Work Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Work Sans', sans-serif; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+    <script type="module" src="scripts/home/home_overhaul.js"></script>
+</head>
+<body class="bg-surface-container-low text-on-surface selection:bg-primary-fixed">
+<!-- Top Navigation Shell -->
+<header class="fixed top-0 w-full z-50 bg-stone-50/80 backdrop-blur-xl shadow-sm">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
+<div class="text-2xl font-black text-emerald-950 uppercase tracking-tighter">AgriSetu</div>
+<nav class="hidden md:flex items-center gap-8 font-['Manrope'] font-bold tracking-tight">
+<a class="text-emerald-900 border-b-2 border-emerald-900 pb-1" href="home.html">Home</a>
+<a class="text-stone-500 hover:text-emerald-800 transition-colors" href="predict.html">Predict</a>
+<a class="text-stone-500 hover:text-emerald-800 transition-colors" href="marketplace.html">Marketplace</a>
+<a class="text-stone-500 hover:text-emerald-800 transition-colors" href="buyer_order_tracking.html">Orders</a>
+</nav>
+<div class="flex items-center gap-6">
+<div class="relative hidden lg:block">
+<input class="bg-surface-container-highest border-none rounded-full py-2 px-6 w-64 text-sm focus:ring-2 focus:ring-primary/20" placeholder="Search data..." type="text"/>
+<span class="material-symbols-outlined absolute right-4 top-1.5 text-on-surface-variant">search</span>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-stone-100 rounded-full transition-all duration-300">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest overflow-hidden border border-outline-variant/20">
+<img class="w-full h-full object-cover" data-alt="User profile showing portrait of a modern farmer with a confident gaze in a field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLa6hE6BDMgMQYTyt-4WI9j8ZG2j8fcpmnv8JNY1_S6lFz-utui32llQdbpWXFSlo8qXu2-V1ISjgqBkcLK7vK1aClRupAu9UVAzhlJbsvMZOcf3DRR4YHSvWOzMR2et-pyfUjKTSNsguhul9b8q3Fs6xPv6fq7HMnxrfqeL-c8vOI2mi05OeJjwxDwej5o1lSXmE1MoHXTE7R4C3Y6yrFJau3kK2XK4RC5TT2El2Bcr1S_WWOTYQU5QU2stMO82jT-tRKEzITV4k"/>
+</div>
+</div>
+</div>
+<script type="module">
+    import { setupSearch } from './scripts/home/search_common.js';
+    document.addEventListener('DOMContentLoaded', () => {
+        setupSearch('input[placeholder*="Search"]');
+    });
+</script>
+</div>
+<div class="bg-stone-200/50 h-[1px]"></div>
+</header>
+<main class="pt-24 min-h-screen">
+<!-- Hero Section -->
+<section class="relative px-12 py-12 max-w-[1920px] mx-auto">
+<div class="relative h-[600px] rounded-[2rem] overflow-hidden group">
+<div class="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/20 to-transparent z-10"></div>
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="expansive lush green farm field during a bright sunrise with morning mist and vibrant green crops" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADjXgfNfuA-JV9i9lHjLLTeZ6CcJLHAnHDz6UNXEnR5SE8q_lEzOKfwUwuHetOBSr6wEnvympX_Ach_a6vKu3oST9YBTn2sQ7Y2F5SvhjjVWeuTDMQDWz2biS6fqG9BMVLJGGi9YWlsJTIGvrLRvTq9KS5NrMRIlCnklUHyyb3WcokByet605-4ZgFJharSBiB2Ahext__pBqJ73XGx5XYhuzWvpQPfLlHIGdRxq36-mRFJlRzQ-QfVcs1mbPFFryvmT3AMTTn7Ow"/>
+<div class="relative z-20 h-full flex flex-col justify-center px-16 max-w-4xl">
+<span class="text-tertiary-fixed-dim font-label uppercase tracking-[0.2em] font-semibold mb-4 block">Seasonal intelligence</span>
+<h1 class="text-white text-7xl font-extrabold tracking-tight leading-[1.1] mb-8">Yielding <br/>Insight.</h1>
+<p class="text-white/80 text-xl font-body max-w-lg mb-10 leading-relaxed">Precision-guided diagnostics for the modern estate. Turn tilled earth into actionable data streams.</p>
+<div class="flex gap-4">
+<a href="predict.html" class="bg-gradient-to-br from-primary to-primary-container text-white px-8 py-4 rounded-xl font-bold hover:scale-105 transition-transform flex items-center gap-2">
+                            Initialize Scan
+</a>
+</div>
+</div>
+<!-- Floating Weather Card -->
+<div class="absolute bottom-12 right-12 z-20 bg-surface/80 backdrop-blur-2xl p-8 rounded-[2rem] shadow-2xl border border-white/20 min-w-[280px]">
+<div class="flex flex-col">
+<span class="text-on-surface-variant font-label text-xs uppercase tracking-widest">Atmosphere</span>
+<span id="weather-city" class="text-on-surface font-bold text-xl">Pune, India</span>
+</div>
+<span id="weather-icon" class="material-symbols-outlined text-primary text-4xl" style="font-variation-settings: 'FILL' 1;">sunny</span>
+<div class="flex items-end gap-2">
+<span id="weather-temp" class="text-6xl font-extrabold tracking-tighter text-on-surface leading-none">32°C</span>
+<span id="weather-desc" class="text-primary font-bold mb-1">Clear Sky</span>
+</div>
+<div class="mt-6 pt-6 border-t border-outline-variant/30 flex justify-between">
+<div class="flex flex-col">
+<span class="text-xs text-on-surface-variant">Humidity</span>
+<span id="weather-humidity" class="font-bold">42%</span>
+</div>
+<div class="flex flex-col text-right">
+<span class="text-xs text-on-surface-variant">Wind Speed</span>
+<span id="weather-wind" class="font-bold">12 km/h</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Bento Grid Insights -->
+<section class="px-12 py-16 max-w-[1920px] mx-auto grid grid-cols-12 gap-8">
+<!-- Top Recommendation -->
+<div class="col-span-12 lg:col-span-7 bg-surface-container-lowest p-10 rounded-[2.5rem] relative overflow-hidden flex flex-col justify-between min-h-[480px]">
+<div class="relative z-10">
+<span class="inline-block px-4 py-1.5 bg-primary-fixed text-on-primary-fixed text-xs font-bold rounded-full mb-6 uppercase tracking-wider">Top Recommendation</span>
+<h2 id="top-crop-name" class="text-5xl font-black text-primary leading-tight mb-4">Soybean <br/>Kharif</h2>
+<p id="top-crop-desc" class="text-on-surface-variant text-lg max-w-md leading-relaxed">Optimal soil pH (6.5) and current moisture levels indicate a high-probability yield window for immediate sowing.</p>
+</div>
+<div class="relative z-10 flex gap-8 mt-8">
+<div class="flex flex-col">
+<span id="top-yield-prob" class="text-tertiary font-bold text-3xl">94%</span>
+<span class="text-xs text-on-surface-variant font-medium">Yield Probability</span>
+</div>
+<div class="flex flex-col">
+<span id="top-market-price" class="text-primary font-bold text-3xl">₹4,200</span>
+<span class="text-xs text-on-surface-variant font-medium">Est. Market Entry</span>
+</div>
+<div class="flex flex-col">
+<span id="top-harvest-cycle" class="text-on-surface font-bold text-3xl">120 <span class="text-lg">Days</span></span>
+<span class="text-xs text-on-surface-variant font-medium">Harvest Cycle</span>
+</div>
+</div>
+<img id="top-crop-image" class="absolute -right-20 -bottom-20 w-[450px] h-[450px] object-cover rounded-full mix-blend-multiply opacity-80" data-alt="Macro close-up of healthy young soybean plants emerging from dark organic tilled soil" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcPs_BjfNvvK4QbW-0oTBGp4dkxCEuz3OMD99h1kO3WIi711EfWM6CGMDqKsUcmJfDaTSjcxqKnqenLun5un0Lu34hNI4c6lWo8m83SDmN3LllElqBjh_ov8rHBvg-Na90AYxH_nwr6QLAiV83HBEhDnjyzPDNq0ijbpHM4V-uzvSxe0xCUR-lrfaNdAzKdBG0afdCnOFSOpt2ZqRwvOUq1C3JQoU-sOF6R3XblEUc9rxBtTtFO26T-FPvsjF9hRrbiW9s0iiX6xg"/>
+</div>
+<!-- Farm Analysis -->
+<div class="col-span-12 lg:col-span-5 bg-primary p-10 rounded-[2.5rem] text-white flex flex-col justify-between overflow-hidden relative">
+<div class="absolute top-0 right-0 p-8">
+<span class="material-symbols-outlined text-6xl text-primary-fixed/20">agriculture</span>
+</div>
+<div>
+<h3 class="text-sm font-label uppercase tracking-widest text-primary-fixed mb-12">Land Management</h3>
+<div class="flex items-baseline gap-2 mb-2">
+<span class="text-7xl font-extrabold tracking-tighter">12.5</span>
+<span class="text-2xl font-medium text-primary-fixed">Acres</span>
+</div>
+<p class="text-primary-fixed/60 font-medium">Verified via Sentinel-2 Satellite Imaging</p>
+</div>
+<div class="bg-primary-container/40 p-6 rounded-2xl backdrop-blur-md">
+<div class="flex justify-between items-center mb-4">
+<span class="font-bold">Soil Health Profile</span>
+<span class="text-xs bg-primary-fixed text-on-primary-fixed px-2 py-1 rounded">Optimal</span>
+</div>
+<div class="space-y-3">
+<div class="h-2 w-full bg-primary/30 rounded-full overflow-hidden">
+<div class="h-full w-[85%] bg-primary-fixed rounded-full"></div>
+</div>
+<div class="flex justify-between text-xs text-primary-fixed/80">
+<span>Nitrogen</span>
+<span>85%</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Regional Market Prices -->
+<div class="col-span-12 lg:col-span-4 bg-surface-container rounded-[2rem] p-10 flex flex-col">
+<div class="flex justify-between items-center mb-10">
+<h3 class="text-2xl font-extrabold text-on-surface">Market Prices</h3>
+<span class="material-symbols-outlined text-secondary">trending_up</span>
+</div>
+<div class="space-y-6">
+<div class="flex justify-between items-center p-4 rounded-2xl bg-white/40 hover:bg-white transition-colors cursor-pointer group">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed/30 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">grass</span>
+</div>
+<div>
+<div class="font-bold">Wheat</div>
+<div class="text-xs text-on-surface-variant">Regional Hub A</div>
+</div>
+</div>
+<div class="text-right">
+<div class="font-black text-on-surface">₹2,150</div>
+<div class="text-xs text-emerald-600 font-bold group-hover:translate-x-1 transition-transform">+2.4%</div>
+</div>
+</div>
+<div class="flex justify-between items-center p-4 rounded-2xl bg-white/40 hover:bg-white transition-colors cursor-pointer group">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/30 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">potted_plant</span>
+</div>
+<div>
+<div class="font-bold">Soybean</div>
+<div class="text-xs text-on-surface-variant">Central Market</div>
+</div>
+</div>
+<div class="text-right">
+<div class="font-black text-on-surface">₹4,200</div>
+<div class="text-xs text-emerald-600 font-bold">+1.8%</div>
+</div>
+</div>
+<div class="flex justify-between items-center p-4 rounded-2xl bg-white/40 hover:bg-white transition-colors cursor-pointer group">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed/30 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined">agriculture</span>
+</div>
+<div>
+<div class="font-bold">Cotton</div>
+<div class="text-xs text-on-surface-variant">Export Terminal</div>
+</div>
+</div>
+<div class="text-right">
+<div class="font-black text-on-surface">₹7,500</div>
+<div class="text-xs text-error font-bold">-0.5%</div>
+</div>
+</div>
+</div>
+<div class="mt-auto pt-8 text-primary font-bold flex items-center justify-center gap-2 transition-all">
+                    View Crop Details
+</div>
+</div>
+<!-- Explore Alternatives -->
+<div class="col-span-12 lg:col-span-8 space-y-8">
+<div class="flex items-end justify-between">
+<div>
+<h3 class="text-4xl font-black text-primary tracking-tight">Explore Alternatives</h3>
+<p class="text-on-surface-variant mt-2">Secondary crops suited for your current soil profile.</p>
+</div>
+
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Alternative 1 -->
+<div class="group bg-surface-container-lowest rounded-[2rem] p-8 hover:bg-surface transition-all duration-500 hover:-translate-y-2">
+<div class="flex justify-between items-start mb-8">
+<img class="w-24 h-24 rounded-2xl object-cover shadow-lg group-hover:rotate-3 transition-transform" data-alt="Close up of golden yellow maize ears still on the stalk in a sun-drenched field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5mS4fIPR3JFCFR8Qk08102uC4GZlwtLDKrot1SqvGwdkbQLrF9aAmGrYY8lBK6IndhTyIZWCJik7zpmFnJfTO4xzDlHMuHGY6TNg733zP2vzWA7D44o6jl8rhKNmcg055R-vgZn1HkFBDyHMQXjOy7MZVrAWk5SUqgCabfbG30SF6rwXL47zCmKoghspUOhA2xHikATp3Z_2UvqhbwGIFU0du9cSDhQKpk6Fw7Q27VC9jH90CiMYc9_LitNyealkblphKzLLBUNI"/>
+<span class="px-3 py-1 bg-secondary-container text-on-secondary-container text-[10px] font-black uppercase tracking-tighter rounded">Balanced ROI</span>
+</div>
+<h4 class="text-2xl font-bold text-on-surface mb-2">Maize Hybrid</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">High resistance to local pests and requires 20% less irrigation than conventional varieties.</p>
+<div class="flex items-center justify-between pt-6 border-t border-outline-variant/20">
+<div class="flex flex-col">
+<span class="text-xs text-on-surface-variant">Yield Potential</span>
+<span class="font-bold text-primary">8.2 Tons/Ha</span>
+</div>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform">arrow_right_alt</span>
+</div>
+</div>
+<!-- Alternative 2 -->
+<div class="group bg-surface-container-lowest rounded-[2rem] p-8 hover:bg-surface transition-all duration-500 hover:-translate-y-2">
+<div class="flex justify-between items-start mb-8">
+<img class="w-24 h-24 rounded-2xl object-cover shadow-lg group-hover:-rotate-3 transition-transform" data-alt="Lush green field of black gram pulses during the day with soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbjjynY0ofmFzJdYODaRRgzU9ktPhhJxgn9pmzUQMSN2bbHGOvGW-I3jqeNv8RiqEZseOojQQ0UyuO-h-ak-d_8XWjWDQ9ZNp3QwkQ7bvGgNQhP-AukO8n3LF5oucnT36XEGS7-o0vyb-ERSl0HTb-4yqKIwdMTx4bW5wZPsogJ6NJuomiYWj7Qr0pJhQyaaZEgkMqSuKtEYD1zLto726Z3kEPp2P7JUHd2qF0yJU-lJo3E85ZocH-zNiX8nLUgTStrpw55gmoWME"/>
+<span class="px-3 py-1 bg-primary-fixed text-on-primary-fixed text-[10px] font-black uppercase tracking-tighter rounded">Soil Restorer</span>
+</div>
+<h4 class="text-2xl font-bold text-on-surface mb-2">Black Gram</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">Nitrogen-fixing properties that improve soil structure for the next planting season.</p>
+<div class="flex items-center justify-between pt-6 border-t border-outline-variant/20">
+<div class="flex flex-col">
+<span class="text-xs text-on-surface-variant">Yield Potential</span>
+<span class="font-bold text-primary">1.5 Tons/Ha</span>
+</div>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform">arrow_right_alt</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+<footer class="bg-surface-container-high py-20 px-12 mt-12">
+<div class="max-w-[1920px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-16">
+<div class="col-span-1 md:col-span-2">
+<div class="text-3xl font-black text-primary uppercase tracking-tighter mb-8">AgriSetu</div>
+<p class="text-on-surface-variant max-w-md text-lg leading-relaxed mb-10">Pioneering the intersection of heirloom wisdom and orbital data. We help farmers grow with surgical precision and editorial soul.</p>
+<div class="flex gap-6">
+<a class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined">share</span></a>
+<a class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+<div>
+<h4 class="font-bold text-on-surface mb-6 uppercase tracking-widest text-xs">The Ecosystem</h4>
+<ul class="space-y-4 font-medium text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#">Yield Prediction</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Soil Analysis</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Marketplace</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Satellite Intel</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-on-surface mb-6 uppercase tracking-widest text-xs">Governance</h4>
+<ul class="space-y-4 font-medium text-on-surface-variant">
+<li><a class="hover:text-primary transition-colors" href="#">Privacy Charter</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Cookie Strategy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Data Integrity</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-[1920px] mx-auto mt-20 pt-8 border-t border-outline-variant/30 flex justify-between text-xs font-bold text-on-surface-variant uppercase tracking-widest">
+<span>© 2024 Agrisetu Digital. All rights reserved.</span>
+<span>Crafted for the soil.</span>
+</div>
+</footer>
+</body></html>

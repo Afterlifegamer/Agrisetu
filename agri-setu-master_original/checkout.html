@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html class="light" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>AgriSetu - Checkout Cart</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#84B179",
+            "primary-dark": "#75a36a",
+            "background-light": "#E8F5BD",
+            "background-dark": "#161f17",
+            "text-primary-light": "#1a2c1a",
+            "text-primary-dark": "#f0f7d5",
+            "text-secondary-light": "#485e43",
+            "text-secondary-dark": "#A2CB8B",
+            "card-light": "#ffffff",
+            "card-dark": "#243325",
+            "surface-light": "#ffffff",
+            "surface-dark": "#243325",
+            "accent-yellow": "#f59e0b",
+            "accent-green": "#C7EABB",
+            "accent-blue": "#3b82f6",
+            "accent-orange": "#f97316",
+            "border-light": "#C7EABB",
+            "border-dark": "#3d523e",
+            "primary-green": "#84B179",
+            "secondary-brown": "#d97706",
+            "text-primary": "#1a2c1a",
+            "text-secondary": "#485e43",
+          },
+          fontFamily: {
+            display: ["Outfit", "sans-serif"],
+            body: ["Inter", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem",
+            lg: "0.75rem",
+            xl: "1rem",
+            "2xl": "1.5rem",
+            full: "9999px",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-body">
+  <div class="relative flex min-h-screen flex-col w-full bg-slate-50 dark:bg-background-dark font-body">
+    <!-- Header -->
+    <header
+      class="sticky top-0 z-40 flex items-center justify-between border-b border-slate-200 dark:border-slate-800 glass px-4 py-4">
+      <div class="max-w-7xl mx-auto w-full flex items-center justify-between">
+        <div class="flex items-center gap-6">
+          <button onclick="window.history.back()"
+            class="flex h-10 w-10 items-center justify-center rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+            <span class="material-symbols-outlined text-slate-700 dark:text-slate-300">arrow_back</span>
+          </button>
+          <div>
+            <h1 class="text-3xl font-extrabold tracking-tight text-text-light dark:text-text-dark">
+              Checkout
+            </h1>
+            <p class="text-sm text-text-light dark:text-text-dark">
+              Review your order and complete payment
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </header>
+    <main class="flex-1 py-8 px-4 md:px-8">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <!-- Left Column: Cart Items -->
+
+        <div class="lg:col-span-6 space-y-6">
+          <div class="sticky top-28 space-y-6">
+            <div
+              class="bg-card-light dark:bg-card-dark rounded-2xl border border-border-light dark:border-border-dark shadow-md overflow-hidden hover-lift p-6">
+              <h4
+                class="text-xl font-bold text-text-primary-light dark:text-text-primary-dark mb-6 border-b border-border-light dark:border-border-dark pb-4">
+                Item Summary
+              </h4>
+              <div class="divide-y divide-border-light dark:divide-border-dark js-order-summary"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Order Summary (Sticky) -->
+        <div class="lg:col-span-6 js-payment-summary">
+        </div>
+      </div>
+    </main>
+    <!-- Sticky Footer Action -->
+
+    <!-- Bottom Navigation Bar (Hidden but included for consistency) -->
+  </div>
+</body>
+<script type='module' src="scripts/checkout.js"></script>
+
+</html>

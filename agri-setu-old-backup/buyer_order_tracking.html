@@ -1,0 +1,310 @@
+<!doctype html>
+
+<html class="light" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>AgriSetu - Buyer Dashboard</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#84B179",
+            "primary-dark": "#75a36a",
+            "background-light": "#E8F5BD",
+            "background-dark": "#161f17",
+            "text-primary-light": "#1a2c1a",
+            "text-primary-dark": "#f0f7d5",
+            "text-secondary-light": "#485e43",
+            "text-secondary-dark": "#A2CB8B",
+            "card-light": "#ffffff",
+            "card-dark": "#243325",
+            "surface-light": "#ffffff",
+            "surface-dark": "#243325",
+            "accent-yellow": "#f59e0b",
+            "accent-green": "#C7EABB",
+            "accent-blue": "#3b82f6",
+            "accent-orange": "#f97316",
+            "border-light": "#C7EABB",
+            "border-dark": "#3d523e",
+            "primary-green": "#84B179",
+            "secondary-brown": "#d97706",
+            "text-primary": "#1a2c1a",
+            "text-secondary": "#485e43",
+          },
+          fontFamily: {
+            display: ["Outfit", "sans-serif"],
+            body: ["Inter", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem",
+            lg: "0.75rem",
+            xl: "1rem",
+            "2xl": "1.5rem",
+            full: "9999px",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-body text-text-primary-light dark:text-text-primary-dark">
+  <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden pb-24">
+    <!-- Top App Bar -->
+    <header
+      class="flex items-center glass p-4 pb-2 justify-between sticky top-0 z-40 border-b border-border-light dark:border-border-dark">
+      <button onclick="history.back()"
+        class="text-text-light dark:text-text-dark flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+        <span class="material-symbols-outlined">arrow_back</span>
+      </button>
+      <h1
+        class="text-text-light dark:text-text-dark text-xl font-bold leading-tight tracking-[-0.015em] flex-1 text-center">
+        Buyer Dashboard
+      </h1>
+    </header>
+    <!-- Stats -->
+    <section class="flex flex-wrap gap-4 p-4">
+      <div
+        class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-2xl p-4 border border-border-light dark:border-border-dark bg-card-light dark:bg-card-dark shadow-sm hover-lift">
+        <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal">
+          Total Orders
+        </p>
+        <p class="text-text-light dark:text-text-dark tracking-light text-2xl font-bold leading-tight">
+          124
+        </p>
+      </div>
+      <div
+        class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-2xl p-4 border border-border-light dark:border-border-dark bg-card-light dark:bg-card-dark shadow-sm hover-lift">
+        <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal">
+          Pending
+        </p>
+        <p class="text-text-light dark:text-text-dark tracking-light text-2xl font-bold leading-tight">
+          15
+        </p>
+      </div>
+      <div
+        class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-2xl p-4 border border-border-light dark:border-border-dark bg-card-light dark:bg-card-dark shadow-sm hover-lift">
+        <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal">
+          In Transit
+        </p>
+        <p class="text-text-light dark:text-text-dark tracking-light text-2xl font-bold leading-tight">
+          8
+        </p>
+      </div>
+      <div
+        class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-2xl p-4 border border-border-light dark:border-border-dark bg-card-light dark:bg-card-dark shadow-sm hover-lift">
+        <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal">
+          Delivered
+        </p>
+        <p class="text-text-light dark:text-text-dark tracking-light text-2xl font-bold leading-tight">
+          101
+        </p>
+      </div>
+    </section>
+    <!-- Search Bar -->
+    <div class="px-4 py-3">
+      <label class="flex flex-col min-w-40 h-12 w-full">
+        <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+          <div
+            class="text-primary-dark flex border-none bg-primary/20 items-center justify-center pl-4 rounded-l-lg border-r-0">
+            <span class="material-symbols-outlined">search</span>
+          </div>
+          <input
+            class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-text-light dark:text-text-dark focus:outline-0 focus:ring-0 border-none bg-primary/20 focus:border-none h-full placeholder:text-primary-dark px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+            placeholder="Search by Order ID or Product" value="" />
+        </div>
+      </label>
+    </div>
+    <!-- Chips -->
+    <div class="flex gap-3 px-4 py-2 overflow-x-auto">
+      <button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary px-4">
+        <p class="text-white text-sm font-medium leading-normal">All</p>
+      </button>
+      <button
+        class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-700 px-4">
+        <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal">
+          Processing
+        </p>
+      </button>
+      <button
+        class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-700 px-4">
+        <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal">
+          Shipped
+        </p>
+      </button>
+      <button
+        class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-700 px-4">
+        <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal">
+          Delivered
+        </p>
+      </button>
+      <button
+        class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-gray-200 dark:bg-gray-700 px-4">
+        <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal">
+          Cancelled
+        </p>
+      </button>
+    </div>
+    <!-- Section Header -->
+    <h3 class="text-text-light dark:text-text-dark text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-6">
+      Recent Orders
+    </h3>
+    <!-- Order List -->
+    <div class="flex flex-col gap-4 px-4">
+      <!-- Order Card 1 -->
+      <div
+        class="flex flex-col gap-4 rounded-2xl p-5 bg-card-light dark:bg-card-dark shadow-md border border-border-light dark:border-border-dark hover-lift">
+        <div class="flex justify-between items-start">
+          <div>
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+              Order #AS12345
+            </p>
+            <p class="font-bold text-text-light dark:text-text-dark">
+              GreenLeaf Farms
+            </p>
+          </div>
+          <span
+            class="inline-flex items-center rounded-full bg-accent-amber/20 px-3 py-1 text-xs font-semibold text-accent-amber">In
+            Transit</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <img class="h-16 w-16 rounded-lg object-cover" data-alt="A crate of fresh, ripe red tomatoes"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcKiNbs8a23QKJk8iAQGj4Bo0scbEa8U5lgoXJ-WWPLkcw1aq1h7n9n6mRYeh8hakVqM2gWMUiqO4Lm7mHnsAZn6m3A_G2KgLn8qUUR8Q8ebC9hEI8oub94M-NDIB7HSXIMlINyprllU9dDpNCdoNp8NRzuGo-B_x5WqCDpGDNGEveDnxU0YsuWKnuyQqzFzSyfJj22QLTcsS4U9qplNJrUsAjljWxqKv8AsmpNJfScIdePrkoC_RUktyGOmOI9sS_w9JBqQfnpRzT" />
+          <div>
+            <p class="font-semibold text-text-light dark:text-text-dark">
+              Organic Tomatoes
+            </p>
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+              Quantity: 50 kg
+            </p>
+            <p class="text-base font-bold text-primary mt-1">₹250.00</p>
+          </div>
+        </div>
+        <div class="flex gap-2 justify-end">
+          <button
+            class="flex h-10 items-center justify-center gap-2 rounded-lg border border-primary/50 bg-transparent px-4 text-sm font-bold text-primary">
+            View Invoice
+          </button>
+          <button
+            class="flex h-10 items-center justify-center gap-2 rounded-lg bg-primary px-4 text-sm font-bold text-white">
+            Track Shipment
+          </button>
+        </div>
+      </div>
+      <!-- Order Card 2 -->
+      <div
+        class="flex flex-col gap-4 rounded-2xl p-5 bg-card-light dark:bg-card-dark shadow-md border border-border-light dark:border-border-dark hover-lift">
+        <div class="flex justify-between items-start">
+          <div>
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+              Order #AS12344
+            </p>
+            <p class="font-bold text-text-light dark:text-text-dark">
+              Sunrise Orchards
+            </p>
+          </div>
+          <span
+            class="inline-flex items-center rounded-full bg-accent-blue/20 px-3 py-1 text-xs font-semibold text-accent-blue">Processing</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <img class="h-16 w-16 rounded-lg object-cover" data-alt="A basket of freshly picked, crisp apples"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBB-LjnA3uYMOlekPz0RlQuOyix3hpV6-tDeTzGFIk4sa3VK5vZ24Jq-Tv8NUgFTL4VPcliOp3U-OhTeXebzhCZ-4nn_GzEJMtW-8p0B2xp4T2FZOF0RLEBOcdip5QIkcTtkhnSalchgTPnB4bDuyQU0qAl5EOhyHEto99MLF0RoO74-kSN94-D5M4ZiQGjO_fGs7UKMsmNEnRsSW7MT3p9iwHczho9wvOYQ4Rc6cZndjh68nb48vpXhn3cLqHg-X7u1Yy-ej9UP7Gd" />
+          <div>
+            <p class="font-semibold text-text-light dark:text-text-dark">
+              Fresh Gala Apples
+            </p>
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+              Quantity: 100 kg
+            </p>
+            <p class="text-base font-bold text-primary mt-1">₹450.00</p>
+          </div>
+        </div>
+        <div class="flex gap-2 justify-end">
+          <button
+            class="flex h-10 items-center justify-center gap-2 rounded-lg bg-primary/20 px-4 text-sm font-bold text-primary">
+            Contact Farmer
+          </button>
+        </div>
+      </div>
+      <!-- Order Card 3 -->
+      <div
+        class="flex flex-col gap-4 rounded-2xl p-5 bg-card-light dark:bg-card-dark shadow-md border border-border-light dark:border-border-dark hover-lift">
+        <div class="flex justify-between items-start">
+          <div>
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+              Order #AS12342
+            </p>
+            <p class="font-bold text-text-light dark:text-text-dark">
+              Golden Corn Fields
+            </p>
+          </div>
+          <span
+            class="inline-flex items-center rounded-full bg-primary/20 px-3 py-1 text-xs font-semibold text-primary">Delivered</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <img class="h-16 w-16 rounded-lg object-cover" data-alt="Ears of sweet corn with green husks"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1JHCSbVRiOFYiF_z8rKQVHfSuKDfLWlC_I66WSwottXaPffKVG6AZJ3nzQfnQy5hqFi5MfJr0J4WCVqpAT83YuaAKMQH_p3pS5VMo2RXs2WpQ6OG8n8affNOL9uOZYhqL_PTPz2-2tjpVaSh9hulkkANLHZNnKrdeZDJimBjVyCis0Qyes3goJmEEAm87jqwPOIgRdFPVabkfOSw1Ekc1t73MS866zMc676tLg6k94prcfQAsXJRwnX9kmx-Cv_X7Wb7rI92RluxP" />
+          <div>
+            <p class="font-semibold text-text-light dark:text-text-dark">
+              Sweet Corn
+            </p>
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+              Quantity: 200 kg
+            </p>
+            <p class="text-base font-bold text-primary mt-1">₹300.00</p>
+          </div>
+        </div>
+        <div class="flex gap-2 justify-end">
+          <button
+            class="flex h-10 items-center justify-center gap-2 rounded-lg border border-primary/50 bg-transparent px-4 text-sm font-bold text-primary">
+            View Invoice
+          </button>
+        </div>
+      </div>
+      <!-- Order Card 4 -->
+      <div
+        class="flex flex-col gap-4 rounded-2xl p-5 bg-card-light dark:bg-card-dark shadow-md border border-border-light dark:border-border-dark hover-lift">
+        <div class="flex justify-between items-start">
+          <div>
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+              Order #AS12340
+            </p>
+            <p class="font-bold text-text-light dark:text-text-dark">
+              Valley Potatoes
+            </p>
+          </div>
+          <span
+            class="inline-flex items-center rounded-full bg-accent-red/20 px-3 py-1 text-xs font-semibold text-accent-red">Cancelled</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <img class="h-16 w-16 rounded-lg object-cover" data-alt="A pile of raw potatoes on a wooden surface"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcnF5AFi6-LuChZbXPUn9pRbHyklLJ4CxOB8zNMd6IGLucdaUICmBarreSQTAe4-gYkegrUmUe44PexsIOPcNLvutVaMqHruPV3sbhx2fEVRJyVlOLOxhYxIouOA6AwCV3MULvNDSCn1okDqnYpevse99rPWEqW9EYfy_Q13HNs_oNybWzlTtH3132ROHp5jfpHkGZG9i-pYuQufimZW-VZYfFdLKLPqF9imjl3HQhlwzWy8ik68xx7LBhl94RWceCnzTnPSeW4wq0" />
+          <div>
+            <p class="font-semibold text-text-light dark:text-text-dark">
+              Russet Potatoes
+            </p>
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+              Quantity: 75 kg
+            </p>
+            <p class="text-base font-bold text-primary mt-1">₹180.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bottom Navigation Bar -->
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Detailed Recommendation | AgriSetu</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "tertiary-fixed-dim": "#ffb59f",
+                        "surface-container": "#eeeee9",
+                        "on-surface": "#1a1c19",
+                        "error-container": "#ffdad6",
+                        "surface-container-low": "#f4f4ef",
+                        "primary-fixed": "#c3edc3",
+                        "secondary-fixed": "#ffdbce",
+                        "on-secondary": "#ffffff",
+                        "on-primary-fixed-variant": "#2b4e30",
+                        "on-primary-fixed": "#002109",
+                        "tertiary-fixed": "#ffdbd0",
+                        "primary-container": "#2e5233",
+                        "on-secondary-container": "#795c51",
+                        "on-primary-container": "#9cc49d",
+                        "on-secondary-fixed": "#2b160f",
+                        "tertiary": "#641800",
+                        "surface-container-highest": "#e3e3de",
+                        "surface": "#fafaf5",
+                        "inverse-primary": "#a8d1a9",
+                        "tertiary-container": "#8b2500",
+                        "primary": "#173b1e",
+                        "inverse-on-surface": "#f1f1ec",
+                        "secondary": "#75584d",
+                        "on-tertiary": "#ffffff",
+                        "surface-variant": "#e3e3de",
+                        "on-tertiary-fixed-variant": "#852300",
+                        "secondary-fixed-dim": "#e4beb2",
+                        "inverse-surface": "#2f312e",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#fed7ca",
+                        "surface-dim": "#dadad5",
+                        "on-secondary-fixed-variant": "#5b4137",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#fafaf5",
+                        "on-background": "#1a1c19",
+                        "background": "#fafaf5",
+                        "surface-tint": "#426746",
+                        "on-surface-variant": "#424841",
+                        "on-error-container": "#93000a",
+                        "on-tertiary-container": "#ffa286",
+                        "surface-container-high": "#e8e8e3",
+                        "primary-fixed-dim": "#a8d1a9",
+                        "outline-variant": "#c2c8be",
+                        "on-tertiary-fixed": "#3a0a00",
+                        "outline": "#727970"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope"],
+                        "body": ["Work Sans"],
+                        "label": ["Work Sans"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Work Sans', sans-serif; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="scripts/home/results_overhaul.js"></script>
+</head>
+<body class="bg-surface-container-low text-on-surface selection:bg-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-xl shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
+<div class="text-2xl font-black text-emerald-950 dark:text-emerald-50 uppercase tracking-tighter">AgriSetu</div>
+<div class="hidden md:flex gap-8 items-center font-['Manrope'] font-bold tracking-tight">
+<a class="text-stone-500 dark:text-stone-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="home.html">Home</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="predict.html">Predict</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="marketplace.html">Marketplace</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="buyer_order_tracking.html">Orders</a>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative hidden lg:block">
+<input class="bg-surface-container-highest border-none rounded-full py-2 px-6 w-64 text-sm focus:ring-2 focus:ring-primary/20" placeholder="Search data..." type="text"/>
+<span class="material-symbols-outlined absolute right-4 top-1.5 text-on-surface-variant">search</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-emerald-900 dark:text-emerald-100 p-2 hover:bg-stone-100 dark:hover:bg-stone-900 rounded-full transition-all cursor-pointer">notifications</span>
+<div class="w-10 h-10 rounded-full overflow-hidden bg-stone-200 ml-2">
+<img alt="User Profile" data-alt="Close up portrait of a modern farmer with a confident expression, soft natural outdoor lighting during golden hour" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmM27skUo1lKFJwZcxMdiZ0lPf4EFWZxvjRvJ0CTrJA8JX2xtgaD0ETPyu13YicoezmnA4p8CJp6m8ucGU_0OU9kRTfNrCduuIoWqxXgxppiKRAB09SrAer9caCUaR4-_-NxBITpIBsBnSX-RKA_TmUISICuxa-A1G2yPBuWMTTlhvElZm5PSfO2PUOQHbmHK8ROlQkWuVB5YiPhdOFYgnul6hciShxbk5bIxw3v7XEwG8V7gVi2r9oQB59D7_igyrvS_Wid1QkjM"/>
+</div>
+</div>
+</div>
+<script type="module">
+    import { setupSearch } from './scripts/home/search_common.js';
+    document.addEventListener('DOMContentLoaded', () => {
+        setupSearch('input[placeholder*="Search"]');
+    });
+</script>
+</div>
+<div class="bg-stone-200/50 dark:bg-stone-800/50 h-[1px]"></div>
+</nav>
+<main class="pt-32 pb-20 px-12 max-w-[1920px] mx-auto flex gap-12">
+<!-- Main Content Area -->
+<div class="flex-1 space-y-12">
+<!-- Hero Header Section -->
+<section class="relative h-[480px] rounded-xl overflow-hidden flex items-end">
+<div class="absolute inset-0">
+<img alt="Rice Fields" class="w-full h-full object-cover" data-alt="Cinematic aerial view of flooded emerald green rice terraces reflecting the morning sky with dramatic mountain shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh_pXXBuH15xsxtGFa9Y9WWjngUvyVqX4Md9-LH3A7vLdg-jp1C3e8wtpyR-7HEqjJ1YB7iM8q0nqt1zEqI8rw8zNjcpvZ6digEb2fJnrIE9r45_jL2-_oVTV702ifs0dgK9Ai2gLvNW9a8oq4BwY8FSKc9n294KzLFOPAn7uJX0EsdYhnccznJqEUNQyRzQfeGVQbtqwCA7d1Lh4FH7l-ePtfY9kI4k_cl0LTUVb5svG3c0kcN4yGzNviVUQsiLbCharbluvhdik"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+</div>
+<div class="relative p-12 w-full flex justify-between items-end">
+<div>
+<span class="label-md uppercase tracking-widest text-primary-fixed mb-4 block font-medium">Predicted Top Performance</span>
+<h1 id="crop-name-main" class="display-lg text-white font-extrabold tracking-tighter leading-none mb-2">Oryza Sativa: <br/>Long-Grain Rice</h1>
+<p id="crop-desc-main" class="text-white/80 font-body text-xl max-w-xl">Optimized for Delta-region alluvial soil with high clay retention properties.</p>
+</div>
+<div class="flex gap-4">
+<button class="bg-gradient-to-br from-primary to-primary-container text-white px-8 py-4 rounded-xl font-bold flex items-center gap-2 shadow-lg">
+                            Download PDF Report <span class="material-symbols-outlined">download</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Top Level Metrics Grid -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- ROI Card -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col justify-between">
+<div>
+<span class="text-on-tertiary-fixed-variant font-bold text-sm uppercase tracking-widest block mb-4">ROI Potential</span>
+<div id="roi-value" class="text-6xl font-black text-primary tracking-tighter leading-none">+142%</div>
+</div>
+<div class="mt-6 flex items-center gap-2 text-primary font-medium">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">trending_up</span>
+<span>Outperforming market avg by 18%</span>
+</div>
+</div>
+<!-- Market Price Card -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col justify-between">
+<div>
+<span class="text-on-tertiary-fixed-variant font-bold text-sm uppercase tracking-widest block mb-4">Market Price</span>
+<div id="market-price" class="text-6xl font-black text-primary tracking-tighter leading-none">₹ 4,800<span class="text-2xl">/ton</span></div>
+</div>
+<div class="mt-6 flex items-center gap-2 text-secondary font-medium">
+<span class="material-symbols-outlined">update</span>
+<span>Updated 2 hours ago</span>
+</div>
+</div>
+<!-- Duration Card -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col justify-between">
+<div>
+<span class="text-on-tertiary-fixed-variant font-bold text-sm uppercase tracking-widest block mb-4">Duration</span>
+<div id="duration-value" class="text-6xl font-black text-primary tracking-tighter leading-none">125 <span class="text-2xl">Days</span></div>
+</div>
+<div class="mt-6 flex items-center gap-2 text-tertiary font-medium">
+<span class="material-symbols-outlined">calendar_today</span>
+<span>Estimated Harvest: Sept 24</span>
+</div>
+</div>
+</section>
+<!-- Financial Breakdown Section (Bento Style) -->
+<section class="grid grid-cols-12 gap-8">
+<div class="col-span-12 lg:col-span-7 bg-surface-container-lowest rounded-xl p-10">
+<div class="flex justify-between items-start mb-12">
+<div>
+<h2 class="text-3xl font-black tracking-tight text-primary">Financial Breakdown</h2>
+<p class="text-on-surface-variant mt-2">Revenue vs. Operational Costs Projection</p>
+</div>
+<div class="flex gap-4">
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-primary"></div>
+<span class="text-sm font-medium">Revenue</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-secondary"></div>
+<span class="text-sm font-medium">Total Cost</span>
+</div>
+</div>
+</div>
+<!-- Real Chart Visualization -->
+<div class="h-64 flex items-end justify-between gap-4 px-4 w-full">
+    <canvas id="yieldChart"></canvas>
+</div>
+</div>
+<!-- Expense Category Table -->
+<div class="col-span-12 lg:col-span-5 bg-surface-container rounded-xl p-10">
+<h3 class="text-xl font-bold text-primary mb-8">Expense Analysis</h3>
+<div class="space-y-6">
+<div class="flex justify-between items-center pb-4 border-b border-outline-variant/30">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-sm">potted_plant</span>
+</div>
+<span class="font-semibold">Seeds &amp; Nursery</span>
+</div>
+<span id="expense-seeds" class="font-bold font-headline">₹ 1,240</span>
+</div>
+<div class="flex justify-between items-center pb-4 border-b border-outline-variant/30">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary text-sm">groups</span>
+</div>
+<span class="font-semibold">Labor Costs</span>
+</div>
+<span id="expense-labor" class="font-bold font-headline">₹ 3,850</span>
+</div>
+<div class="flex justify-between items-center pb-4 border-b border-outline-variant/30">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-tertiary text-sm">science</span>
+</div>
+<span class="font-semibold">Soil Nutrients</span>
+</div>
+<span id="expense-soil" class="font-bold font-headline">₹ 920</span>
+</div>
+<div class="flex justify-between items-center pb-4">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-on-surface-variant text-sm">water_drop</span>
+</div>
+<span class="font-semibold">Irrigation</span>
+</div>
+<span id="expense-irrigation" class="font-bold font-headline">₹ 610</span>
+</div>
+</div>
+<button class="w-full mt-10 py-4 bg-surface-container-lowest rounded-xl font-bold text-primary hover:bg-white transition-all">
+                        View Detailed Ledger
+                    </button>
+</div>
+</section>
+<!-- Intercropping Advice Section -->
+<section class="bg-primary text-white rounded-xl p-12 overflow-hidden relative">
+<div class="absolute right-0 top-0 h-full w-1/3 opacity-20 pointer-events-none">
+<img alt="Organic farming texture" class="h-full w-full object-cover" data-alt="Close up macro photography of moist fertile soil and tiny green shoots, high texture detail and soft depth of field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeSWbF7bNyecOjdq-sfA60D3B_HCQb9r8aUSNKHDfSrvrGcQ9imKTiysMYsK_R3HxHTjioMNaoqvR1RkOoXNNPa70d1YfImptAVI1fb8RCtJMT3SZlWhcMbL3aqOQVQSU9dnuRVWW0B237M72tkIhDMz0316XHwZZmJSyF6yF6xcH24X0yEIi061DKl5V8_OqW4Xk3ShhMPyIiyJZQpCNk_Qfh3y9BLdxQhxiVt4oMXxgiggl5QNkT4veteAc9N0Ri_BG_Lk_rN-U"/>
+</div>
+<div class="relative z-10 max-w-2xl">
+<span class="label-md uppercase tracking-widest text-primary-fixed mb-4 block font-medium">Strategic Insight</span>
+<h2 class="text-4xl font-black mb-6">Intercropping Advice</h2>
+<p id="intercrop-text" class="text-lg text-white/80 leading-relaxed mb-8">
+                        Maximize your yield by planting <span class="text-primary-fixed font-bold">Azolla</span> alongside your rice crop. This aquatic fern acts as a bio-fertilizer, fixing atmospheric nitrogen and naturally suppressing weed growth, reducing nitrogen costs by up to 25%.
+                    </p>
+<div class="flex gap-4">
+<div class="bg-primary-container px-6 py-4 rounded-xl border border-white/10">
+<h4 class="font-bold text-primary-fixed">Nitrogen Boost</h4>
+<p class="text-sm opacity-70">+40kg/ha</p>
+</div>
+<div class="bg-primary-container px-6 py-4 rounded-xl border border-white/10">
+<h4 class="font-bold text-primary-fixed">Water Retention</h4>
+<p class="text-sm opacity-70">+12% gain</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Alternative Options List -->
+<section>
+<div class="flex justify-between items-end mb-8">
+<div>
+<h2 class="text-3xl font-black text-primary">Alternative Options</h2>
+<p class="text-on-surface-variant">Recommended secondary crops based on current land conditions</p>
+</div>
+</div>
+<div id="alternatives-container" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Alternatives will be injected here -->
+</div>
+</section>
+</div>
+<!-- Sticky Sidebar Analysis -->
+<aside class="w-80 space-y-8 h-fit sticky top-32">
+<div class="bg-stone-100 dark:bg-stone-900 rounded-xl p-8 space-y-8">
+<div>
+<h3 class="text-lg font-bold text-emerald-950 dark:text-emerald-50 mb-2">Marketplace Filters</h3>
+<p class="text-xs text-stone-500">Refine insights for this crop</p>
+</div>
+<div class="space-y-4">
+<div class="flex items-center gap-3 p-3 rounded-r-full text-stone-600 dark:text-stone-400 hover:bg-stone-200/50 dark:hover:bg-stone-800/50 hover:translate-x-1 transition-all cursor-pointer">
+<span class="material-symbols-outlined">grass</span>
+<span class="text-sm font-['Work_Sans']">Crop Yield</span>
+</div>
+</div>
+<div class="pt-8 border-t border-stone-200 dark:border-stone-800 space-y-4">
+<div class="flex items-center gap-3 p-3 text-stone-500 hover:text-emerald-800 cursor-pointer transition-colors">
+<span class="material-symbols-outlined text-sm">help</span>
+<span class="text-sm font-medium">Support</span>
+</div>
+<div class="flex items-center gap-3 p-3 text-stone-500 hover:text-emerald-800 cursor-pointer transition-colors">
+<span class="material-symbols-outlined text-sm">chat_bubble</span>
+<span class="text-sm font-medium">Feedback</span>
+</div>
+</div>
+
+</div>
+<!-- Risk Assessment Card -->
+<div class="bg-white rounded-xl p-8 border-l-4 border-tertiary">
+<h4 class="font-bold text-tertiary mb-2">Risk Assessment</h4>
+<p class="text-sm text-on-surface-variant mb-4">Moderate risk of early monsoon flooding. Recommendation: Install sensor-based drainage by Day 45.</p>
+<div class="w-full bg-surface-container-low h-2 rounded-full overflow-hidden">
+<div class="bg-tertiary h-full w-[35%]"></div>
+</div>
+<div class="flex justify-between mt-2 text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">
+<span>Low Risk</span>
+<span>High Risk</span>
+</div>
+</div>
+</aside>
+</main>
+<!-- FAB (Suppressed on Details according to rule, but including for complete UI feel if contextually allowed - based on rules FAB is suppressed on Details, so we skip it) -->
+</body></html>

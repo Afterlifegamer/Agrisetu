@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-fixed-dim": "#ffb59f",
+                    "surface-container": "#eeeee9",
+                    "on-surface": "#1a1c19",
+                    "error-container": "#ffdad6",
+                    "surface-container-low": "#f4f4ef",
+                    "primary-fixed": "#c3edc3",
+                    "secondary-fixed": "#ffdbce",
+                    "on-secondary": "#ffffff",
+                    "on-primary-fixed-variant": "#2b4e30",
+                    "on-primary-fixed": "#002109",
+                    "tertiary-fixed": "#ffdbd0",
+                    "primary-container": "#2e5233",
+                    "on-secondary-container": "#795c51",
+                    "on-primary-container": "#9cc49d",
+                    "on-secondary-fixed": "#2b160f",
+                    "tertiary": "#641800",
+                    "surface-container-highest": "#e3e3de",
+                    "surface": "#fafaf5",
+                    "inverse-primary": "#a8d1a9",
+                    "tertiary-container": "#8b2500",
+                    "primary": "#173b1e",
+                    "inverse-on-surface": "#f1f1ec",
+                    "secondary": "#75584d",
+                    "on-tertiary": "#ffffff",
+                    "surface-variant": "#e3e3de",
+                    "on-tertiary-fixed-variant": "#852300",
+                    "secondary-fixed-dim": "#e4beb2",
+                    "inverse-surface": "#2f312e",
+                    "on-primary": "#ffffff",
+                    "secondary-container": "#fed7ca",
+                    "surface-dim": "#dadad5",
+                    "on-secondary-fixed-variant": "#5b4137",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error": "#ffffff",
+                    "error": "#ba1a1a",
+                    "surface-bright": "#fafaf5",
+                    "on-background": "#1a1c19",
+                    "background": "#fafaf5",
+                    "surface-tint": "#426746",
+                    "on-surface-variant": "#424841",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-container": "#ffa286",
+                    "surface-container-high": "#e8e8e3",
+                    "primary-fixed-dim": "#a8d1a9",
+                    "outline-variant": "#c2c8be",
+                    "on-tertiary-fixed": "#3a0a00",
+                    "outline": "#727970"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "1.5rem",
+                    "md": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope", "sans-serif"],
+                    "body": ["Work Sans", "sans-serif"],
+                    "label": ["Work Sans", "sans-serif"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Work Sans', sans-serif; background-color: #f4f4ef; color: #1a1c19; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .premium-shadow { box-shadow: 0 16px 32px -8px rgba(26, 28, 25, 0.06); }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-surface-container-low min-h-screen">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-xl shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto">
+<div class="text-2xl font-black text-emerald-950 dark:text-emerald-50 uppercase tracking-tighter font-['Manrope']">
+                AgriSetu
+            </div>
+<div class="hidden md:flex items-center gap-8 font-['Manrope'] font-bold tracking-tight">
+<a class="text-stone-500 dark:text-stone-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="home.html">Home</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="predict.html">Predict</a>
+<a class="text-emerald-900 dark:text-emerald-400 border-b-2 border-emerald-900 dark:border-emerald-400 pb-1" href="marketplace.html">Marketplace</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="buyer_order_tracking.html">Orders</a>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative hidden lg:block">
+<input class="bg-surface-container-highest border-none rounded-full py-2 px-6 w-64 text-sm focus:ring-2 focus:ring-primary/20" placeholder="Search cultivars..." type="text"/>
+<span class="material-symbols-outlined absolute right-4 top-1.5 text-on-surface-variant">search</span>
+</div>
+<div class="flex gap-4 items-center">
+<button class="material-symbols-outlined text-emerald-900 p-2 hover:bg-stone-100 rounded-full transition-all">notifications</button>
+<a href="checkout.html" class="relative group">
+    <button class="material-symbols-outlined text-emerald-900 p-2 hover:bg-stone-100 rounded-full transition-all">shopping_cart</button>
+    <div class="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-tertiary text-[10px] font-black text-white js-cart-quantity">0</div>
+</a>
+<div class="w-10 h-10 rounded-full overflow-hidden border-2 border-primary/10">
+<img alt="User profile" data-alt="portrait of a modern dignified farmer with weathered features smiling warmly against a soft sunlit barn background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9PJkw-izCwGKBWo1EaasWfmvJCNJhlIy4xaMLZ4rMcL_1i4Hpj11Alj0-wN7tghU6WqtM2dPUmFsv1K3GnBsEHHab2m1t42AchWaahXQ90uFQm3I15EQQgwxo5JmhjvstbNX-YJk1mferu5r8D9s56-GQyLGzFtTHY7bZbP71Znrung-IicjdDsqJvoUFLrT_AGJ2VLugi-bFLJ2UTR1sFSd08celbhznFIPZlkLKjvcTD8c0GlW2iG41Q5gOXKUkCIVMwqE4e_4"/>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-stone-200/50 dark:bg-stone-800/50 h-[1px]"></div>
+</nav>
+<!-- SideNavBar -->
+<aside class="h-screen w-72 flex flex-col fixed left-0 top-0 pt-24 bg-stone-100 dark:bg-stone-900 z-40">
+<div class="px-8 mb-8">
+<div class="flex items-center gap-3 mb-2">
+<div class="w-8 h-8 rounded-lg bg-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary-container text-sm">filter_list</span>
+</div>
+<span class="text-lg font-bold text-emerald-950 dark:text-emerald-50 font-['Work_Sans']">Marketplace</span>
+</div>
+<p class="text-xs text-stone-500 font-medium tracking-wide uppercase">Filters &amp; Insights</p>
+</div>
+<nav class="flex flex-col gap-2 pr-4 font-['Work_Sans'] text-sm font-medium">
+<a class="flex items-center gap-4 py-3 px-8 text-emerald-900 dark:text-emerald-400 font-bold bg-stone-200 dark:bg-stone-800 rounded-r-full translate-x-1" href="#">
+<span class="material-symbols-outlined">grass</span>
+                Crop Yield
+            </a>
+</nav>
+<div class="mt-auto p-8 flex flex-col gap-4">
+
+<div class="flex flex-col gap-2 border-t border-stone-200 pt-6">
+<a class="flex items-center gap-3 text-stone-500 hover:text-primary transition-colors text-xs font-semibold" href="#">
+<span class="material-symbols-outlined text-sm">help</span> Support
+                </a>
+<a class="flex items-center gap-3 text-stone-500 hover:text-primary transition-colors text-xs font-semibold" href="#">
+<span class="material-symbols-outlined text-sm">chat_bubble</span> Feedback
+                </a>
+</div>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="ml-72 pt-32 pb-24 px-12 max-w-[1600px]">
+<!-- Editorial Header -->
+<header class="mb-16 relative">
+<span class="text-tertiary-container font-label font-bold uppercase tracking-widest text-xs mb-4 block">Curated Direct-to-Consumer Cultivars</span>
+<h1 class="text-display-lg font-headline font-extrabold text-primary leading-tight -tracking-[0.04em] text-6xl md:text-7xl lg:text-8xl max-w-4xl">
+                Premium Harvest <span class="text-secondary italic font-light">Marketplace</span>
+</h1>
+<div class="absolute -top-12 -right-8 w-48 h-48 bg-primary-fixed/20 rounded-full blur-3xl -z-10"></div>
+</header>
+<!-- Filters Bar (Glass Effect) -->
+<section class="mb-12 sticky top-32 z-30">
+<div class="bg-surface/80 backdrop-blur-xl p-4 rounded-xl flex flex-wrap items-center justify-between gap-6 premium-shadow">
+<div class="flex gap-4">
+<div class="flex items-center gap-2 px-4 py-2 bg-surface-container-low rounded-md border border-outline-variant/10">
+<span class="text-xs font-bold text-on-surface-variant uppercase tracking-tighter">Region</span>
+<select class="bg-transparent border-none text-sm font-bold text-primary focus:ring-0 p-0 cursor-pointer">
+<option>Central Valley</option>
+<option>Northern Plains</option>
+<option>Delta Wetlands</option>
+</select>
+</div>
+<div class="flex items-center gap-2 px-4 py-2 bg-surface-container-low rounded-md border border-outline-variant/10">
+<span class="text-xs font-bold text-on-surface-variant uppercase tracking-tighter">Price Range</span>
+<select class="bg-transparent border-none text-sm font-bold text-primary focus:ring-0 p-0 cursor-pointer">
+<option>Rs. 50 - Rs. 200 / kg</option>
+<option>Rs. 200 - Rs. 500 / kg</option>
+</select>
+</div>
+</div>
+<div class="flex items-center gap-4 overflow-x-auto no-scrollbar">
+<span class="text-xs font-bold text-secondary uppercase whitespace-nowrap">Popular Tags:</span>
+<button class="px-4 py-1.5 bg-primary-container text-white text-xs font-bold rounded-full">Organic</button>
+<button class="px-4 py-1.5 bg-surface-container-highest text-on-surface text-xs font-bold rounded-full hover:bg-surface-container-high transition-colors">Heirloom</button>
+<button class="px-4 py-1.5 bg-surface-container-highest text-on-surface text-xs font-bold rounded-full hover:bg-surface-container-high transition-colors">Non-GMO</button>
+<button class="px-4 py-1.5 bg-surface-container-highest text-on-surface text-xs font-bold rounded-full hover:bg-surface-container-high transition-colors">Low Carbon</button>
+</div>
+</div>
+</section>
+<!-- Grid of Harvest Cards -->
+<section id="products-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12">
+    <!-- Dynamic crops will be injected here -->
+</section>
+<!-- Pagination / Load More (Editorial Style) -->
+<div class="mt-24 text-center">
+    <button class="group flex flex-col items-center mx-auto">
+        <span class="text-[10px] font-black text-secondary uppercase tracking-[0.3em] mb-4 group-hover:translate-y-1 transition-transform">Explore More Harvests</span>
+        <div class="w-12 h-12 rounded-full border border-primary flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+            <span class="material-symbols-outlined">expand_more</span>
+        </div>
+    </button>
+</div>
+</main>
+<script type="module" src="scripts/home/marketplace_overhaul.js"></script>
+</body></html>

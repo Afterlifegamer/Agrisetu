@@ -1,0 +1,245 @@
+<!doctype html>
+
+<html class="light" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>AgriSetu Marketplace</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#84B179",
+            "primary-dark": "#75a36a",
+            "background-light": "#E8F5BD",
+            "background-dark": "#161f17",
+            "text-primary-light": "#1a2c1a",
+            "text-primary-dark": "#f0f7d5",
+            "text-secondary-light": "#485e43",
+            "text-secondary-dark": "#A2CB8B",
+            "card-light": "#ffffff",
+            "card-dark": "#243325",
+            "surface-light": "#ffffff",
+            "surface-dark": "#243325",
+            "accent-yellow": "#f59e0b",
+            "accent-green": "#C7EABB",
+            "accent-blue": "#3b82f6",
+            "accent-orange": "#f97316",
+            "border-light": "#C7EABB",
+            "border-dark": "#3d523e",
+            "primary-green": "#84B179",
+            "secondary-brown": "#d97706",
+            "text-primary": "#1a2c1a",
+            "text-secondary": "#485e43",
+          },
+          fontFamily: {
+            display: ["Outfit", "sans-serif"],
+            body: ["Inter", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem",
+            lg: "0.75rem",
+            xl: "1rem",
+            "2xl": "1.5rem",
+            full: "9999px",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-body text-text-light dark:text-text-dark">
+  <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+    <!-- Sidebar -->
+    <div id="sidebar"
+      class="fixed left-0 top-0 h-screen w-64 bg-surface-light dark:bg-surface-dark shadow-lg transform -translate-x-full transition-transform duration-300 z-[100] flex flex-col">
+      <div class="flex items-center justify-between p-4 border-b border-border-light dark:border-border-dark">
+        <h3 class="text-lg font-bold text-text-light dark:text-text-dark">
+          Menu
+        </h3>
+        <button onclick="toggleSidebar()" class="text-text-light dark:text-text-dark">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+      <nav class="flex-1 p-3 space-y-2">
+        <a href="home.html"
+          class="flex items-center gap-3 px-4 py-3 rounded-lg text-text-light dark:text-text-dark hover:bg-primary/20 transition-colors">
+          <span class="material-symbols-outlined">home</span>
+          <span>Dashboard</span>
+        </a>
+        <a href="Farmer_order_manag.html"
+          class="flex items-center gap-3 px-4 py-3 rounded-lg text-text-light dark:text-text-dark hover:bg-primary/20 transition-colors">
+          <span class="material-symbols-outlined">grass</span>
+          <span>My Crops</span>
+        </a>
+      </nav>
+    </div>
+    <!-- Sidebar Overlay -->
+    <div id="sidebarOverlay" class="fixed inset-0 bg-black/50 hidden z-[90]" onclick="toggleSidebar()"></div>
+    <div class="sticky top-0 z-40 flex flex-col glass border-b border-border-light dark:border-border-dark">
+      <!-- TopAppBar -->
+      <div class="flex items-center p-4 pb-2 justify-between">
+        <button onclick="toggleSidebar()"
+          class="text-text-light dark:text-text-dark flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors cursor-pointer">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+        <h2
+          class="text-3xl font-bold leading-tight tracking-[-0.015em] flex-1 text-center text-text-light dark:text-text-dark">
+          Marketplace
+        </h2>
+        <div class="flex w-12 items-center justify-end">
+          <a href="checkout.html">
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-transparent text-text-light dark:text-text-dark gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0 relative">
+              <span class="material-symbols-outlined text-2xl">shopping_cart</span>
+              <div
+                class="absolute top-1 right-1 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-xs font-bold text-white js-cart-quantity">
+                0
+              </div>
+            </button>
+          </a>
+        </div>
+      </div>
+      <!-- SearchBar -->
+      <div class="px-4 py-3">
+        <label class="flex flex-col min-w-40 h-12 w-full">
+          <div
+            class="flex w-full flex-1 items-stretch rounded-xl h-full border border-border-light dark:border-border-dark bg-surface-light dark:bg-surface-dark">
+            <div class="text-muted-light dark:text-muted-dark flex items-center justify-center pl-4">
+              <span class="material-symbols-outlined text-2xl">search</span>
+            </div>
+            <input
+              class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden text-text-light dark:text-text-dark focus:outline-0 focus:ring-0 border-none bg-transparent h-full placeholder:text-muted-light dark:placeholder:text-muted-dark px-2 text-base font-normal leading-normal js-search-bar"
+              placeholder="Search by crop" value="" />
+          </div>
+        </label>
+      </div>
+      <!-- Chips -->
+      <div class="flex flex-wrap gap-3 px-4 pb-4 relative z-50">
+        <div class="relative shrink-0 js-dropdown" data-filter-type="category" data-selected-value="">
+          <button
+            class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-surface-light dark:bg-surface-dark pl-4 pr-3 border border-border-light dark:border-border-dark js-dropdown-button hover-lift transition-transform">
+            <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal js-dropdown-label">Category
+            </p>
+            <span
+              class="material-symbols-outlined text-muted-light dark:text-muted-dark text-xl js-dropdown-icon transition-transform">expand_more</span>
+          </button>
+          <div
+            class="absolute top-full left-0 mt-2 w-48 rounded-lg bg-surface-light dark:bg-surface-dark border border-border-light dark:border-border-dark shadow-lg hidden z-50 js-dropdown-menu">
+            <ul class="py-1 flex flex-col">
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="" data-label="Category">All Categories</li>
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="Grains & Pulses" data-label="Grains & Pulses">Grains & Pulses</li>
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="Vegetables & Fruits" data-label="Vegetables & Fruits">Vegetables & Fruits</li>
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="Spices & Cash Crops" data-label="Spices & Cash Crops">Spices & Cash Crops</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="relative shrink-0 js-dropdown" data-filter-type="price" data-selected-value="">
+          <button
+            class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-surface-light dark:bg-surface-dark pl-4 pr-3 border border-border-light dark:border-border-dark js-dropdown-button hover-lift transition-transform">
+            <p class="text-text-light dark:text-text-dark text-sm font-medium leading-normal js-dropdown-label">Price
+            </p>
+            <span
+              class="material-symbols-outlined text-muted-light dark:text-muted-dark text-xl js-dropdown-icon transition-transform">expand_more</span>
+          </button>
+          <div
+            class="absolute top-full left-0 mt-2 w-48 rounded-lg bg-surface-light dark:bg-surface-dark border border-border-light dark:border-border-dark shadow-lg hidden z-50 js-dropdown-menu">
+            <ul class="py-1 flex flex-col">
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="" data-label="Price">Any Price</li>
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="under5000" data-label="Under ₹50">Under ₹50</li>
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="5000to10000" data-label="₹50-100">₹50 - ₹100</li>
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="above10000" data-label="Above ₹100">Above ₹100</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="relative shrink-0 js-dropdown" data-filter-type="sort" data-selected-value="popular">
+          <button
+            class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-primary/20 text-primary pl-4 pr-3 border border-primary/30 js-dropdown-button">
+            <p class="text-primary text-sm font-medium leading-normal js-dropdown-label">Sort By: Popular</p>
+            <span
+              class="material-symbols-outlined text-primary text-xl js-dropdown-icon transition-transform">expand_more</span>
+          </button>
+          <div
+            class="absolute top-full left-0 mt-2 w-48 rounded-lg bg-surface-light dark:bg-surface-dark border border-border-light dark:border-border-dark shadow-lg hidden z-50 js-dropdown-menu">
+            <ul class="py-1 flex flex-col">
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="popular" data-label="Sort By: Popular">Sort By: Popular</li>
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="priceLowHigh" data-label="Sort: Price Low-High">Price: Low to High</li>
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="priceHighLow" data-label="Sort: Price High-Low">Price: High to Low</li>
+              <li
+                class="px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800 text-text-light dark:text-text-dark cursor-pointer text-sm font-medium js-dropdown-item"
+                data-value="nameAZ" data-label="Sort: Name A-Z">Name: A to Z</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="flex-grow pb-24">
+      <!-- ImageGrid -->
+      <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-4 p-4 js-products-grid"></div>
+    </main>
+    <!-- Bottom Navigation Bar -->
+    <nav class="fixed bottom-0 left-0 right-0 z-50 glass border-t border-border-light dark:border-border-dark">
+      <div class="mx-auto grid h-16 max-w-lg grid-cols-2 px-4">
+        <a class="group inline-flex flex-col items-center justify-center text-center text-primary hover-scale transition-transform"
+          href="home.html">
+          <span class="material-symbols-outlined">home</span>
+          <span class="text-xs font-bold mt-1">Dashboard</span>
+        </a>
+        <a class="group inline-flex flex-col items-center justify-center text-center text-text-secondary-light hover:text-primary dark:text-text-secondary-dark dark:hover:text-primary hover-scale transition-transform"
+          href="buyer_order_tracking.html">
+          <span class="material-symbols-outlined">grass</span>
+          <span class="text-xs font-medium mt-1">Purchased Orders</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <script>
+    function toggleSidebar() {
+      const sidebar = document.getElementById("sidebar");
+      const overlay = document.getElementById("sidebarOverlay");
+      sidebar.classList.toggle("-translate-x-full");
+      overlay.classList.toggle("hidden");
+    }
+  </script>
+
+  <script type="module" src="scripts/marketplace.js"></script>
+</body>
+
+</html>

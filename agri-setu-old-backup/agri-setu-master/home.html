@@ -1,0 +1,229 @@
+<!doctype html>
+
+<html class="light" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>AgriSetu Dashboard</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#27AE60",
+            "background-light": "#F2F2F2",
+            "background-dark": "#152012",
+            "text-primary-light": "#333333",
+            "text-primary-dark": "#E0E0E0",
+            "text-secondary-light": "#828282",
+            "text-secondary-dark": "#BDBDBD",
+            "card-light": "#FFFFFF",
+            "card-dark": "#1F2923",
+            "accent-yellow": "#F2C94C",
+            "accent-blue": "#2F80ED",
+          },
+          fontFamily: {
+            display: ["Manrope", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem",
+            lg: "0.75rem",
+            xl: "1rem",
+            full: "9999px",
+          },
+        },
+      },
+    };
+  </script>
+  <script type="module" src="scripts/home/weather_card.js"></script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display">
+  <div class="relative flex min-h-screen w-full flex-col">
+    <!-- Main Content -->
+    <main class="flex-1 pb-24">
+      <!-- Header -->
+
+      <div class="flex items-center gap-3 px-4 py-1">
+        <img src="images/logo.png" alt="AgriSetu logo" class="h-24 w-24 md:h-32 md:w-32 object-contain" />
+        <h1
+          class="text-text-primary-light dark:text-text-primary-dark text-4xl md:text-6xl font-extrabold leading-tight tracking-[-0.015em]">
+          AGRISETU
+        </h1>
+      </div>
+      <!-- Weather Widget -->
+      <div class="p-4">
+        <div class="flex items-stretch justify-between gap-4 rounded-lg bg-card-light dark:bg-card-dark p-4 shadow-sm">
+          <div class="flex flex-[2_2_0px] flex-col gap-1">
+            <input type="text" id="city-input" placeholder="Enter city name"
+              class="w-full text-text-primary-light dark:text-text-primary-dark text-lg font-bold leading-tight bg-transparent border-none outline-none placeholder:text-text-secondary-light dark:placeholder:text-text-secondary-dark" />
+            <div id="weather-display"
+              class="font-display text-text-primary-light dark:text-text-primary-dark text-lg font-bold leading-tight mt-1">
+            </div>
+          </div>
+          <div class="flex flex-1 items-center justify-center">
+            <span id="weather-icon" class="material-symbols-outlined text-6xl text-accent-yellow">sunny</span>
+          </div>
+        </div>
+      </div>
+      <!-- Top Recommendation Section -->
+      <h3
+        class="text-text-primary-light dark:text-text-primary-dark px-4 pb-2 pt-4 text-xl font-bold leading-tight tracking-[-0.015em]">
+        Top Recommendation for You
+      </h3>
+      <div class="px-4">
+        <!-- Loading skeleton -->
+        <div id="rec-loading" class="flex flex-col items-center justify-center gap-3 py-12">
+          <div class="w-10 h-10 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+          <p class="text-text-secondary-light dark:text-text-secondary-dark text-sm">Loading recommendation…</p>
+        </div>
+
+        <!-- Real recommendation card (hidden until loaded) -->
+        <div id="rec-card"
+          class="hidden flex-col items-stretch justify-start rounded-lg bg-card-light dark:bg-card-dark shadow-sm overflow-hidden">
+          <div class="h-64 w-full overflow-hidden">
+            <img id="rec-image-bg"
+              src="https://images.unsplash.com/photo-1471193945509-9ad0617afabf?w=800&auto=format&fit=crop"
+              alt="Crop image" crossorigin="anonymous" class="h-full w-full object-cover object-center" />
+          </div>
+          <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-1 p-4">
+            <p id="rec-season" class="text-primary text-sm font-semibold leading-normal"></p>
+            <p id="rec-crop-name"
+              class="text-text-primary-light dark:text-text-primary-dark text-lg font-bold leading-tight tracking-[-0.015em]">
+            </p>
+            <div class="mt-2 flex items-end justify-between gap-3">
+              <div class="flex flex-col gap-1">
+                <p id="rec-suit-text"
+                  class="text-text-secondary-light dark:text-text-secondary-dark text-base font-normal leading-normal">
+                </p>
+                <p class="text-text-secondary-light dark:text-text-secondary-dark text-base font-bold leading-normal">
+                  Projected ROI: <span id="rec-roi" class="text-primary"></span>
+                </p>
+                <p id="rec-price" class="text-text-secondary-light dark:text-text-secondary-dark text-sm"></p>
+              </div>
+              <a href="crop_recommend.html">
+                <button
+                  class="flex h-10 min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg bg-primary px-4 text-sm font-bold leading-normal text-white">
+                  <span class="truncate">Recommend Crop</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Error fallback -->
+        <div id="rec-error"
+          class="hidden p-4 rounded-lg bg-yellow-50 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300 text-sm">
+          Could not load recommendation. <a href="crop_recommend.html" class="underline font-semibold">Try the advisor
+            →</a>
+        </div>
+      </div>
+    </main>
+    <!-- Bottom Navigation Bar -->
+    <nav
+      class="fixed bottom-0 left-0 right-0 z-20 border-t border-gray-200/50 bg-card-light/80 backdrop-blur-lg dark:border-gray-700/50 dark:bg-card-dark/80">
+      <div class="mx-auto grid h-16 max-w-lg grid-cols-2 px-4">
+        <a class="group inline-flex flex-col items-center justify-center text-center text-primary" href="home.html">
+          <span class="material-symbols-outlined">home</span>
+          <span class="text-xs font-bold">Dashboard</span>
+        </a>
+
+        <a class="group inline-flex flex-col items-center justify-center text-center text-text-secondary-light hover:text-primary dark:text-text-secondary-dark dark:hover:text-primary"
+          href="marketplace.html">
+          <span class="material-symbols-outlined">grass</span>
+          <span class="text-xs font-medium">Marketplace</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- weather card -->
+  <script type="module" src="scripts/home/weather_card.js"></script>
+  <script type="module">
+    import { weatherCard } from "./scripts/home/weather_card.js";
+
+    const cityInput = document.getElementById("city-input");
+    cityInput.addEventListener("input", () => {
+      const city = cityInput.value.trim();
+      if (city) {
+        weatherCard(city);
+      }
+    });
+  </script>
+
+  <!-- Top recommendation from API -->
+  <script>
+    const API_BASE = "http://127.0.0.1:5000";
+
+    const CROP_IMAGES = {
+      "Coconut": "images/crops/coconut.jpg",
+      "Banana": "images/crops/banana.jpg",
+      "Rice": "images/crops/rice.jpg",
+      "Paddy": "images/crops/paddy.jpg",
+      "Cashew": "images/crops/cashew.jpg",
+      "Coffee": "images/crops/coffee.jpg",
+      "Tapioca": "images/crops/tapioca.jpg",
+      "Pepper": "images/crops/pepper.jpg",
+      "Arecanut": "images/crops/arecanut.jpg",
+      "Ginger": "images/crops/ginger.jpg",
+      "Turmeric": "images/crops/turmeric.jpg",
+      "Pineapple": "images/crops/pineapple.jpg",
+      "Papaya": "images/crops/papaya.jpg",
+      "Jackfruit": "images/crops/jackfruit_product.jpg",
+      "default": "images/crops/default.jpg",
+    };
+
+
+
+
+    async function loadTopRecommendation() {
+      const loading = document.getElementById("rec-loading");
+      const card = document.getElementById("rec-card");
+      const errDiv = document.getElementById("rec-error");
+
+      try {
+        const res = await fetch(`${API_BASE}/api/top-recommendation`);
+        const data = await res.json();
+
+        loading.classList.add("hidden");
+
+        if (!data.success || !data.top) {
+          errDiv.classList.remove("hidden");
+          return;
+        }
+
+        const top = data.top;
+        const imgUrl = CROP_IMAGES[top.crop_name] || CROP_IMAGES["default"];
+        document.getElementById("rec-image-bg").src = imgUrl;
+        document.getElementById("rec-image-bg").alt = top.crop_name;
+        document.getElementById("rec-crop-name").textContent = top.crop_name;
+        document.getElementById("rec-suit-text").textContent = top.recommendation_text;
+        document.getElementById("rec-roi").textContent = top.est_roi.toFixed(0) + "%";
+        document.getElementById("rec-price").textContent = "Market price: ₹" + top.predicted_price.toLocaleString("en-IN") + "/q";
+
+        const weather = data.weather || {};
+        document.getElementById("rec-season").textContent = weather.season
+          ? `Season: ${weather.season} · ${weather.avg_temp}°C · ${weather.avg_rain} mm`
+          : "Best Recommendation for Your District";
+
+        card.classList.remove("hidden");
+        card.classList.add("flex");
+
+      } catch (e) {
+        loading.classList.add("hidden");
+        errDiv.classList.remove("hidden");
+      }
+    }
+
+    loadTopRecommendation();
+  </script>
+</body>
+
+</html>

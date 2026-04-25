@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AgriSetu | Buyer Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;family=Work+Sans:wght@300..700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "tertiary-fixed-dim": "#ffb59f",
+                      "surface-container": "#eeeee9",
+                      "on-surface": "#1a1c19",
+                      "error-container": "#ffdad6",
+                      "surface-container-low": "#f4f4ef",
+                      "primary-fixed": "#c3edc3",
+                      "secondary-fixed": "#ffdbce",
+                      "on-secondary": "#ffffff",
+                      "on-primary-fixed-variant": "#2b4e30",
+                      "on-primary-fixed": "#002109",
+                      "tertiary-fixed": "#ffdbd0",
+                      "primary-container": "#2e5233",
+                      "on-secondary-container": "#795c51",
+                      "on-primary-container": "#9cc49d",
+                      "on-secondary-fixed": "#2b160f",
+                      "tertiary": "#641800",
+                      "surface-container-highest": "#e3e3de",
+                      "surface": "#fafaf5",
+                      "inverse-primary": "#a8d1a9",
+                      "tertiary-container": "#8b2500",
+                      "primary": "#173b1e",
+                      "inverse-on-surface": "#f1f1ec",
+                      "secondary": "#75584d",
+                      "on-tertiary": "#ffffff",
+                      "surface-variant": "#e3e3de",
+                      "on-tertiary-fixed-variant": "#852300",
+                      "secondary-fixed-dim": "#e4beb2",
+                      "inverse-surface": "#2f312e",
+                      "on-primary": "#ffffff",
+                      "secondary-container": "#fed7ca",
+                      "surface-dim": "#dadad5",
+                      "on-secondary-fixed-variant": "#5b4137",
+                      "surface-container-lowest": "#ffffff",
+                      "on-error": "#ffffff",
+                      "error": "#ba1a1a",
+                      "surface-bright": "#fafaf5",
+                      "on-background": "#1a1c19",
+                      "background": "#fafaf5",
+                      "surface-tint": "#426746",
+                      "on-surface-variant": "#424841",
+                      "on-error-container": "#93000a",
+                      "on-tertiary-container": "#ffa286",
+                      "surface-container-high": "#e8e8e3",
+                      "primary-fixed-dim": "#a8d1a9",
+                      "outline-variant": "#c2c8be",
+                      "on-tertiary-fixed": "#3a0a00",
+                      "outline": "#727970"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "1.5rem",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "headline": ["Manrope"],
+                      "body": ["Work Sans"],
+                      "label": ["Work Sans"]
+              }
+            },
+          }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Work Sans', sans-serif; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-surface-container-low text-on-surface">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-stone-50/80 backdrop-blur-xl shadow-sm">
+<div class="flex justify-between items-center px-12 py-6 max-w-[1920px] mx-auto font-['Manrope'] font-bold tracking-tight">
+<div class="text-2xl font-black text-emerald-950 uppercase tracking-tighter">
+                AgriSetu
+            </div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-stone-500 hover:text-emerald-800 transition-colors" href="home.html">Home</a>
+<a class="text-stone-500 hover:text-emerald-800 transition-colors" href="predict.html">Predict</a>
+<a class="text-stone-500 hover:text-emerald-800 transition-colors" href="marketplace.html">Marketplace</a>
+<a class="text-emerald-900 border-b-2 border-emerald-900 pb-1" href="buyer_order_tracking.html">Orders</a>
+</nav>
+<div class="flex items-center gap-6">
+<div class="relative hidden lg:block">
+<input class="bg-surface-container-highest border-none rounded-full py-2 px-6 w-64 text-sm focus:ring-2 focus:ring-primary/20" placeholder="Search data..." type="text"/>
+<span class="material-symbols-outlined absolute right-4 top-1.5 text-on-surface-variant">search</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-emerald-900 dark:text-emerald-100 p-2 hover:bg-stone-100 dark:hover:bg-stone-900 rounded-full transition-all cursor-pointer">notifications</span>
+<div class="w-10 h-10 rounded-full overflow-hidden bg-stone-200 ml-2">
+<img alt="User Profile" data-alt="Close up portrait of a modern farmer with a confident expression, soft natural outdoor lighting during golden hour" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmM27skUo1lKFJwZcxMdiZ0lPf4EFWZxvjRvJ0CTrJA8JX2xtgaD0ETPyu13YicoezmnA4p8CJp6m8ucGU_0OU9kRTfNrCduuIoWqxXgxppiKRAB09SrAer9caCUaR4-_-NxBITpIBsBnSX-RKA_TmUISICuxa-A1G2yPBuWMTTlhvElZm5PSfO2PUOQHbmHK8ROlQkWuVB5YiPhdOFYgnul6hciShxbk5bIxw3v7XEwG8V7gVi2r9oQB59D7_igyrvS_Wid1QkjM"/>
+</div>
+</div>
+</div>
+</div>
+<script type="module">
+    import { setupSearch } from './scripts/home/search_common.js';
+    document.addEventListener('DOMContentLoaded', () => {
+        setupSearch('input[placeholder*="Search"]');
+    });
+</script>
+<div class="bg-stone-200/50 h-[1px] w-full"></div>
+</header>
+<div class="flex min-h-screen pt-24">
+<!-- SideNavBar -->
+<aside class="h-screen w-72 flex flex-col fixed left-0 top-0 pt-24 bg-stone-100 font-['Work_Sans'] text-sm font-medium">
+<div class="px-8 py-8">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-primary text-3xl">storefront</span>
+<h3 class="text-lg font-bold text-emerald-950">Marketplace</h3>
+</div>
+<p class="text-stone-600 text-xs mb-6">Filters &amp; Insights</p>
+<nav class="flex flex-col gap-2 pr-4">
+<a class="flex items-center gap-4 px-4 py-3 text-emerald-900 font-bold bg-stone-200 rounded-r-full hover:translate-x-1 transition-transform duration-200" href="#">
+<span class="material-symbols-outlined">grass</span>
+<span>Crop Yield</span>
+</a>
+</nav>
+
+</div>
+<div class="mt-auto px-8 pb-12 border-t border-stone-200 pt-6">
+<nav class="flex flex-col gap-2">
+<a class="flex items-center gap-4 px-4 py-2 text-stone-600 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">help</span>
+<span>Support</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-2 text-stone-600 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined">chat_bubble</span>
+<span>Feedback</span>
+</a>
+</nav>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="flex-1 ml-72 p-12 max-w-[1400px]">
+<!-- Dashboard Header -->
+<header class="mb-12">
+<p class="text-tertiary uppercase tracking-widest font-bold text-xs mb-2">Buyer Overview</p>
+<h1 class="text-5xl font-black text-on-surface tracking-tighter mb-4">Cultivation Analytics</h1>
+<p class="text-on-surface-variant max-w-2xl body-lg">Monitor your recent acquisitions and track the journey of your premium agricultural investments from soil to delivery.</p>
+</header>
+<!-- Key Stats: Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0_16px_32px_-12px_rgba(26,28,25,0.06)] border border-white/50">
+<p class="text-sm font-bold text-outline uppercase tracking-wider mb-2">Total Orders</p>
+<p class="text-5xl font-black text-primary tracking-tighter">42</p>
+<div class="mt-4 h-1 w-12 bg-primary-fixed rounded-full"></div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0_16px_32px_-12px_rgba(26,28,25,0.06)] border border-white/50">
+<p class="text-sm font-bold text-outline uppercase tracking-wider mb-2">Pending</p>
+<div class="flex items-baseline gap-2">
+<p class="text-5xl font-black text-tertiary tracking-tighter">03</p>
+<span class="material-symbols-outlined text-tertiary text-sm">schedule</span>
+</div>
+<div class="mt-4 h-1 w-12 bg-tertiary-fixed rounded-full"></div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0_16px_32px_-12px_rgba(26,28,25,0.06)] border border-white/50">
+<p class="text-sm font-bold text-outline uppercase tracking-wider mb-2">In Transit</p>
+<p class="text-5xl font-black text-secondary tracking-tighter">08</p>
+<div class="mt-4 h-1 w-12 bg-secondary-fixed rounded-full"></div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0_16px_32px_-12px_rgba(26,28,25,0.06)] border border-white/50">
+<p class="text-sm font-bold text-outline uppercase tracking-wider mb-2">Delivered</p>
+<p class="text-5xl font-black text-primary-container tracking-tighter">31</p>
+<div class="mt-4 h-1 w-12 bg-primary-container rounded-full"></div>
+</div>
+</div>
+<!-- Recent Acquisitions Section -->
+<section class="bg-surface-container rounded-xl p-10">
+<div class="flex justify-between items-end mb-10">
+<div>
+<h2 class="text-3xl font-black text-on-surface tracking-tight">Recent Acquisitions</h2>
+<p class="text-on-surface-variant">Live tracking of your heritage inventory</p>
+</div>
+<button class="text-primary font-bold flex items-center gap-2 text-sm uppercase tracking-wider group">
+                        View Full History 
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="space-y-4">
+<!-- Order Item 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl flex items-center gap-8 group hover:shadow-lg transition-all duration-300">
+<div class="w-24 h-24 rounded-xl overflow-hidden flex-shrink-0 relative">
+<img alt="Heirloom Tomatoes" class="w-full h-full object-cover" data-alt="Extreme close-up of vibrant red and yellow heirloom tomatoes with water droplets, organic texture, soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQPzn4mKBGLAGB-iqo5dCh2xWCtj6VYitPzS8l47tT8FpRox-sfL5ZCAip_O6Wc3jAZ4GgRNi0xU-8VgvBturnxTmgf7vLC-ytRBOBVjDCElIZDx5sWMd1a78RBD2ynta-RFpe05zTEhOwf2_3dzClqMd00ytbbNsMqb2KTjKSltj3ukpdWtEC2gVrX51dEH59uR2ZLIjZSI1UV5VIFO6AU2eHZaMW9-NN4kAc6RYLFKwSfWGAooBKeVjZ9jpKZU0S6hv2K1r0t9M"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="flex-1">
+<div class="flex items-center gap-3 mb-1">
+<span class="bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Order #AG-8829</span>
+<span class="text-on-surface-variant text-xs font-medium">May 12, 2024</span>
+</div>
+<h4 class="text-xl font-bold text-on-surface mb-1">Heirloom Heritage Bundle</h4>
+<p class="text-on-surface-variant text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+                                Sonoma Valley Organics • 48kg Total Weight
+                            </p>
+</div>
+<div class="flex flex-col items-end gap-3">
+<div class="flex items-center gap-2 bg-primary-fixed/30 px-3 py-1.5 rounded-full">
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">local_shipping</span>
+<span class="text-primary font-bold text-xs uppercase tracking-wider">In Transit</span>
+</div>
+<div class="flex gap-2">
+<button class="px-6 py-2.5 rounded-full bg-primary text-white text-xs font-bold hover:opacity-90 transition-all">Track</button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-highest text-primary text-xs font-bold hover:bg-surface-container-high transition-all">Contact</button>
+</div>
+</div>
+</div>
+<!-- Order Item 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl flex items-center gap-8 group hover:shadow-lg transition-all duration-300">
+<div class="w-24 h-24 rounded-xl overflow-hidden flex-shrink-0 relative">
+<img alt="Organic Carrots" class="w-full h-full object-cover" data-alt="Macro photo of freshly harvested purple and orange carrots with soil remnants, high-end culinary aesthetic, dramatic shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqBbkUUsM8ac2rvfECpPUnLf_PP-rKSlgbCDaMwFZQgzhLAcs5D4vo1YcTMArHPXStBWCPRWDnWZmTz5ecLa9djq0u_FSr1bHR3_CFRfWSEbq2E7jErQklwz1q9VmNK2yBmqWmSLpfF79TRNa3xCaCHfJUSrboRBhbyPHLCbEOkQZpUnh-v5R7e3szb4Ac_y4jNegcsOIw5Pm09uwPK92WA_P1PO0-lNF4Yxm4q1yAqjF1e-BGgmfEzkCag0R6ZboDQXLob3p0OBI"/>
+</div>
+<div class="flex-1">
+<div class="flex items-center gap-3 mb-1">
+<span class="bg-surface-container-highest text-on-surface-variant text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Order #AG-8814</span>
+<span class="text-on-surface-variant text-xs font-medium">May 10, 2024</span>
+</div>
+<h4 class="text-xl font-bold text-on-surface mb-1">Rainbow Root Collection</h4>
+<p class="text-on-surface-variant text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+                                High Desert Farms • 120kg Total Weight
+                            </p>
+</div>
+<div class="flex flex-col items-end gap-3">
+<div class="flex items-center gap-2 bg-surface-container-highest px-3 py-1.5 rounded-full">
+<span class="material-symbols-outlined text-on-surface-variant text-sm">inventory_2</span>
+<span class="text-on-surface-variant font-bold text-xs uppercase tracking-wider">Delivered</span>
+</div>
+<div class="flex gap-2">
+<button class="px-6 py-2.5 rounded-full bg-surface-container-highest text-primary text-xs font-bold hover:bg-surface-container-high transition-all">Invoice</button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-highest text-primary text-xs font-bold hover:bg-surface-container-high transition-all">Reorder</button>
+</div>
+</div>
+</div>
+<!-- Order Item 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl flex items-center gap-8 group hover:shadow-lg transition-all duration-300">
+<div class="w-24 h-24 rounded-xl overflow-hidden flex-shrink-0 relative">
+<img alt="Artisan Honey" class="w-full h-full object-cover" data-alt="Golden honey dripping from a wooden comb, warm backlight highlighting the viscosity and crystalline structure, luxury product feel" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPlRXkWDiOBAL5LiT_fh95T_MWBfgR3KQRYrFipF0z3hP4pi-B3LfHeg5wNwasOdrZAW1h-xi9Jh-f6a2zELCR-ZO0l9UcNEKm8IyzOdu8LLZWMLS3zXNavmjYVk4DObn1afjvu6qRlJuqiApSBknob85_1ONKdgD9sJHUGtnLmndmptNUbqPf_csKIN79oRcpLQPTxIhQHKaivcNiu9UOHLIpbItXbQNxgBuuPJhUw6YF0fm42BtXW0DKjDF53NRfyYUxXH4yF0M"/>
+</div>
+<div class="flex-1">
+<div class="flex items-center gap-3 mb-1">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">Order #AG-8792</span>
+<span class="text-on-surface-variant text-xs font-medium">May 08, 2024</span>
+</div>
+<h4 class="text-xl font-bold text-on-surface mb-1">Wildflower Nectar Reserve</h4>
+<p class="text-on-surface-variant text-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">location_on</span>
+                                Peak Apiaries • 12 Cases (Glass)
+                            </p>
+</div>
+<div class="flex flex-col items-end gap-3">
+<div class="flex items-center gap-2 bg-primary-fixed/30 px-3 py-1.5 rounded-full">
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">local_shipping</span>
+<span class="text-primary font-bold text-xs uppercase tracking-wider">In Transit</span>
+</div>
+<div class="flex gap-2">
+<button class="px-6 py-2.5 rounded-full bg-primary text-white text-xs font-bold hover:opacity-90 transition-all">Track</button>
+<button class="px-6 py-2.5 rounded-full bg-surface-container-highest text-primary text-xs font-bold hover:bg-surface-container-high transition-all">Contact</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Secondary Insight: Market Conditions -->
+<div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-white p-8 rounded-xl border border-stone-100">
+<h3 class="text-xl font-black text-on-surface mb-6 flex items-center gap-3">
+<span class="material-symbols-outlined text-tertiary">analytics</span>
+                        Market Trends
+                    </h3>
+<div class="space-y-6">
+<div class="flex justify-between items-center">
+<span class="text-sm font-medium text-on-surface-variant">Winter Wheat</span>
+<div class="flex items-center gap-4">
+<div class="w-32 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary-fixed w-[75%]"></div>
+</div>
+<span class="text-primary font-bold text-sm">+4.2%</span>
+</div>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-sm font-medium text-on-surface-variant">Organic Soy</span>
+<div class="flex items-center gap-4">
+<div class="w-32 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-tertiary-container w-[40%]"></div>
+</div>
+<span class="text-tertiary font-bold text-sm">-1.8%</span>
+</div>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-sm font-medium text-on-surface-variant">Arabica Beans</span>
+<div class="flex items-center gap-4">
+<div class="w-32 h-2 bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary-fixed w-[92%]"></div>
+</div>
+<span class="text-primary font-bold text-sm">+12.4%</span>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-primary text-white p-8 rounded-xl relative overflow-hidden">
+<div class="relative z-10">
+<h3 class="text-xl font-black mb-2">Predictive Harvest Insight</h3>
+<p class="text-primary-container font-medium mb-6">Based on local soil health monitoring</p>
+<p class="text-2xl font-light mb-8 italic">"Optimal harvest for Heirloom Tomatoes in Sonoma Valley is projected for June 12-18th. Anticipate 15% higher sugar content than prior yield."</p>
+<button class="bg-white text-primary px-6 py-3 rounded-xl font-bold text-sm hover:bg-primary-fixed transition-colors">Adjust Logistics Planning</button>
+</div>
+<div class="absolute -right-12 -bottom-12 opacity-10">
+<span class="material-symbols-outlined text-[200px]" style="font-variation-settings: 'wght' 200;">psychology</span>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>
