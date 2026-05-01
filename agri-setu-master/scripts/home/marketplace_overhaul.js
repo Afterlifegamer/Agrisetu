@@ -57,10 +57,10 @@ function renderMarketplace(filterQuery = '') {
                     High-quality ${product.name.toLowerCase()} sourced directly from sustainable farms. 
                     ${product.keywords.slice(0, 2).join(', ')} certified.
                 </p>
-                <div class="flex items-center justify-between mt-auto">
-                    <div class="flex items-center gap-2">
-                        <span class="material-symbols-outlined text-primary text-sm">scale</span>
-                        <span class="text-xs font-bold text-primary">Min Order: 10kg</span>
+                <div class="flex items-center justify-between mt-auto gap-2">
+                    <div class="flex items-center gap-2 bg-surface-container-highest rounded-md px-2 py-1 border border-outline-variant/20">
+                        <span class="text-[10px] font-bold text-stone-500 uppercase">Qty (kg)</span>
+                        <input type="number" min="10" step="1" value="10" class="w-14 h-6 text-xs font-bold border-none bg-transparent focus:ring-0 text-center js-quantity-selector" data-id="${product.id}">
                     </div>
                     <button class="bg-primary text-white p-3 rounded-md hover:bg-primary-container transition-all flex items-center gap-2 group-hover:px-6 duration-300 js-add-to-cart" data-id="${product.id}">
                         <span class="text-xs font-bold hidden group-hover:block transition-all whitespace-nowrap">Add to Cart</span>
@@ -80,7 +80,9 @@ function attachCartListeners() {
         button.addEventListener('click', (e) => {
             e.preventDefault();
             const productId = button.getAttribute('data-id');
-            addtoCart(productId);
+            const qtyInput = document.querySelector(`.js-quantity-selector[data-id="${productId}"]`);
+            const quantity = qtyInput && !isNaN(parseInt(qtyInput.value)) ? parseInt(qtyInput.value) : 10;
+            addtoCart(productId, quantity);
             updateCartUI();
         });
     });
