@@ -123,7 +123,7 @@
 </main>
 
 <script type="module">
-    import { cart } from './data/cart.js';
+    import { cart, removeFromCart } from './data/cart.js';
     import { products } from './data/products.js';
 
     function renderCheckout() {
@@ -133,11 +133,14 @@
 
         if (cart.length === 0) {
             container.innerHTML = '<p class="text-on-surface-variant font-medium">Your cart is empty.</p>';
+            document.getElementById('subtotal-value').textContent = 'Rs. 0';
+            document.getElementById('shipping-value').textContent = 'Rs. 0';
+            document.getElementById('total-value').textContent = 'Rs. 0';
             return;
         }
 
         cart.forEach(item => {
-            const product = products.find(p => p.id === item.id);
+            const product = products.find(p => p.id === item.productId);
             if (!product) return;
 
             const itemTotal = product.price * item.quantity;
@@ -158,7 +161,7 @@
                     <p class="text-xs text-on-surface-variant mb-4 font-medium uppercase tracking-wider">${product.category}</p>
                     <div class="flex items-center gap-4">
                         <span class="text-xs font-bold text-stone-400">Qty: ${item.quantity}</span>
-                        <button class="text-[10px] font-black uppercase text-tertiary hover:underline">Remove</button>
+                        <button class="text-[10px] font-black uppercase text-tertiary hover:underline js-remove-item" data-product-id="${product.id}">Remove</button>
                     </div>
                 </div>
             `;
@@ -166,7 +169,16 @@
         });
 
         document.getElementById('subtotal-value').textContent = `Rs. ${subtotal.toLocaleString('en-IN')}`;
+        document.getElementById('shipping-value').textContent = `Rs. 450`;
         document.getElementById('total-value').textContent = `Rs. ${(subtotal + 450).toLocaleString('en-IN')}`;
+
+        document.querySelectorAll('.js-remove-item').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const productId = e.target.getAttribute('data-product-id');
+                removeFromCart(productId);
+                renderCheckout();
+            });
+        });
     }
 
     document.addEventListener('DOMContentLoaded', renderCheckout);
