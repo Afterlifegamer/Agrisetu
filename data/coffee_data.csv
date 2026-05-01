@@ -1,0 +1,94 @@
+t,cmdty,market_id,market_name,state_id,state_name,district_id,district_name,variety,p_min,p_max,p_modal,yield_kg_per_ha
+2025-10-30,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,23600,23600,23600,808.08
+2025-10-30,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23200,23500,23500,808.08
+2025-10-30,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23600,23700,23700,808.08
+2025-10-29,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23500,24000,24000,808.08
+2025-10-29,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23500,23600,23600,808.08
+2025-10-28,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,23600,23600,23600,808.08
+2025-10-28,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23300,23400,23400,808.08
+2025-10-27,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24000,24000,24000,808.08
+2025-10-27,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23500,23700,23600,808.08
+2025-10-27,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23500,23700,23600,808.08
+2025-10-27,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23500,23600,23600,808.08
+2025-10-26,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23600,23700,23700,808.08
+2025-10-25,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23700,23800,23800,808.08
+2025-10-25,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23600,23700,23700,808.08
+2025-10-25,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23500,23700,23600,808.08
+2025-10-25,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24000,24000,24000,808.08
+2025-10-24,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23800,23900,23900,808.08
+2025-10-24,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23500,23600,23600,808.08
+2025-10-24,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23200,23400,23300,808.08
+2025-10-24,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24000,24000,24000,808.08
+2025-10-23,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23200,23500,23500,808.08
+2025-10-23,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23500,23700,23600,808.08
+2025-10-23,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23900,24000,24000,808.08
+2025-10-22,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24300,24300,24300,808.08
+2025-10-22,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23000,23500,23500,808.08
+2025-10-22,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23500,23700,23600,808.08
+2025-10-22,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,24100,24200,24200,808.08
+2025-10-21,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,24000,24100,24100,808.08
+2025-10-21,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23500,23500,23500,808.08
+2025-10-21,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23500,23700,23600,808.08
+2025-10-21,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24300,24300,24300,808.08
+2025-10-18,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,24200,24300,24300,808.08
+2025-10-18,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23200,23400,23300,808.08
+2025-10-18,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24300,24300,24300,808.08
+2025-10-17,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,24300,24400,24400,808.08
+2025-10-17,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23500,23700,23600,808.08
+2025-10-17,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24300,24300,24300,808.08
+2025-10-16,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,24500,24600,24600,808.08
+2025-10-16,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23200,23400,23300,808.08
+2025-10-16,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24300,24300,24300,808.08
+2025-10-15,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23400,23600,23500,808.08
+2025-10-15,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24500,24500,24500,808.08
+2025-10-15,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,24600,24700,24700,808.08
+2025-10-14,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24500,24500,24500,808.08
+2025-10-14,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,24500,24600,24600,808.08
+2025-10-14,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23500,23700,23600,808.08
+2025-10-14,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23500,23500,23500,808.08
+2025-10-13,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,24400,24500,24500,808.08
+2025-10-13,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23400,23500,23500,808.08
+2025-10-13,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23200,23400,23300,808.08
+2025-10-13,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24500,24500,24500,808.08
+2025-10-12,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23500,23700,23600,808.08
+2025-10-11,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23400,23500,23500,808.08
+2025-10-11,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23200,23400,23300,808.08
+2025-10-10,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23400,23500,23500,808.08
+2025-10-10,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,24200,24300,24300,808.08
+2025-10-09,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,24000,24100,24100,808.08
+2025-10-09,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,24100,24200,24200,808.08
+2025-10-09,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23100,23300,23200,808.08
+2025-10-09,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24500,24500,24500,808.08
+2025-10-08,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23900,24000,24000,808.08
+2025-10-08,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,23200,23300,23300,808.08
+2025-10-08,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23200,23400,23300,808.08
+2025-10-08,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24000,24000,24000,808.08
+2025-10-07,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23800,23900,23900,808.08
+2025-10-07,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,24200,24300,24300,808.08
+2025-10-07,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23200,23400,23300,808.08
+2025-10-07,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24000,24000,24000,808.08
+2025-10-06,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,21300,21500,21400,808.08
+2025-10-06,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,27500,27500,27500,808.08
+2025-10-06,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23600,23700,23700,808.08
+2025-10-06,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,24000,24000,24000,808.08
+2025-10-04,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,23000,23000,23000,808.08
+2025-10-04,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,27500,27500,27500,808.08
+2025-10-04,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23200,23400,23300,808.08
+2025-10-04,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,23100,23200,23200,808.08
+2025-10-03,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,22700,22800,22800,808.08
+2025-10-03,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,22700,22800,22800,808.08
+2025-10-03,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,19300,19500,19400,808.08
+2025-10-03,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,23000,23000,23000,808.08
+2025-10-02,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,22300,22500,22500,808.08
+2025-10-02,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23200,23400,23300,808.08
+2025-09-30,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,22500,22500,22500,808.08
+2025-09-30,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,22400,22500,22500,808.08
+2025-09-29,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,22400,22500,22500,808.08
+2025-09-29,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,22500,22600,22600,808.08
+2025-09-29,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,22600,22600,22600,808.08
+2025-09-28,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,22500,22500,22500,808.08
+2025-09-28,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,22600,22600,22600,808.08
+2025-09-27,Coffee,2154,Pulpally,32,Kerala,590,Wayanad,Other,23500,23700,23600,808.08
+2025-09-27,Coffee,150,Kalpetta,32,Kerala,590,Wayanad,Other,22300,22400,22400,808.08
+2025-09-27,Coffee,2374,Manathavady,32,Kerala,590,Wayanad,Other,22400,22400,22400,808.08
+2025-09-27,Coffee,149,Sultan bathery,32,Kerala,590,Wayanad,Other,22600,22600,22600,808.08

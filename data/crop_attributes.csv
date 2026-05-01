@@ -1,0 +1,15 @@
+crop_name,crop_category,duration_to_harvest,water_dependency,time_effort,initial_cost_inr_per_acre,maintenance_cost_inr_per_acre
+Paddy,Herb,100-140 days,High,High,22000,14000
+Rice,Herb,100-140 days,High,High,22000,14000
+Pineapple,Herb,18-24 months,Medium,Medium,45000,22000
+Arecanut,Tree,5-7 years,High,Low,35000,18000
+Turmeric,Herb,7-9 months,Medium,High,40000,22000
+Cashew,Tree,3-4 years,Low,Low,25000,10000
+Coconut,Tree,5-7 years,Medium,Low,30000,12000
+Ginger,Herb,7-8 months,Medium,High,50000,28000
+Pepper,Vine,2-3 years,Medium,High,45000,22000
+Coffee,Shrub,3-4 years,Medium,Medium,60000,30000
+Papaya,Herb,9-12 months,Medium,Medium,30000,18000
+Jackfruit,Tree,3-5 years,Low,Low,22000,10000
+Banana,Herb,10-12 months,High,Medium,40000,18000
+Tapioca,Shrub,8-10 months,Low,Low,14000,6000

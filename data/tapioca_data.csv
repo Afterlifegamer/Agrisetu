@@ -1,0 +1,1449 @@
+t,cmdty,market_id,market_name,state_id,state_name,district_id,district_name,variety,p_min,p_max,p_modal,yield_kg_per_ha
+2025-10-30,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1600,1800,1700,29652.6
+2025-10-30,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-30,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,1400,1600,1500,29652.6
+2025-10-30,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-30,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-30,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2200,3000,2500,29652.6
+2025-10-30,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,2500,2300,29652.6
+2025-10-30,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-30,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-30,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2800,29652.6
+2025-10-30,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1500,1700,1600,29652.6
+2025-10-30,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-30,Tapioca,10432,Nedungapra  VFPCK,32,Kerala,595,Ernakulam,Other,1500,1800,1700,29652.6
+2025-10-30,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,3500,3200,29652.6
+2025-10-30,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,18,22,20,29652.6
+2025-10-30,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-30,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,4000,4500,4200,29652.6
+2025-10-30,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-30,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-30,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-30,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-30,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-30,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3000,3500,3000,29652.6
+2025-10-30,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-30,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2600,4000,3300,29652.6
+2025-10-30,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-30,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1100,1200,1200,29652.6
+2025-10-30,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2500,2700,2600,29652.6
+2025-10-30,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-30,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-30,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-29,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-29,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,3500,3000,29652.6
+2025-10-29,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-29,Tapioca,10426,Vempally  VFPCK,32,Kerala,597,Kottayam,Tapioca,2200,2200,2200,29652.6
+2025-10-29,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2350,29652.6
+2025-10-29,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-29,Tapioca,10415,Thazhakkara  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2300,3100,3000,29652.6
+2025-10-29,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1800,2200,2000,29652.6
+2025-10-29,Tapioca,10681,NOORANAD VFPCK,32,Kerala,598,Alappuzha,Tapioca,2000,3000,2300,29652.6
+2025-10-29,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,18,25,20,29652.6
+2025-10-29,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,3600,4000,3800,29652.6
+2025-10-29,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3000,3000,29652.6
+2025-10-29,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-29,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,2500,3000,2800,29652.6
+2025-10-29,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,4000,5000,4500,29652.6
+2025-10-29,Tapioca,10403,Valakom  VFPCK,32,Kerala,600,Kollam,Tapioca,2500,3000,2800,29652.6
+2025-10-29,Tapioca,146,Nedumangadu,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,2600,2600,29652.6
+2025-10-29,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,4000,4000,29652.6
+2025-10-29,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-29,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4400,5000,4700,29652.6
+2025-10-29,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4500,4000,29652.6
+2025-10-29,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2000,2800,2500,29652.6
+2025-10-29,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-29,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2400,2700,2500,29652.6
+2025-10-29,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3800,3200,29652.6
+2025-10-29,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,1800,2000,1900,29652.6
+2025-10-29,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1000,1700,1400,29652.6
+2025-10-29,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1400,2000,1600,29652.6
+2025-10-29,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-29,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-29,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-29,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-29,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,2500,2300,29652.6
+2025-10-29,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2200,3000,2600,29652.6
+2025-10-29,Tapioca,2364,Chalakudy,32,Kerala,594,Thrissur,Other,2300,3200,3000,29652.6
+2025-10-29,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,3000,3500,3200,29652.6
+2025-10-29,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-29,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-29,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-29,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1600,1800,1700,29652.6
+2025-10-29,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-29,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-29,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2400,2800,2600,29652.6
+2025-10-29,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-29,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1100,1100,1100,29652.6
+2025-10-29,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-10-29,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-29,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-29,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-29,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2600,4000,3300,29652.6
+2025-10-28,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-28,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-28,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-28,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3000,3500,3000,29652.6
+2025-10-28,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4500,4000,29652.6
+2025-10-28,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-28,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-28,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-28,Tapioca,1121,Anyara(EEC),32,Kerala,601,Thiruvananthapuram,Tapioca,2500,3000,2800,29652.6
+2025-10-28,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-28,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,4000,4500,4500,29652.6
+2025-10-28,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2600,2800,2700,29652.6
+2025-10-28,Tapioca,10673,EZHAMKULAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,1800,2000,2000,29652.6
+2025-10-28,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-28,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,3000,3000,3000,29652.6
+2025-10-28,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2400,2700,2500,29652.6
+2025-10-28,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,3500,3000,29652.6
+2025-10-28,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-28,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-28,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,4000,4000,4000,29652.6
+2025-10-28,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-28,Tapioca,2153,Munnar,32,Kerala,596,Idukki,Tapioca,4000,5000,5000,29652.6
+2025-10-28,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-28,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,1800,2000,1900,29652.6
+2025-10-28,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1400,1600,1500,29652.6
+2025-10-28,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-28,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2800,29652.6
+2025-10-28,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-28,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-28,Tapioca,135,Moovattupuzha,32,Kerala,595,Ernakulam,Tapioca,1800,2400,2000,29652.6
+2025-10-28,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-28,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2200,3000,3000,29652.6
+2025-10-28,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-28,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2400,2800,2600,29652.6
+2025-10-28,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-28,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,2000,2200,2100,29652.6
+2025-10-28,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-28,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-28,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2500,3000,2800,29652.6
+2025-10-28,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2300,2700,2500,29652.6
+2025-10-28,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-28,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2500,2700,2600,29652.6
+2025-10-28,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1200,1200,1200,29652.6
+2025-10-28,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-10-27,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1000,1800,1600,29652.6
+2025-10-27,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2000,3000,2500,29652.6
+2025-10-27,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-27,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3000,3500,3500,29652.6
+2025-10-27,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4300,5000,4700,29652.6
+2025-10-27,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-27,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-27,Tapioca,146,Nedumangadu,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,2600,2500,29652.6
+2025-10-27,Tapioca,10397,Nedumpaikulam  VFPCK,32,Kerala,600,Kollam,Other,1800,2200,2000,29652.6
+2025-10-27,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-27,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,4000,5000,4500,29652.6
+2025-10-27,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,3600,3800,3700,29652.6
+2025-10-27,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-27,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,4100,4500,4300,29652.6
+2025-10-27,Tapioca,3073,Ezhamkulam,32,Kerala,599,Pathanamthitta,Other,2500,2800,2800,29652.6
+2025-10-27,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,18,22,20,29652.6
+2025-10-27,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1800,2500,2200,29652.6
+2025-10-27,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2400,2700,2500,29652.6
+2025-10-27,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,3500,3000,29652.6
+2025-10-27,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-10-27,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,5000,5000,29652.6
+2025-10-27,Tapioca,1122,Thodupuzha,32,Kerala,596,Idukki,Other,2600,2800,2800,29652.6
+2025-10-27,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2350,29652.6
+2025-10-27,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-27,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3800,3200,29652.6
+2025-10-27,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,1800,2000,1900,29652.6
+2025-10-27,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1500,1700,1600,29652.6
+2025-10-27,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-27,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-27,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-27,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-27,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-27,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2400,3000,2800,29652.6
+2025-10-27,Tapioca,2364,Chalakudy,32,Kerala,594,Thrissur,Other,2400,3300,3300,29652.6
+2025-10-27,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-27,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2400,2800,2500,29652.6
+2025-10-27,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-27,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-27,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1800,2000,1900,29652.6
+2025-10-27,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2500,3000,2800,29652.6
+2025-10-27,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2400,2800,2600,29652.6
+2025-10-27,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-27,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1200,1200,1200,29652.6
+2025-10-27,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2700,2800,2800,29652.6
+2025-10-27,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-27,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-26,Tapioca,10473,Mattannur  VFPCK,32,Kerala,589,Kannur,Tapioca,2800,3000,2900,29652.6
+2025-10-26,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-26,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3700,4500,4000,29652.6
+2025-10-26,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-26,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-26,Tapioca,10662,KULATHOOPUZHA VFPCK,32,Kerala,600,Kollam,Other,2500,4000,3800,29652.6
+2025-10-26,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-26,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3500,4200,4000,29652.6
+2025-10-26,Tapioca,10673,EZHAMKULAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,1800,2300,2000,29652.6
+2025-10-26,Tapioca,10672,CHITTAR  VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2800,3200,3000,29652.6
+2025-10-26,Tapioca,10411,Seethathode  VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2800,3200,3000,29652.6
+2025-10-26,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-26,Tapioca,4374,Pramadom VFPCK,32,Kerala,599,Pathanamthitta,Other,3000,3200,3100,29652.6
+2025-10-26,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,3000,3200,3000,29652.6
+2025-10-26,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2400,2700,2500,29652.6
+2025-10-26,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-26,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,1800,2000,1900,29652.6
+2025-10-26,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,800,1800,1500,29652.6
+2025-10-26,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1400,1600,1500,29652.6
+2025-10-26,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-26,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-26,Tapioca,4383,Mattathur VFPCK,32,Kerala,594,Thrissur,Tapioca,1500,2000,1800,29652.6
+2025-10-26,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-26,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-26,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,1600,1800,1700,29652.6
+2025-10-26,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-25,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,3500,29652.6
+2025-10-25,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-25,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-25,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3000,3500,3000,29652.6
+2025-10-25,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-25,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4400,5000,4700,29652.6
+2025-10-25,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-25,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-25,Tapioca,10501,Anchal VFPCK,32,Kerala,600,Kollam,Tapioca,2500,3000,2800,29652.6
+2025-10-25,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-25,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,4000,4500,4500,29652.6
+2025-10-25,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2600,2800,2700,29652.6
+2025-10-25,Tapioca,10675,NEDUMBRAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2200,2500,2300,29652.6
+2025-10-25,Tapioca,10410,Kalanjoor  VFPCK,32,Kerala,599,Pathanamthitta,Other,2500,3000,2700,29652.6
+2025-10-25,Tapioca,10409,Pandalam Thekkekkara  VFPCK,32,Kerala,599,Pathanamthitta,Other,2500,2600,2600,29652.6
+2025-10-25,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-25,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3000,2800,29652.6
+2025-10-25,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,3600,4000,3800,29652.6
+2025-10-25,Tapioca,10415,Thazhakkara  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2500,3500,3000,29652.6
+2025-10-25,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2400,2700,2500,29652.6
+2025-10-25,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,3500,3000,29652.6
+2025-10-25,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-25,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-25,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,4000,4000,4000,29652.6
+2025-10-25,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-25,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2200,29652.6
+2025-10-25,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-25,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3200,4000,3400,29652.6
+2025-10-25,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,1800,2000,1900,29652.6
+2025-10-25,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1000,1800,1500,29652.6
+2025-10-25,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1500,1700,1600,29652.6
+2025-10-25,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-25,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-25,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-25,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-25,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-25,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2000,3000,3000,29652.6
+2025-10-25,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-25,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-25,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-25,Tapioca,8305,Kizhakkancheri VFPCK,32,Kerala,593,Palakkad,Tapioca,2500,2500,2500,29652.6
+2025-10-25,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-25,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-25,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2800,3200,3000,29652.6
+2025-10-25,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-25,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2500,2700,2600,29652.6
+2025-10-25,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1100,1100,1100,29652.6
+2025-10-25,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2700,2800,2800,29652.6
+2025-10-25,Tapioca,10467,Kunnamangalam  VFPCK,32,Kerala,591,Kozhikode,Tapioca,2500,2500,2500,29652.6
+2025-10-25,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-25,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-25,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2500,4000,3250,29652.6
+2025-10-24,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-24,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-24,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2200,2800,2500,29652.6
+2025-10-24,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-24,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,3500,29652.6
+2025-10-24,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,2700,3500,3000,29652.6
+2025-10-24,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4600,29652.6
+2025-10-24,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,3500,29652.6
+2025-10-24,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-24,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-24,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-24,Tapioca,146,Nedumangadu,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,2600,2500,29652.6
+2025-10-24,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-24,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,4000,4000,4000,29652.6
+2025-10-24,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2800,3000,2900,29652.6
+2025-10-24,Tapioca,10674,KODUMON VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2000,2300,2200,29652.6
+2025-10-24,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-24,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2500,3000,2800,29652.6
+2025-10-24,Tapioca,10680,EDATHWA VFPCK,32,Kerala,598,Alappuzha,Other,2000,2800,2500,29652.6
+2025-10-24,Tapioca,10417,Kattampak  VFPCK,32,Kerala,597,Kottayam,Other,1700,2000,1800,29652.6
+2025-10-24,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2400,2700,2500,29652.6
+2025-10-24,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-24,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,3500,3000,29652.6
+2025-10-24,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-24,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-10-24,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,3500,4000,4000,29652.6
+2025-10-24,Tapioca,2153,Munnar,32,Kerala,596,Idukki,Tapioca,5000,6000,6000,29652.6
+2025-10-24,Tapioca,1122,Thodupuzha,32,Kerala,596,Idukki,Other,2600,2800,2800,29652.6
+2025-10-24,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-24,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3800,3200,29652.6
+2025-10-24,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,1800,2000,1900,29652.6
+2025-10-24,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1000,1800,1500,29652.6
+2025-10-24,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1700,1900,1800,29652.6
+2025-10-24,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-24,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2800,29652.6
+2025-10-24,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2600,4000,3300,29652.6
+2025-10-24,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-24,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-24,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-24,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-24,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2200,3000,2600,29652.6
+2025-10-24,Tapioca,2365,Irinjalakkuda,32,Kerala,594,Thrissur,Other,3000,3000,3000,29652.6
+2025-10-24,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-24,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-24,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-24,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-24,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-24,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2800,3200,3000,29652.6
+2025-10-24,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-24,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2500,2700,2600,29652.6
+2025-10-24,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1100,1100,1100,29652.6
+2025-10-24,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2700,2800,2800,29652.6
+2025-10-24,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-24,Tapioca,10473,Mattannur  VFPCK,32,Kerala,589,Kannur,Tapioca,2600,2800,2700,29652.6
+2025-10-23,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2500,4000,3250,29652.6
+2025-10-23,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-23,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-23,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-23,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3200,3000,29652.6
+2025-10-23,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-23,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-23,Tapioca,1121,Anyara(EEC),32,Kerala,601,Thiruvananthapuram,Tapioca,2400,2500,2500,29652.6
+2025-10-23,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-23,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3000,3500,3200,29652.6
+2025-10-23,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2500,2700,2600,29652.6
+2025-10-23,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,4000,4500,4200,29652.6
+2025-10-23,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-23,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2500,2800,2800,29652.6
+2025-10-23,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,3600,4000,3800,29652.6
+2025-10-23,Tapioca,538,Parakkodu,32,Kerala,599,Pathanamthitta,Tapioca,5000,6000,5500,29652.6
+2025-10-23,Tapioca,10681,NOORANAD VFPCK,32,Kerala,598,Alappuzha,Tapioca,2000,2500,2300,29652.6
+2025-10-23,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2000,3000,2500,29652.6
+2025-10-23,Tapioca,10415,Thazhakkara  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2000,2500,2300,29652.6
+2025-10-23,Tapioca,10413,Pandanadu  VFPCK,32,Kerala,598,Alappuzha,Other,1000,2000,1500,29652.6
+2025-10-23,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2600,2800,2700,29652.6
+2025-10-23,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2400,2700,2500,29652.6
+2025-10-23,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-23,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,4000,3000,29652.6
+2025-10-23,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4300,4000,29652.6
+2025-10-23,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-23,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-10-23,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2200,29652.6
+2025-10-23,Tapioca,10432,Nedungapra  VFPCK,32,Kerala,595,Ernakulam,Other,1400,1700,1600,29652.6
+2025-10-23,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-23,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,5000,3200,29652.6
+2025-10-23,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2200,2100,29652.6
+2025-10-23,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1000,1800,1500,29652.6
+2025-10-23,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-23,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2800,29652.6
+2025-10-23,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-23,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-23,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-23,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-23,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2200,3000,2600,29652.6
+2025-10-23,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2000,3000,3000,29652.6
+2025-10-23,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-23,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2500,2800,2600,29652.6
+2025-10-23,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-23,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,1700,1900,1800,29652.6
+2025-10-23,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-23,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-23,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-23,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-23,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2800,3200,3000,29652.6
+2025-10-23,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-23,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2400,2600,2500,29652.6
+2025-10-23,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1100,1100,1100,29652.6
+2025-10-23,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-10-23,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-23,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-23,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-22,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2600,3600,3100,29652.6
+2025-10-22,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-22,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2200,2800,2500,29652.6
+2025-10-22,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-22,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,3500,29652.6
+2025-10-22,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-22,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4400,5000,4700,29652.6
+2025-10-22,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,2800,3000,2800,29652.6
+2025-10-22,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-22,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-22,Tapioca,146,Nedumangadu,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,2600,2500,29652.6
+2025-10-22,Tapioca,10401,Nedumpana  VFPCK,32,Kerala,600,Kollam,Tapioca,2500,2500,2500,29652.6
+2025-10-22,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3500,4000,4000,29652.6
+2025-10-22,Tapioca,10404,Mezhuveli  VFPCK,32,Kerala,599,Pathanamthitta,Other,2400,3000,2600,29652.6
+2025-10-22,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-22,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2500,3000,2800,29652.6
+2025-10-22,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,4100,4500,4300,29652.6
+2025-10-22,Tapioca,3073,Ezhamkulam,32,Kerala,599,Pathanamthitta,Other,2800,3000,3000,29652.6
+2025-10-22,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,19,28,22,29652.6
+2025-10-22,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1800,2500,2000,29652.6
+2025-10-22,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2600,2500,29652.6
+2025-10-22,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-22,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,4500,5000,4800,29652.6
+2025-10-22,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,3500,3200,29652.6
+2025-10-22,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4000,3000,29652.6
+2025-10-22,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-22,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-22,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2700,2200,29652.6
+2025-10-22,Tapioca,10432,Nedungapra  VFPCK,32,Kerala,595,Ernakulam,Other,1500,1900,1700,29652.6
+2025-10-22,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-22,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,1800,2200,2000,29652.6
+2025-10-22,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1000,1900,1400,29652.6
+2025-10-22,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1600,2000,1800,29652.6
+2025-10-22,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-22,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2800,29652.6
+2025-10-22,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-22,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-22,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-22,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2300,3000,2500,29652.6
+2025-10-22,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2500,2800,2600,29652.6
+2025-10-22,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-22,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-22,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,1700,1900,1800,29652.6
+2025-10-22,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-22,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-22,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-22,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2500,2900,2700,29652.6
+2025-10-22,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-22,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2400,2600,2500,29652.6
+2025-10-22,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2700,2800,2800,29652.6
+2025-10-22,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-22,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-22,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2600,3200,2800,29652.6
+2025-10-21,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-21,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-21,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-21,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,3500,29652.6
+2025-10-21,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4300,5000,4600,29652.6
+2025-10-21,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,2800,3000,2800,29652.6
+2025-10-21,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-21,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-21,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-21,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2500,2700,2600,29652.6
+2025-10-21,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,5090,5500,5200,29652.6
+2025-10-21,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-21,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-21,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-21,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,3500,3200,29652.6
+2025-10-21,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4400,4000,29652.6
+2025-10-21,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-21,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-21,Tapioca,1122,Thodupuzha,32,Kerala,596,Idukki,Other,2500,2700,2700,29652.6
+2025-10-21,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-21,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1500,1900,1800,29652.6
+2025-10-21,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1700,1900,1800,29652.6
+2025-10-21,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-21,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-21,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-21,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-21,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-21,Tapioca,135,Moovattupuzha,32,Kerala,595,Ernakulam,Tapioca,2000,2400,2200,29652.6
+2025-10-21,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-21,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2100,3000,2600,29652.6
+2025-10-21,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2000,3000,3000,29652.6
+2025-10-21,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2500,2800,2600,29652.6
+2025-10-21,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-21,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-21,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,1700,1900,1800,29652.6
+2025-10-21,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-21,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-21,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-21,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,3000,3400,3200,29652.6
+2025-10-21,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-21,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-21,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-21,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2500,4000,3250,29652.6
+2025-10-20,Tapioca,10425,Thottuva  VFPCK,32,Kerala,597,Kottayam,Other,2000,2000,2000,29652.6
+2025-10-20,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,2800,3000,2800,29652.6
+2025-10-20,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-20,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-20,Tapioca,10397,Nedumpaikulam  VFPCK,32,Kerala,600,Kollam,Tapioca,2000,2500,2200,29652.6
+2025-10-20,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-20,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2600,2800,2700,29652.6
+2025-10-20,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,5000,5500,5200,29652.6
+2025-10-20,Tapioca,10407,Pallikkal  VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,1500,3000,2000,29652.6
+2025-10-20,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-20,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3000,2800,29652.6
+2025-10-20,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,4100,4500,4300,29652.6
+2025-10-20,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,18,22,20,29652.6
+2025-10-20,Tapioca,10412,Cheriyanadu  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1500,2500,2000,29652.6
+2025-10-20,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-20,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2000,3500,2500,29652.6
+2025-10-20,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4000,3500,29652.6
+2025-10-20,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-20,Tapioca,1122,Thodupuzha,32,Kerala,596,Idukki,Other,2600,2800,2800,29652.6
+2025-10-20,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1000,1900,1500,29652.6
+2025-10-20,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-20,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-20,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-20,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-20,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2800,3200,3000,29652.6
+2025-10-20,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2500,2700,2600,29652.6
+2025-10-20,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1100,1100,1100,29652.6
+2025-10-20,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-10-20,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-19,Tapioca,10473,Mattannur  VFPCK,32,Kerala,589,Kannur,Tapioca,3000,3000,3000,29652.6
+2025-10-19,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2300,2500,2400,29652.6
+2025-10-19,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-19,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-19,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-19,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2600,2800,2700,29652.6
+2025-10-19,Tapioca,10678,THENGAMAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,3100,4100,3500,29652.6
+2025-10-19,Tapioca,10674,KODUMON VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2000,2300,2200,29652.6
+2025-10-19,Tapioca,10673,EZHAMKULAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,1900,2200,2000,29652.6
+2025-10-19,Tapioca,10672,CHITTAR  VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2700,3200,3000,29652.6
+2025-10-19,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1500,2200,1800,29652.6
+2025-10-19,Tapioca,10415,Thazhakkara  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2600,3000,2800,29652.6
+2025-10-19,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-19,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2300,2500,2400,29652.6
+2025-10-19,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-19,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-19,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-19,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-19,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-10-19,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3600,3200,29652.6
+2025-10-19,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2200,2100,29652.6
+2025-10-19,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,800,1900,1500,29652.6
+2025-10-19,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1800,2100,2000,29652.6
+2025-10-19,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-19,Tapioca,2365,Irinjalakkuda,32,Kerala,594,Thrissur,Other,2500,3000,3000,29652.6
+2025-10-19,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,1700,1900,1800,29652.6
+2025-10-19,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-18,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3600,3200,29652.6
+2025-10-18,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-18,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2200,2800,2500,29652.6
+2025-10-18,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,5000,5000,29652.6
+2025-10-18,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,3500,29652.6
+2025-10-18,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4300,5000,4700,29652.6
+2025-10-18,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,2800,3000,2800,29652.6
+2025-10-18,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-18,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,4000,4000,29652.6
+2025-10-18,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-18,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,3600,3800,3700,29652.6
+2025-10-18,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,5000,5500,5200,29652.6
+2025-10-18,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-18,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,3000,3200,3000,29652.6
+2025-10-18,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,4100,4500,4300,29652.6
+2025-10-18,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,18,22,20,29652.6
+2025-10-18,Tapioca,10681,NOORANAD VFPCK,32,Kerala,598,Alappuzha,Tapioca,2500,2500,2500,29652.6
+2025-10-18,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1000,2500,2200,29652.6
+2025-10-18,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2700,2500,29652.6
+2025-10-18,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2400,2700,2500,29652.6
+2025-10-18,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-18,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,3500,3000,29652.6
+2025-10-18,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3500,4400,4000,29652.6
+2025-10-18,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-18,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-18,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-18,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2300,29652.6
+2025-10-18,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-18,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2000,2000,29652.6
+2025-10-18,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,600,1900,1500,29652.6
+2025-10-18,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1800,2000,1900,29652.6
+2025-10-18,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2800,29652.6
+2025-10-18,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-18,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-18,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-18,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-18,Tapioca,2365,Irinjalakkuda,32,Kerala,594,Thrissur,Other,2500,2500,2500,29652.6
+2025-10-18,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2400,2500,2500,29652.6
+2025-10-18,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-18,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-18,Tapioca,8305,Kizhakkancheri VFPCK,32,Kerala,593,Palakkad,Tapioca,2500,2500,2500,29652.6
+2025-10-18,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-18,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2500,3000,2800,29652.6
+2025-10-18,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2800,3200,3000,29652.6
+2025-10-18,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-18,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-18,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-18,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-18,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2500,4000,3250,29652.6
+2025-10-17,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,3000,4000,3500,29652.6
+2025-10-17,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,5000,5000,29652.6
+2025-10-17,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,3500,29652.6
+2025-10-17,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-17,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-17,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,2800,3000,2800,29652.6
+2025-10-17,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-17,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-17,Tapioca,1121,Anyara(EEC),32,Kerala,601,Thiruvananthapuram,Tapioca,2400,2500,2500,29652.6
+2025-10-17,Tapioca,146,Nedumangadu,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,2600,2600,29652.6
+2025-10-17,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-17,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2700,2900,2800,29652.6
+2025-10-17,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,5000,5500,5200,29652.6
+2025-10-17,Tapioca,10676,PANDALAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2200,2600,2500,29652.6
+2025-10-17,Tapioca,10409,Pandalam Thekkekkara  VFPCK,32,Kerala,599,Pathanamthitta,Other,2900,3100,3000,29652.6
+2025-10-17,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-17,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,4100,4500,4300,29652.6
+2025-10-17,Tapioca,2150,Pandalam,32,Kerala,599,Pathanamthitta,Tapioca,4000,5000,4000,29652.6
+2025-10-17,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,15,22,18,29652.6
+2025-10-17,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1500,2200,2000,29652.6
+2025-10-17,Tapioca,10413,Pandanadu  VFPCK,32,Kerala,598,Alappuzha,Other,1000,2200,1500,29652.6
+2025-10-17,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-17,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-17,Tapioca,2360,Ettumanoor,32,Kerala,597,Kottayam,Tapioca,2600,3000,2800,29652.6
+2025-10-17,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,3500,3200,29652.6
+2025-10-17,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4400,4000,29652.6
+2025-10-17,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-17,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-17,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-10-17,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-17,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3600,4500,3800,29652.6
+2025-10-17,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2000,2000,29652.6
+2025-10-17,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,600,1900,1500,29652.6
+2025-10-17,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1800,2000,1900,29652.6
+2025-10-17,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-17,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-17,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-17,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-17,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-17,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2000,3000,3000,29652.6
+2025-10-17,Tapioca,2365,Irinjalakkuda,32,Kerala,594,Thrissur,Other,2500,2500,2500,29652.6
+2025-10-17,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-17,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2800,29652.6
+2025-10-17,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-17,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,2000,2200,2100,29652.6
+2025-10-17,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-17,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-17,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-17,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2400,2800,2600,29652.6
+2025-10-17,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-17,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2600,2800,2700,29652.6
+2025-10-17,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1200,1200,1200,29652.6
+2025-10-17,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-10-17,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-17,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-17,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-16,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-16,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-16,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-16,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4400,5000,4600,29652.6
+2025-10-16,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,2800,3000,2800,29652.6
+2025-10-16,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-16,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,4000,4000,29652.6
+2025-10-16,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-16,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3000,3500,3200,29652.6
+2025-10-16,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,3000,3200,3200,29652.6
+2025-10-16,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,3600,4000,3800,29652.6
+2025-10-16,Tapioca,538,Parakkodu,32,Kerala,599,Pathanamthitta,Tapioca,5000,6000,5500,29652.6
+2025-10-16,Tapioca,10681,NOORANAD VFPCK,32,Kerala,598,Alappuzha,Tapioca,2200,2200,2200,29652.6
+2025-10-16,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2000,2500,2200,29652.6
+2025-10-16,Tapioca,10412,Cheriyanadu  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1500,2500,2000,29652.6
+2025-10-16,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-16,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-16,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,3500,3000,29652.6
+2025-10-16,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-16,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-16,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2300,29652.6
+2025-10-16,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-16,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,4200,5200,4400,29652.6
+2025-10-16,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2000,2000,29652.6
+2025-10-16,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,900,2000,1600,29652.6
+2025-10-16,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1800,2100,2000,29652.6
+2025-10-16,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-16,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-16,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-16,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-16,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-16,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-16,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-16,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-16,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-16,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-16,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-16,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-16,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2500,2900,2700,29652.6
+2025-10-16,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-16,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-16,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2500,2700,2600,29652.6
+2025-10-16,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-10-16,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-16,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-15,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,3000,4000,3500,29652.6
+2025-10-15,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2000,2800,2500,29652.6
+2025-10-15,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-15,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,3500,29652.6
+2025-10-15,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-15,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,2800,3000,2800,29652.6
+2025-10-15,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-15,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,4000,4000,29652.6
+2025-10-15,Tapioca,146,Nedumangadu,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,2600,2500,29652.6
+2025-10-15,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3000,3500,3200,29652.6
+2025-10-15,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2600,2800,2700,29652.6
+2025-10-15,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,4000,4500,4200,29652.6
+2025-10-15,Tapioca,10675,NEDUMBRAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2700,2900,2800,29652.6
+2025-10-15,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-15,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3000,3000,29652.6
+2025-10-15,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,4100,4500,4300,29652.6
+2025-10-15,Tapioca,3073,Ezhamkulam,32,Kerala,599,Pathanamthitta,Other,2800,3000,3000,29652.6
+2025-10-15,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,20,24,22,29652.6
+2025-10-15,Tapioca,10681,NOORANAD VFPCK,32,Kerala,598,Alappuzha,Tapioca,2200,2200,2200,29652.6
+2025-10-15,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1800,2700,2200,29652.6
+2025-10-15,Tapioca,10414,Vallikunnam  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1500,2200,2000,29652.6
+2025-10-15,Tapioca,10413,Pandanadu  VFPCK,32,Kerala,598,Alappuzha,Other,1500,2500,2000,29652.6
+2025-10-15,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2700,2600,29652.6
+2025-10-15,Tapioca,10694,VAKATHANAM VFPCK,32,Kerala,597,Kottayam,Tapioca,2700,3000,3000,29652.6
+2025-10-15,Tapioca,10689,KAITHEPALAM VFPCK,32,Kerala,597,Kottayam,Tapioca,2200,2200,2200,29652.6
+2025-10-15,Tapioca,10420,Vayala  VFPCK,32,Kerala,597,Kottayam,Tapioca,2000,2000,2000,29652.6
+2025-10-15,Tapioca,10418,Kuriem  VFPCK,32,Kerala,597,Kottayam,Tapioca,2000,2000,2000,29652.6
+2025-10-15,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-15,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-15,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-15,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-10-15,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2300,29652.6
+2025-10-15,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-15,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3600,3200,29652.6
+2025-10-15,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,900,1800,1500,29652.6
+2025-10-15,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-15,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-15,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-15,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-15,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-15,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-15,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2200,3000,2500,29652.6
+2025-10-15,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,3000,4000,4000,29652.6
+2025-10-15,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2400,2500,2500,29652.6
+2025-10-15,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-15,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-15,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-15,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-15,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-15,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2500,2900,2700,29652.6
+2025-10-15,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-15,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-15,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2500,2700,2600,29652.6
+2025-10-15,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1200,1400,1200,29652.6
+2025-10-15,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-10-15,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-15,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-15,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-15,Tapioca,10401,Nedumpana  VFPCK,32,Kerala,600,Kollam,Tapioca,2200,2200,2200,29652.6
+2025-10-14,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-14,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,3000,4000,3500,29652.6
+2025-10-14,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-14,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-14,Tapioca,10473,Mattannur  VFPCK,32,Kerala,589,Kannur,Other,2800,3000,2900,29652.6
+2025-10-14,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-14,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-10-14,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1000,1000,1000,29652.6
+2025-10-14,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2400,2600,2500,29652.6
+2025-10-14,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-14,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-14,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2500,2900,2700,29652.6
+2025-10-14,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-14,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-14,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-14,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-14,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2500,2800,2600,29652.6
+2025-10-14,Tapioca,2364,Chalakudy,32,Kerala,594,Thrissur,Other,2300,3000,3000,29652.6
+2025-10-14,Tapioca,2365,Irinjalakkuda,32,Kerala,594,Thrissur,Other,2500,2500,2500,29652.6
+2025-10-14,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2000,3000,3000,29652.6
+2025-10-14,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2200,3000,2600,29652.6
+2025-10-14,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-14,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-14,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-14,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-14,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-14,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1500,1700,1600,29652.6
+2025-10-14,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2200,2100,29652.6
+2025-10-14,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3600,3200,29652.6
+2025-10-14,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-14,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2300,29652.6
+2025-10-14,Tapioca,2153,Munnar,32,Kerala,596,Idukki,Tapioca,4000,4800,4500,29652.6
+2025-10-14,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-14,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-14,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4000,3500,29652.6
+2025-10-14,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,3500,3200,29652.6
+2025-10-14,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-14,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-14,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2500,2700,2600,29652.6
+2025-10-14,Tapioca,10681,NOORANAD VFPCK,32,Kerala,598,Alappuzha,Tapioca,2200,3900,2500,29652.6
+2025-10-14,Tapioca,538,Parakkodu,32,Kerala,599,Pathanamthitta,Tapioca,5000,5500,5500,29652.6
+2025-10-14,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,3600,4000,3800,29652.6
+2025-10-14,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3200,3000,29652.6
+2025-10-14,Tapioca,8306,Puramattom VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,3200,3200,3200,29652.6
+2025-10-14,Tapioca,10409,Pandalam Thekkekkara  VFPCK,32,Kerala,599,Pathanamthitta,Other,2500,2500,2500,29652.6
+2025-10-14,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,4000,4500,4200,29652.6
+2025-10-14,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,3200,3400,3300,29652.6
+2025-10-14,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3500,3500,3500,29652.6
+2025-10-14,Tapioca,1121,Anyara(EEC),32,Kerala,601,Thiruvananthapuram,Tapioca,2400,2500,2500,29652.6
+2025-10-14,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,4000,4000,29652.6
+2025-10-14,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-14,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,2800,3000,2800,29652.6
+2025-10-14,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-14,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,2700,3000,3000,29652.6
+2025-10-14,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-14,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-13,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2600,4000,3300,29652.6
+2025-10-13,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-13,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2000,2800,2500,29652.6
+2025-10-13,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-13,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,3500,29652.6
+2025-10-13,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-13,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,3000,2500,29652.6
+2025-10-13,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,4000,4000,29652.6
+2025-10-13,Tapioca,146,Nedumangadu,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,2600,2500,29652.6
+2025-10-13,Tapioca,10397,Nedumpaikulam  VFPCK,32,Kerala,600,Kollam,Tapioca,2200,2500,2400,29652.6
+2025-10-13,Tapioca,3074,Chathanoor,32,Kerala,600,Kollam,Other,2600,3000,2800,29652.6
+2025-10-13,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,3300,3500,3400,29652.6
+2025-10-13,Tapioca,10409,Pandalam Thekkekkara  VFPCK,32,Kerala,599,Pathanamthitta,Other,2500,2500,2500,29652.6
+2025-10-13,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-13,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,2900,3300,3100,29652.6
+2025-10-13,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,20,28,25,29652.6
+2025-10-13,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2000,2800,2500,29652.6
+2025-10-13,Tapioca,10412,Cheriyanadu  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1500,2500,2000,29652.6
+2025-10-13,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2700,2500,29652.6
+2025-10-13,Tapioca,10426,Vempally  VFPCK,32,Kerala,597,Kottayam,Tapioca,2200,2300,2200,29652.6
+2025-10-13,Tapioca,10418,Kuriem  VFPCK,32,Kerala,597,Kottayam,Tapioca,2000,2000,2000,29652.6
+2025-10-13,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-13,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,3600,3200,29652.6
+2025-10-13,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4000,3500,29652.6
+2025-10-13,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-13,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-13,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-13,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2300,29652.6
+2025-10-13,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-13,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3600,3200,29652.6
+2025-10-13,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2500,2200,29652.6
+2025-10-13,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,800,1700,1400,29652.6
+2025-10-13,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1500,1700,1600,29652.6
+2025-10-13,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-13,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-13,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-13,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-13,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-13,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-13,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-13,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-13,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-13,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-13,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1600,1800,1700,29652.6
+2025-10-13,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-13,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-13,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-13,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1200,1500,1400,29652.6
+2025-10-13,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-13,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-13,Tapioca,10467,Kunnamangalam  VFPCK,32,Kerala,591,Kozhikode,Tapioca,2500,2500,2500,29652.6
+2025-10-13,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-13,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-12,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-12,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3500,3000,29652.6
+2025-10-12,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-12,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-12,Tapioca,1121,Anyara(EEC),32,Kerala,601,Thiruvananthapuram,Tapioca,2400,2500,2500,29652.6
+2025-10-12,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2500,2700,2600,29652.6
+2025-10-12,Tapioca,8306,Puramattom VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,3200,3200,3200,29652.6
+2025-10-12,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-12,Tapioca,10681,NOORANAD VFPCK,32,Kerala,598,Alappuzha,Tapioca,2500,2500,2500,29652.6
+2025-10-12,Tapioca,10414,Vallikunnam  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1500,2500,2000,29652.6
+2025-10-12,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2200,2600,2400,29652.6
+2025-10-12,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-12,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-12,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2600,29652.6
+2025-10-12,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3500,3200,29652.6
+2025-10-12,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,1800,2200,2000,29652.6
+2025-10-12,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1800,1900,1800,29652.6
+2025-10-12,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-12,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-12,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-12,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1600,1800,1700,29652.6
+2025-10-12,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-12,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-11,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-11,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-11,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2000,2800,2500,29652.6
+2025-10-11,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-11,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3800,4000,4000,29652.6
+2025-10-11,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3500,3000,29652.6
+2025-10-11,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-11,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-11,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2800,3000,2900,29652.6
+2025-10-11,Tapioca,10672,CHITTAR  VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2800,3200,3000,29652.6
+2025-10-11,Tapioca,10410,Kalanjoor  VFPCK,32,Kerala,599,Pathanamthitta,Other,2500,3500,2700,29652.6
+2025-10-11,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-11,Tapioca,4374,Pramadom VFPCK,32,Kerala,599,Pathanamthitta,Other,1500,2600,1900,29652.6
+2025-10-11,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,3000,3200,3000,29652.6
+2025-10-11,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2700,2500,29652.6
+2025-10-11,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2600,3000,2800,29652.6
+2025-10-11,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-11,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-10-11,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2600,29652.6
+2025-10-11,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3600,3200,29652.6
+2025-10-11,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,1800,2200,2000,29652.6
+2025-10-11,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1400,1600,1500,29652.6
+2025-10-11,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-11,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2600,3600,3000,29652.6
+2025-10-11,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-11,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,5000,4000,29652.6
+2025-10-11,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2400,3000,2700,29652.6
+2025-10-11,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2200,3000,3000,29652.6
+2025-10-11,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-11,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-11,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,2100,2300,2200,29652.6
+2025-10-11,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3000,2750,29652.6
+2025-10-11,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-11,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2500,2900,2700,29652.6
+2025-10-11,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-11,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2500,2700,2600,29652.6
+2025-10-11,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-11,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-11,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-11,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-11,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,3000,4000,3500,29652.6
+2025-10-11,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,4500,4000,29652.6
+2025-10-11,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4400,3500,29652.6
+2025-10-11,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-10,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-10,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1600,1800,1700,29652.6
+2025-10-10,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-10,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-10,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2500,2700,2600,29652.6
+2025-10-10,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-10,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-10,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-10,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4300,5000,4600,29652.6
+2025-10-10,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3200,3000,29652.6
+2025-10-10,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3500,4000,4000,29652.6
+2025-10-10,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,3300,3500,3400,29652.6
+2025-10-10,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-10,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-10,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4000,3500,29652.6
+2025-10-10,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2600,29652.6
+2025-10-10,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-10,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1700,1900,1800,29652.6
+2025-10-10,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-10,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-10,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-10,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-10,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-10,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2200,3000,3000,29652.6
+2025-10-10,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-09,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-09,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,3500,29652.6
+2025-10-09,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3800,4000,4000,29652.6
+2025-10-09,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-09,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-09,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-09,Tapioca,10404,Mezhuveli  VFPCK,32,Kerala,599,Pathanamthitta,Other,2000,2500,2400,29652.6
+2025-10-09,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-09,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3000,3000,29652.6
+2025-10-09,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,3000,3400,3200,29652.6
+2025-10-09,Tapioca,538,Parakkodu,32,Kerala,599,Pathanamthitta,Tapioca,5000,6000,5500,29652.6
+2025-10-09,Tapioca,10681,NOORANAD VFPCK,32,Kerala,598,Alappuzha,Tapioca,2500,3000,2500,29652.6
+2025-10-09,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2800,3500,3000,29652.6
+2025-10-09,Tapioca,10415,Thazhakkara  VFPCK,32,Kerala,598,Alappuzha,Tapioca,3000,3000,3000,29652.6
+2025-10-09,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-09,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-09,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,3500,3200,29652.6
+2025-10-09,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4000,3500,29652.6
+2025-10-09,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-09,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-09,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-10-09,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2600,29652.6
+2025-10-09,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-09,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2200,2100,29652.6
+2025-10-09,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1700,1800,1700,29652.6
+2025-10-09,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1100,1300,1200,29652.6
+2025-10-09,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-09,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-09,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-09,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-09,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-09,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-09,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2800,3200,3000,29652.6
+2025-10-09,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2200,3000,3000,29652.6
+2025-10-09,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-09,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,1800,2000,1900,29652.6
+2025-10-09,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-09,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-09,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-09,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-09,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-09,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2600,2800,2700,29652.6
+2025-10-09,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1200,1200,1200,29652.6
+2025-10-09,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-09,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-09,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,3000,4000,3500,29652.6
+2025-10-08,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2500,4000,3250,29652.6
+2025-10-08,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-08,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2200,2800,2500,29652.6
+2025-10-08,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-08,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4500,4000,29652.6
+2025-10-08,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-08,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3200,3000,29652.6
+2025-10-08,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-08,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-08,Tapioca,146,Nedumangadu,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,3000,2500,29652.6
+2025-10-08,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,5000,5500,5200,29652.6
+2025-10-08,Tapioca,10675,NEDUMBRAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2700,2900,2800,29652.6
+2025-10-08,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-08,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3000,3000,29652.6
+2025-10-08,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,25,35,30,29652.6
+2025-10-08,Tapioca,10412,Cheriyanadu  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1500,2500,2000,29652.6
+2025-10-08,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-08,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-08,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4000,3500,29652.6
+2025-10-08,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-08,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-08,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-08,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2600,2400,29652.6
+2025-10-08,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-08,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2200,2100,29652.6
+2025-10-08,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1700,2300,2000,29652.6
+2025-10-08,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1100,1300,1200,29652.6
+2025-10-08,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-08,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2800,29652.6
+2025-10-08,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-08,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3500,4500,4000,29652.6
+2025-10-08,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-08,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-08,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2800,3200,3000,29652.6
+2025-10-08,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-08,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-08,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-08,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-08,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-08,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-08,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-08,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-08,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-08,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2400,2600,2500,29652.6
+2025-10-08,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-08,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-08,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-07,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-07,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-07,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-07,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-07,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4600,29652.6
+2025-10-07,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3200,3000,29652.6
+2025-10-07,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-07,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3000,3500,3200,29652.6
+2025-10-07,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2600,2800,2700,29652.6
+2025-10-07,Tapioca,10404,Mezhuveli  VFPCK,32,Kerala,599,Pathanamthitta,Other,2000,3500,2700,29652.6
+2025-10-07,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-07,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3000,2800,29652.6
+2025-10-07,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,4100,4500,4300,29652.6
+2025-10-07,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2700,2500,29652.6
+2025-10-07,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2400,2700,2500,29652.6
+2025-10-07,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-07,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,3500,3000,29652.6
+2025-10-07,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,3500,3500,29652.6
+2025-10-07,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-07,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-10-07,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-07,Tapioca,2153,Munnar,32,Kerala,596,Idukki,Tapioca,4500,6000,5000,29652.6
+2025-10-07,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2600,2400,29652.6
+2025-10-07,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-07,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3600,3200,29652.6
+2025-10-07,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2200,2100,29652.6
+2025-10-07,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1700,2300,2000,29652.6
+2025-10-07,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2800,29652.6
+2025-10-07,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-07,Tapioca,135,Moovattupuzha,32,Kerala,595,Ernakulam,Tapioca,2100,2400,2300,29652.6
+2025-10-07,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-07,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2800,3200,3000,29652.6
+2025-10-07,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-07,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2400,2700,2500,29652.6
+2025-10-07,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-07,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-07,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-07,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-07,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-07,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2500,2900,2700,29652.6
+2025-10-07,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-07,Tapioca,10473,Mattannur  VFPCK,32,Kerala,589,Kannur,Tapioca,3000,3000,3000,29652.6
+2025-10-07,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-07,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2500,4000,3250,29652.6
+2025-10-06,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-06,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-06,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2200,2800,2500,29652.6
+2025-10-06,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-06,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,4000,4500,4000,29652.6
+2025-10-06,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-06,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-06,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3200,3000,29652.6
+2025-10-06,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-06,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-06,Tapioca,146,Nedumangadu,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,2600,2600,29652.6
+2025-10-06,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2600,2800,2700,29652.6
+2025-10-06,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,4000,4500,4200,29652.6
+2025-10-06,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2600,3000,2800,29652.6
+2025-10-06,Tapioca,3073,Ezhamkulam,32,Kerala,599,Pathanamthitta,Other,2800,3000,3000,29652.6
+2025-10-06,Tapioca,538,Parakkodu,32,Kerala,599,Pathanamthitta,Tapioca,5000,5500,5500,29652.6
+2025-10-06,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,26,30,28,29652.6
+2025-10-06,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2000,2800,2500,29652.6
+2025-10-06,Tapioca,10415,Thazhakkara  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2600,3900,2800,29652.6
+2025-10-06,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2700,2500,29652.6
+2025-10-06,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-06,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,3500,3000,29652.6
+2025-10-06,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-06,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-06,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2600,2400,29652.6
+2025-10-06,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,3000,4000,3500,29652.6
+2025-10-06,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-06,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3600,3200,29652.6
+2025-10-06,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2200,2100,29652.6
+2025-10-06,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1700,2300,2000,29652.6
+2025-10-06,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-06,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-06,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-06,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-06,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-06,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-06,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2200,3000,3000,29652.6
+2025-10-06,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-06,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-06,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-06,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-06,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-06,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2500,2900,2700,29652.6
+2025-10-06,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-06,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-06,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2400,2600,2500,29652.6
+2025-10-06,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-06,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1100,1200,1200,29652.6
+2025-10-06,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-06,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-05,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-05,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-05,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3500,3000,29652.6
+2025-10-05,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-05,Tapioca,10397,Nedumpaikulam  VFPCK,32,Kerala,600,Kollam,Tapioca,2200,2600,2400,29652.6
+2025-10-05,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2700,2900,2800,29652.6
+2025-10-05,Tapioca,10409,Pandalam Thekkekkara  VFPCK,32,Kerala,599,Pathanamthitta,Other,2500,3000,2800,29652.6
+2025-10-05,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2000,3000,2600,29652.6
+2025-10-05,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2600,2500,29652.6
+2025-10-05,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2600,2900,2700,29652.6
+2025-10-05,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-05,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2800,29652.6
+2025-10-05,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1700,2300,2000,29652.6
+2025-10-05,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1200,1400,1300,29652.6
+2025-10-05,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-05,Tapioca,4381,Pariyaram VFPCK,32,Kerala,594,Thrissur,Other,1000,2500,1940,29652.6
+2025-10-05,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-05,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-05,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1000,1200,1100,29652.6
+2025-10-05,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-05,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-05,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-04,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,3000,4000,3500,29652.6
+2025-10-04,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-04,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-04,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-04,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4300,5000,4700,29652.6
+2025-10-04,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3500,3000,29652.6
+2025-10-04,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-04,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3000,3500,3500,29652.6
+2025-10-04,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,3500,3700,3600,29652.6
+2025-10-04,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,5000,5500,5200,29652.6
+2025-10-04,Tapioca,10676,PANDALAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2400,2600,2500,29652.6
+2025-10-04,Tapioca,10675,NEDUMBRAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,1900,1900,1900,29652.6
+2025-10-04,Tapioca,10674,KODUMON VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2000,2300,2200,29652.6
+2025-10-04,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3200,3000,29652.6
+2025-10-04,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,3000,3400,3200,29652.6
+2025-10-04,Tapioca,10415,Thazhakkara  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2000,3000,2600,29652.6
+2025-10-04,Tapioca,10414,Vallikunnam  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1500,2300,1800,29652.6
+2025-10-04,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2500,2800,2600,29652.6
+2025-10-04,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-04,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,4600,4000,29652.6
+2025-10-04,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-04,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-10-04,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-04,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2800,29652.6
+2025-10-04,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-04,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,4000,4500,4200,29652.6
+2025-10-04,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2000,2000,29652.6
+2025-10-04,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1700,1800,1800,29652.6
+2025-10-04,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1200,1400,1300,29652.6
+2025-10-04,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-04,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-04,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-04,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-04,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-04,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2800,3200,3000,29652.6
+2025-10-04,Tapioca,2366,Chavakkad,32,Kerala,594,Thrissur,Other,2200,3000,3000,29652.6
+2025-10-04,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-04,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-04,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-04,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-04,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2800,3200,3000,29652.6
+2025-10-04,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-04,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2500,2700,2600,29652.6
+2025-10-04,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-04,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-10-04,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-04,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-03,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3500,3500,3500,29652.6
+2025-10-03,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-10-03,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2000,2800,2500,29652.6
+2025-10-03,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,4000,4000,4000,29652.6
+2025-10-03,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,4000,4500,4500,29652.6
+2025-10-03,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-03,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-10-03,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3500,3000,29652.6
+2025-10-03,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-03,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-03,Tapioca,146,Nedumangadu,32,Kerala,601,Thiruvananthapuram,Tapioca,2500,2600,2600,29652.6
+2025-10-03,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,3600,3800,3700,29652.6
+2025-10-03,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-03,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3200,3000,29652.6
+2025-10-03,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,3600,4000,3800,29652.6
+2025-10-03,Tapioca,10413,Pandanadu  VFPCK,32,Kerala,598,Alappuzha,Other,2000,2500,2200,29652.6
+2025-10-03,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2600,2900,2700,29652.6
+2025-10-03,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-03,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,3500,3200,29652.6
+2025-10-03,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3500,4400,4000,29652.6
+2025-10-03,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-10-03,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-03,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-10-03,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2800,29652.6
+2025-10-03,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-03,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3500,3200,29652.6
+2025-10-03,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2000,2000,29652.6
+2025-10-03,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1700,1800,1800,29652.6
+2025-10-03,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1200,1400,1300,29652.6
+2025-10-03,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-10-03,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-10-03,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-03,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-10-03,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-10-03,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2800,3200,3000,29652.6
+2025-10-03,Tapioca,10710,KADUKUTTY VFPCK,32,Kerala,594,Thrissur,Other,700,1100,900,29652.6
+2025-10-03,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2600,2800,2700,29652.6
+2025-10-03,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-03,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-03,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-03,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2000,2400,2200,29652.6
+2025-10-03,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-03,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-10-03,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1100,1100,1100,29652.6
+2025-10-03,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-03,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-03,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-03,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,3000,4000,3500,29652.6
+2025-10-02,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-10-02,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2600,4000,3300,29652.6
+2025-10-02,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-02,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,3300,3500,3400,29652.6
+2025-10-02,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,5000,5500,5200,29652.6
+2025-10-02,Tapioca,4374,Pramadom VFPCK,32,Kerala,599,Pathanamthitta,Other,2000,2200,2000,29652.6
+2025-10-02,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,3000,3200,3000,29652.6
+2025-10-02,Tapioca,538,Parakkodu,32,Kerala,599,Pathanamthitta,Tapioca,5000,5500,5500,29652.6
+2025-10-02,Tapioca,10683,CHENNITHALA VFPCK,32,Kerala,598,Alappuzha,Tapioca,2500,3000,2700,29652.6
+2025-10-02,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,25,27,26,29652.6
+2025-10-02,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2000,2800,2500,29652.6
+2025-10-02,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2600,2500,29652.6
+2025-10-02,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-02,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3500,4500,4000,29652.6
+2025-10-02,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3500,4400,4000,29652.6
+2025-10-02,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-10-02,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2800,29652.6
+2025-10-02,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2200,2100,29652.6
+2025-10-02,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1200,1400,1300,29652.6
+2025-10-02,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-02,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-02,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-02,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-10-02,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-10-02,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-02,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-10-02,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-02,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,3000,3400,3200,29652.6
+2025-10-02,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2400,2600,2500,29652.6
+2025-10-02,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2900,3000,3000,29652.6
+2025-10-02,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-10-01,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-10-01,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,3000,4000,3500,29652.6
+2025-10-01,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-10-01,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-10-01,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2700,2900,2800,29652.6
+2025-10-01,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-10-01,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3000,3000,29652.6
+2025-10-01,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,26,30,28,29652.6
+2025-10-01,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2600,3000,2800,29652.6
+2025-10-01,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2600,3000,2800,29652.6
+2025-10-01,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-10-01,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,2500,4000,3500,29652.6
+2025-10-01,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3500,4400,4000,29652.6
+2025-10-01,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2800,29652.6
+2025-10-01,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2200,2100,29652.6
+2025-10-01,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1000,1800,1500,29652.6
+2025-10-01,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1200,1400,1300,29652.6
+2025-10-01,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-10-01,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-10-01,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2000,3500,2800,29652.6
+2025-10-01,Tapioca,2365,Irinjalakkuda,32,Kerala,594,Thrissur,Other,3000,3000,3000,29652.6
+2025-10-01,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-10-01,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-10-01,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1600,1800,1700,29652.6
+2025-10-01,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-10-01,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,3000,3400,3200,29652.6
+2025-10-01,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2400,2600,2500,29652.6
+2025-10-01,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-09-30,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-09-30,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-09-30,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4300,5000,4700,29652.6
+2025-09-30,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-09-30,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2600,2800,2700,29652.6
+2025-09-30,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,4000,4500,4200,29652.6
+2025-09-30,Tapioca,10678,THENGAMAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,3000,4000,3500,29652.6
+2025-09-30,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-09-30,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,3000,3200,3000,29652.6
+2025-09-30,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2600,2500,29652.6
+2025-09-30,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2700,3000,2800,29652.6
+2025-09-30,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-09-30,Tapioca,3083,Kattappana,32,Kerala,596,Idukki,Other,3500,3500,3500,29652.6
+2025-09-30,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-09-30,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3800,3800,3800,29652.6
+2025-09-30,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,4000,4000,4000,29652.6
+2025-09-30,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2800,29652.6
+2025-09-30,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,2000,2200,2100,29652.6
+2025-09-30,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,900,1700,1500,29652.6
+2025-09-30,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-09-30,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2700,29652.6
+2025-09-30,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-09-30,Tapioca,2365,Irinjalakkuda,32,Kerala,594,Thrissur,Other,3000,3000,3000,29652.6
+2025-09-30,Tapioca,2364,Chalakudy,32,Kerala,594,Thrissur,Other,2400,3200,3200,29652.6
+2025-09-30,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-09-30,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-09-30,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1300,1500,1400,29652.6
+2025-09-30,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-09-30,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,3000,3400,3200,29652.6
+2025-09-30,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2700,3100,2900,29652.6
+2025-09-30,Tapioca,3091,Kondotty,32,Kerala,592,Malappuram,Other,2400,2600,2500,29652.6
+2025-09-30,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-09-30,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-09-30,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-09-30,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2600,4000,3300,29652.6
+2025-09-29,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2600,4000,3300,29652.6
+2025-09-29,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3500,3500,29652.6
+2025-09-29,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-09-29,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4500,5000,4700,29652.6
+2025-09-29,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-09-29,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-09-29,Tapioca,10397,Nedumpaikulam  VFPCK,32,Kerala,600,Kollam,Other,2200,2700,2500,29652.6
+2025-09-29,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3500,4000,4000,29652.6
+2025-09-29,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,4000,4500,4200,29652.6
+2025-09-29,Tapioca,10675,NEDUMBRAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,1900,1900,1900,29652.6
+2025-09-29,Tapioca,10673,EZHAMKULAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2500,3500,3000,29652.6
+2025-09-29,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3200,3000,29652.6
+2025-09-29,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,2900,3300,3100,29652.6
+2025-09-29,Tapioca,3073,Ezhamkulam,32,Kerala,599,Pathanamthitta,Other,2800,3000,3000,29652.6
+2025-09-29,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,23,28,26,29652.6
+2025-09-29,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2500,2800,2600,29652.6
+2025-09-29,Tapioca,10412,Cheriyanadu  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1200,3000,2200,29652.6
+2025-09-29,Tapioca,3079,Thalayolaparambu,32,Kerala,597,Kottayam,Tapioca,2600,3000,2800,29652.6
+2025-09-29,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-09-29,Tapioca,2360,Ettumanoor,32,Kerala,597,Kottayam,Tapioca,2400,2600,2500,29652.6
+2025-09-29,Tapioca,2359,Pampady,32,Kerala,597,Kottayam,Tapioca,3000,4600,4000,29652.6
+2025-09-29,Tapioca,3082,Nedumkandam,32,Kerala,596,Idukki,Other,3000,3000,3000,29652.6
+2025-09-29,Tapioca,3081,Vandiperiyar,32,Kerala,596,Idukki,Other,3600,3600,3600,29652.6
+2025-09-29,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2800,29652.6
+2025-09-29,Tapioca,10703,KARUMALOOR VFPCK,32,Kerala,595,Ernakulam,Tapioca,1400,1800,1600,29652.6
+2025-09-29,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-09-29,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3500,3200,29652.6
+2025-09-29,Tapioca,4380,Keezhampara VFPCK,32,Kerala,595,Ernakulam,Other,1800,2100,2000,29652.6
+2025-09-29,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,800,1700,1400,29652.6
+2025-09-29,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1300,1500,1400,29652.6
+2025-09-29,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,1500,2500,2000,29652.6
+2025-09-29,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2200,3200,2800,29652.6
+2025-09-29,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-09-29,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-09-29,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3300,29652.6
+2025-09-29,Tapioca,10717,VELOORKKARA VFPCK,32,Kerala,594,Thrissur,Other,1000,1800,1500,29652.6
+2025-09-29,Tapioca,4383,Mattathur VFPCK,32,Kerala,594,Thrissur,Tapioca,1500,2500,2000,29652.6
+2025-09-29,Tapioca,2364,Chalakudy,32,Kerala,594,Thrissur,Other,2500,3000,3000,29652.6
+2025-09-29,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-09-29,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-09-29,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-09-29,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1800,2000,1900,29652.6
+2025-09-29,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-09-29,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,3000,3400,3200,29652.6
+2025-09-29,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2400,2800,2600,29652.6
+2025-09-29,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-09-29,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1100,1100,1100,29652.6
+2025-09-29,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-09-29,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-09-29,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-09-28,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2400,2700,2500,29652.6
+2025-09-28,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-09-28,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3500,3500,29652.6
+2025-09-28,Tapioca,2352,Attingal,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-09-28,Tapioca,2350,Parassala,32,Kerala,601,Thiruvananthapuram,Tapioca,3000,3200,3000,29652.6
+2025-09-28,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-09-28,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-09-28,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3000,3500,3500,29652.6
+2025-09-28,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2500,2700,2600,29652.6
+2025-09-28,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,5000,5500,5200,29652.6
+2025-09-28,Tapioca,10672,CHITTAR  VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2500,3000,2800,29652.6
+2025-09-28,Tapioca,10411,Seethathode  VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2800,3200,3000,29652.6
+2025-09-28,Tapioca,4392,Omalloor,32,Kerala,599,Pathanamthitta,Other,3500,5000,4800,29652.6
+2025-09-28,Tapioca,10412,Cheriyanadu  VFPCK,32,Kerala,598,Alappuzha,Tapioca,1200,2200,1500,29652.6
+2025-09-28,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-09-28,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4000,3500,29652.6
+2025-09-28,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2800,29652.6
+2025-09-28,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3500,3200,29652.6
+2025-09-28,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1600,1800,1700,29652.6
+2025-09-28,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1300,1500,1400,29652.6
+2025-09-28,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-09-28,Tapioca,2156,Angamaly,32,Kerala,595,Ernakulam,Tapioca,2500,3500,3000,29652.6
+2025-09-28,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-09-28,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2400,2600,2500,29652.6
+2025-09-28,Tapioca,10453,Vaniyamkulam  VFPCK,32,Kerala,593,Palakkad,Other,2100,2300,2200,29652.6
+2025-09-28,Tapioca,3086,vadakarapathy,32,Kerala,593,Palakkad,Other,1500,1700,1600,29652.6
+2025-09-28,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-09-28,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,2500,2900,2700,29652.6
+2025-09-28,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6
+2025-09-27,Tapioca,142,Manjeri,32,Kerala,592,Malappuram,Other,2200,2300,2250,29652.6
+2025-09-27,Tapioca,10390,Kovilnada  VFPCK,32,Kerala,601,Thiruvananthapuram,Other,2300,2500,2400,29652.6
+2025-09-27,Tapioca,10387,Neyyattinkara  VFPCK,32,Kerala,601,Thiruvananthapuram,Tapioca,2300,2800,2500,29652.6
+2025-09-27,Tapioca,10329,Balarampuram,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3500,3500,29652.6
+2025-09-27,Tapioca,2377,Vamanapuram,32,Kerala,601,Thiruvananthapuram,Other,3500,4000,4000,29652.6
+2025-09-27,Tapioca,2351,Neyyatinkara,32,Kerala,601,Thiruvananthapuram,Tapioca,4300,5000,4700,29652.6
+2025-09-27,Tapioca,2349,Pothencode,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,3800,3500,29652.6
+2025-09-27,Tapioca,2348,Aralamoodu,32,Kerala,601,Thiruvananthapuram,Tapioca,3500,4000,4000,29652.6
+2025-09-27,Tapioca,3072,Kottarakkara,32,Kerala,600,Kollam,Other,3500,4000,4000,29652.6
+2025-09-27,Tapioca,2353,Anchal,32,Kerala,600,Kollam,Other,2600,2800,2700,29652.6
+2025-09-27,Tapioca,2346,Sasthamkotta,32,Kerala,600,Kollam,Other,5000,5500,5200,29652.6
+2025-09-27,Tapioca,10676,PANDALAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2500,2800,2600,29652.6
+2025-09-27,Tapioca,10674,KODUMON VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2000,2500,2200,29652.6
+2025-09-27,Tapioca,10673,EZHAMKULAM VFPCK,32,Kerala,599,Pathanamthitta,Tapioca,2000,2300,2100,29652.6
+2025-09-27,Tapioca,10409,Pandalam Thekkekkara  VFPCK,32,Kerala,599,Pathanamthitta,Other,2300,3100,2700,29652.6
+2025-09-27,Tapioca,3076,Ranniangadi,32,Kerala,599,Pathanamthitta,Tapioca,2800,3000,2800,29652.6
+2025-09-27,Tapioca,3075,Kuttoor,32,Kerala,599,Pathanamthitta,Other,1100,1500,1300,29652.6
+2025-09-27,Tapioca,10682,THAMARAKKULAM VFPCK,32,Kerala,598,Alappuzha,Other,25,30,28,29652.6
+2025-09-27,Tapioca,2376,Kanjangadu,32,Kerala,588,Kasaragod,Other,2800,3400,3000,29652.6
+2025-09-27,Tapioca,10416,Venmony  VFPCK,32,Kerala,598,Alappuzha,Tapioca,2500,2800,2600,29652.6
+2025-09-27,Tapioca,2164,Madhavapuram,32,Kerala,598,Alappuzha,Other,2300,2500,2400,29652.6
+2025-09-27,Tapioca,2361,Kanjirappally,32,Kerala,597,Kottayam,Tapioca,3500,4000,3800,29652.6
+2025-09-27,Tapioca,2151,Kuruppanthura,32,Kerala,597,Kottayam,Tapioca,3000,4000,3500,29652.6
+2025-09-27,Tapioca,3080,Adimali,32,Kerala,596,Idukki,Tapioca,3500,4000,4000,29652.6
+2025-09-27,Tapioca,10705,POTHANIKKADU VFPCK,32,Kerala,595,Ernakulam,Tapioca,2000,2800,2800,29652.6
+2025-09-27,Tapioca,4391,North Paravur,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-09-27,Tapioca,4390,Broadway market,32,Kerala,595,Ernakulam,Other,3000,3500,3200,29652.6
+2025-09-27,Tapioca,4379,Mazhuvannur VFPCK,32,Kerala,595,Ernakulam,Other,1600,1800,1700,29652.6
+2025-09-27,Tapioca,4378,Koovapadi VFPCK,32,Kerala,595,Ernakulam,Tapioca,1300,1500,1400,29652.6
+2025-09-27,Tapioca,3085,Kothamangalam,32,Kerala,595,Ernakulam,Tapioca,2000,3000,2500,29652.6
+2025-09-27,Tapioca,3084,Perumbavoor,32,Kerala,595,Ernakulam,Tapioca,2300,3000,2800,29652.6
+2025-09-27,Tapioca,2375,Manjeswaram,32,Kerala,588,Kasaragod,Other,2600,4000,3300,29652.6
+2025-09-27,Tapioca,2530,Thrippunithura,32,Kerala,595,Ernakulam,Tapioca,3000,3500,3200,29652.6
+2025-09-27,Tapioca,2347,Piravam,32,Kerala,595,Ernakulam,Other,3000,4000,3500,29652.6
+2025-09-27,Tapioca,138,Payyannur,32,Kerala,589,Kannur,Other,4000,4200,4100,29652.6
+2025-09-27,Tapioca,134,Aluva,32,Kerala,595,Ernakulam,Tapioca,2400,3500,3000,29652.6
+2025-09-27,Tapioca,133,Ernakulam,32,Kerala,595,Ernakulam,Tapioca,2800,3200,3000,29652.6
+2025-09-27,Tapioca,4381,Pariyaram VFPCK,32,Kerala,594,Thrissur,Other,1000,3500,1875,29652.6
+2025-09-27,Tapioca,2365,Irinjalakkuda,32,Kerala,594,Thrissur,Other,3000,3000,3000,29652.6
+2025-09-27,Tapioca,2152,Chelakkara,32,Kerala,594,Thrissur,Other,2800,3000,2900,29652.6
+2025-09-27,Tapioca,148,Kodungalloor,32,Kerala,594,Thrissur,Other,2400,2800,2500,29652.6
+2025-09-27,Tapioca,147,Thrissur,32,Kerala,594,Thrissur,Tapioca,2800,2800,2800,29652.6
+2025-09-27,Tapioca,3087,Vadakkenchery,32,Kerala,593,Palakkad,Other,2500,3500,3000,29652.6
+2025-09-27,Tapioca,2531,Pattambi,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-09-27,Tapioca,2368,Kollengode,32,Kerala,593,Palakkad,Other,3000,3400,3200,29652.6
+2025-09-27,Tapioca,144,Koduvayoor,32,Kerala,593,Palakkad,Other,2600,3000,2800,29652.6
+2025-09-27,Tapioca,143,Palakkad,32,Kerala,593,Palakkad,Tapioca,2000,3000,2600,29652.6
+2025-09-27,Tapioca,3090,Thirurrangadi,32,Kerala,592,Malappuram,Other,1100,1100,1100,29652.6
+2025-09-27,Tapioca,3089,Parappanangadi,32,Kerala,592,Malappuram,Tapioca,2800,2900,2900,29652.6

@@ -11,12 +11,13 @@ env/
 .idea/
 
 # Data and Models
-data/*.csv
-data/New/*.csv
-models/*.json
-models/*.pkl
-*.csv
-*.joblib
+# Commented out so that required data and models are tracked for deployment on Render
+# data/*.csv
+# data/New/*.csv
+# models/*.json
+# models/*.pkl
+# *.csv
+# *.joblib
 scenario_results.csv
 
 # Temporary / Analysis artifacts

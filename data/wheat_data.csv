@@ -1,0 +1,2 @@
+t,cmdty,market_id,market_name,state_id,state_name,district_id,district_name,variety,p_min,p_max,p_modal,yield_kg_per_ha
+2023-12-05,Wheat,2358,Cherthala,32,Kerala,598,Alappuzha,Other,5000,5200,5100,3706.6
