@@ -40,18 +40,21 @@ def add_cors(response):
     return response
 
 
-# ── Lazy-load the heavy recommender so Flask starts fast ────────────────────
+# ── Lazy-load heavy models so Flask starts fast ────────────────────
 _hr_module = None
+_suitability_db = None
 
-def get_recommender():
-    global _hr_module
+def get_models():
+    global _hr_module, _suitability_db
     if _hr_module is None:
         import warnings
         warnings.filterwarnings("ignore")
         import importlib
         import hybrid_recommender as hr
+        import suitability_model
         _hr_module = hr
-    return _hr_module
+        _suitability_db = suitability_model.CropSuitabilityModel()
+    return _hr_module, _suitability_db
 
 
 # ── Helper: run recommender and collect results as a list of dicts ───────────
@@ -65,24 +68,22 @@ def run_recommendation(district: str, budget: float, duration_months: float, soi
     logging.getLogger("cmdstanpy").setLevel(logging.ERROR)
     logging.getLogger("prophet").setLevel(logging.ERROR)
 
-    import data_utils
-    hr = get_recommender()
+    hr, s_db = get_models()
 
-    # 1. Call the Central Source of Truth
-    final_df = hr.hybrid_recommendation(district, budget, duration_months, soil_type)
+    # 1. Call the Central Source of Truth (Pass pre-loaded model for speed)
+    final_df = hr.hybrid_recommendation(district, budget, duration_months, soil_type, suitability_db=s_db)
     
     if final_df is None or final_df.empty:
         return [], {}
 
-    # 2. Extract Weather Info (passed back by hybrid_recommender usually in a global or similar)
-    # For now, we Re-fetch weather context just for the API's top-level weather widget
+    # 2. Use Historical Weather Data (No more live API calls for AI logic)
     import weather_service
-    weather_ctx = weather_service.get_realtime_weather_forecast(district)
+    weather_ctx = weather_service.get_historical_weather_forecast(district)
     weather_info = {
         "season":   weather_ctx.get("season", "N/A"),
-        "avg_temp": round(weather_ctx.get("avg_temp", 0), 1),
-        "avg_rain": round(weather_ctx.get("avg_rain", 0), 1),
-    } if weather_ctx["valid"] else {}
+        "avg_temp": round(weather_ctx.get("avg_temp", 27.5), 1),
+        "avg_rain": round(weather_ctx.get("avg_rain", 5.0), 1),
+    }
 
     # 3. Enrich the Results with extra UI metadata
     results = []

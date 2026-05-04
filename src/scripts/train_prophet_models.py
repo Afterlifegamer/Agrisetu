@@ -33,7 +33,7 @@ CROP_FILES = {
     "Tapioca":   os.path.join(DATA_DIR, "tapioca_data.csv"),
 }
 
-MIN_DAYS_FOR_YEARLY_SEASONALITY = 365   # need ≥ 1 year to learn annual patterns
+MIN_DAYS_FOR_YEARLY_SEASONALITY = 365   
 
 def train_and_save_all_models():
     saved_models = {}

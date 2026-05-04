@@ -77,7 +77,40 @@ def get_realtime_weather_forecast(district_name):
     
     return {"valid": False, "avg_rain": 15.0} # Fallback to moderate
 
-    return {"valid": False, "avg_rain": 15.0} # Fallback to moderate
+def get_historical_weather_forecast(district_name):
+    """
+    Returns average historical weather for the current month.
+    """
+    import datetime
+    current_month = datetime.datetime.now().month
+    
+    if historical_scanner.df is None:
+        return {"valid": False, "avg_rain": 0, "avg_temp": 28, "season": "N/A"}
+        
+    district_data = historical_scanner.df[historical_scanner.df['district'].str.contains(district_name, case=False, na=False)]
+    if district_data.empty:
+        district_data = historical_scanner.df
+        
+    m_data = district_data[district_data['month'] == current_month]
+    if m_data.empty:
+        return {"valid": False, "avg_rain": 0, "avg_temp": 28, "season": "N/A"}
+        
+    avg_temp = m_data['temp_2m_C'].mean()
+    avg_rain = m_data['rain_mm'].mean()
+    
+    if avg_rain > 10:
+        current_season = "Monsoon"
+    elif avg_rain > 2:
+        current_season = "Post-Monsoon"
+    else:
+        current_season = "Summer/Dry"
+        
+    return {
+        "avg_temp": avg_temp,
+        "avg_rain": avg_rain,
+        "season": current_season,
+        "valid": True
+    }
 
 class LongTermWeatherScanner:
     def __init__(self, history_file=None):

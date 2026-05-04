@@ -36,7 +36,7 @@ def _load_yield_profiles():
 
 
 
-def hybrid_recommendation(district, max_budget, max_duration_months, soil_type="Loamy"):
+def hybrid_recommendation(district, max_budget, max_duration_months, soil_type="Loamy", suitability_db=None):
     print(f"\n Generating Hybrid Recommendations for: {district}")
     print(f" Budget: ₹{max_budget}/acre |  Max Duration: {max_duration_months} months |  Soil: {soil_type}")
     
@@ -48,8 +48,11 @@ def hybrid_recommendation(district, max_budget, max_duration_months, soil_type="
     if weather_ctx["valid"]:
         print(f"  Live Forecast: {weather_ctx['season']} (Temp: {weather_ctx['avg_temp']:.1f}°C, Rain: {weather_ctx['avg_rain']:.1f}mm)")
     
-    print("... Analyzing soil and weather suitability ...")
-    suitability_db = suitability_model.CropSuitabilityModel()
+    # 1. Use the pre-loaded suitability model for speed (don't recreate)
+    if not suitability_db:
+        from . import suitability_model
+        suitability_db = suitability_model.CropSuitabilityModel()
+    
     import datetime
     current_month = datetime.datetime.now().month
     suitability_df = suitability_db.predict_suitability(district, current_month=current_month)
@@ -167,6 +170,9 @@ def hybrid_recommendation(district, max_budget, max_duration_months, soil_type="
     # Scale from 0.0 to 1.0 so the frontend progress bars (which multiply by 100) render perfectly.
     max_score = raw_hybrid_score.max()
     final_df['hybrid_score'] = raw_hybrid_score.apply(lambda x: max(0.0, x / max_score) if max_score > 0 else 0.0)
+    
+    # NEW: Filter out crops with negative ROI (Protect the farmer from loss)
+    final_df = final_df[final_df['est_roi'] > 0].copy()
     
     # Temporarily excluded crops (remove from list to re-enable)
     EXCLUDED_CROPS = ["Tapioca"]

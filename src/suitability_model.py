@@ -40,7 +40,7 @@ class CropSuitabilityModel:
             self.model = XGBClassifier()
             self.model.load_model(self.model_file)
         else:
-            print("⚠️ Saved model or yield profiles not found. Training from scratch...")
+            print("[WARNING] Saved model or yield profiles not found. Training from scratch...")
             self.train()
             
     def _prepare_mappings(self):
@@ -49,17 +49,36 @@ class CropSuitabilityModel:
         self.crop_data["water_dependency_num"] = self.crop_data["water_dependency"].map(water_map).fillna(2)
         self.crop_data["time_effort_num"] = self.crop_data["time_effort"].map(effort_map).fillna(2)
 
-    def _calculate_suitability(self, row, rainfall):
-        # Fallback expert simulator in case of missing data
-        water_dep = row["water_dependency_num"] if row["water_dependency_num"] > 0 else 2
-        ideal_map  = {1: 2.0, 2: 5.0, 3: 10.0}
-        ideal_rainfall = ideal_map.get(int(water_dep), 5.0)
+    def _calculate_suitability(self, row, rainfall, temp=None, hum=None):
+        """
+        Physics-based suitability logic using expert targets from CSV.
+        """
+        # 1. Rainfall Suitability (Primary)
+        # Use growth_rain as the primary benchmark if available, fallback to legacy water_dep
+        ideal_rainfall = row.get("growth_rain", 150)
+        sigma_rain = ideal_rainfall * 0.4
+        water_score = np.exp(-((rainfall - ideal_rainfall) ** 2) / (2 * (sigma_rain ** 2)))
 
-        sigma = 1.5
-        water_score = np.exp(-((rainfall - ideal_rainfall) ** 2) / (2 * sigma ** 2))
-        effort = row["time_effort_num"] if row["time_effort_num"] > 0 else 1
+        # 2. Temperature Suitability (Secondary)
+        temp_score = 1.0
+        if temp is not None and "growth_temp" in row:
+            ideal_temp = row["growth_temp"]
+            sigma_temp = 5.0 # 5 degree tolerance
+            temp_score = np.exp(-((temp - ideal_temp) ** 2) / (2 * (sigma_temp ** 2)))
+
+        # 3. Humidity Suitability (Tertiary)
+        hum_score = 1.0
+        if hum is not None and "growth_hum" in row:
+            ideal_hum = row["growth_hum"]
+            sigma_hum = 15.0 # 15% tolerance
+            hum_score = np.exp(-((hum - ideal_hum) ** 2) / (2 * (sigma_hum ** 2)))
+
+        # 4. Effort / Logistic Penalty
+        effort = row.get("time_effort_num", 2)
         effort_score = 1.0 / effort
-        suitability = (water_score * 0.70) + (effort_score * 0.30)
+
+        # Weighted Fusion
+        suitability = (water_score * 0.40) + (temp_score * 0.25) + (hum_score * 0.20) + (effort_score * 0.15)
         return suitability
 
     def _get_historical_price(self, crop_name, target_year, target_month):
@@ -121,9 +140,15 @@ class CropSuitabilityModel:
         
         stats = {}
         for phase, phase_months in [("sowing", sowing_months), ("growth", growth_months), ("harvest", harvest_months)]:
+            # Mean (Quantity)
             stats[f"rain_{phase}"] = np.mean([self.climatology_rain.get(m, self.global_avg_rain) for m in phase_months])
             stats[f"temp_{phase}"] = np.mean([self.climatology_temp.get(m, self.global_avg_temp) for m in phase_months])
             stats[f"hum_{phase}"] = np.mean([self.climatology_hum.get(m, self.global_avg_hum) for m in phase_months])
+            
+            # Standard Deviation (Volatility/Consistency)
+            stats[f"rain_std_{phase}"] = np.std([self.climatology_rain.get(m, self.global_avg_rain) for m in phase_months])
+            stats[f"temp_std_{phase}"] = np.std([self.climatology_temp.get(m, self.global_avg_temp) for m in phase_months])
+            stats[f"hum_std_{phase}"] = np.std([self.climatology_hum.get(m, self.global_avg_hum) for m in phase_months])
             
         return stats
 
@@ -155,29 +180,62 @@ class CropSuitabilityModel:
             crop_yields = yield_df[yield_df['Crop'].str.lower() == lookup_name.lower()]
             
          
-            # Convert kg/ha to Quintals/Acre (divide by 247.105)
+            
             prod_col = 'Estimated_Productivity_kg_per_ha'
             if prod_col in crop_yields.columns and not crop_yields[prod_col].dropna().empty:
                 valid_prod = crop_yields[prod_col].dropna()
                 
-                # 10 Continuous-Like Decile Buckets
                 yield_profiles[crop_name] = {}
-                for i in range(10):
-                    percentile = (i + 1) * 0.10  # 0.1 to 1.0
-                    val = valid_prod.quantile(percentile) / 247.105
-                    yield_profiles[crop_name][str(i)] = round(val, 2)
-            else:
-                # Fallback to 10 linear steps (0.5x to 1.5x of baseline)
-                baseline = data_utils.YIELD_ESTIMATES.get(crop_name, 10.0)
-                yield_profiles[crop_name] = {}
-                for i in range(10):
-                    multiplier = 0.5 + (0.111 * i)
-                    yield_profiles[crop_name][str(i)] = round(baseline * multiplier, 2)
                 
-            pos_yields = crop_yields[crop_yields['Monthly_Production_MT'] > 0]['Monthly_Production_MT']
-            deciles = []
-            if not pos_yields.empty:
-                deciles = [pos_yields.quantile((i + 1) * 0.10) for i in range(10)]
+               
+                min_prod = valid_prod.min()
+                max_prod = valid_prod.max()
+                
+                
+                pos_yields = crop_yields[crop_yields['Monthly_Production_MT'] > 0]['Monthly_Production_MT']
+                
+                if max_prod > min_prod * 1.05:
+                    for i in range(10):
+                        percentile = (i + 1) * 0.10
+                        val = valid_prod.quantile(percentile) / 247.105
+                        yield_profiles[crop_name][str(i)] = round(val, 2)
+                elif not pos_yields.empty: 
+                    p10 = pos_yields.quantile(0.10)
+                    p90 = pos_yields.quantile(0.90)
+                    
+                    spread_ratio = (p90 / p10) if p10 > 0 else (p90 / pos_yields.median() if pos_yields.median() > 0 else 1.5)
+                    
+                    # Cap the spread ratio at 2.0x (to prevent crazy hallucinations) and min 1.2x
+                    spread_ratio = max(1.2, min(2.0, spread_ratio))
+                    
+                    avg_val = (valid_prod.mean() / 247.105)
+                    # Center the spread around the average
+                    start_mult = 1.0 / (spread_ratio ** 0.5) # e.g. if spread is 2, start at 0.707
+                    end_mult = spread_ratio ** 0.5            # e.g. if spread is 2, end at 1.414
+                    
+                    for i in range(10):
+                        multiplier = start_mult + ((end_mult - start_mult) * (i / 9.0))
+                        yield_profiles[crop_name][str(i)] = round(avg_val * multiplier, 2)
+                else: # Case C: No data at all, use default +/- 30%
+                    avg_val = (valid_prod.mean() / 247.105)
+                    for i in range(10):
+                        multiplier = 0.7 + (0.066 * i) 
+                        yield_profiles[crop_name][str(i)] = round(avg_val * multiplier, 2)
+                
+                
+                deciles = []
+                if not pos_yields.empty:
+                    avg_volume = pos_yields.mean()
+                    
+                    if 'spread_ratio' in locals():
+                        start_mult = 1.0 / (spread_ratio ** 0.5)
+                        end_mult = spread_ratio ** 0.5
+                        for i in range(10):
+                            multiplier = start_mult + ((end_mult - start_mult) * (i / 9.0))
+                            deciles.append(avg_volume * multiplier)
+                    else:
+                        
+                        deciles = [pos_yields.quantile((i + 1) * 0.10) for i in range(10)]
                 
             for _, y_row in crop_yields.iterrows():
                 harvest_month = int(y_row['Month'])
@@ -208,7 +266,17 @@ class CropSuitabilityModel:
                     "water_dependency_num": row["water_dependency_num"],
                     "time_effort_num": row["time_effort_num"],
                     "price_at_planting": price_at_planting,
-                    "suitability_label": label
+                    "suitability_label": label,
+                    # Expert Targets (Benchmarks)
+                    "target_sowing_temp": row["sowing_temp"],
+                    "target_growth_temp": row["growth_temp"],
+                    "target_harvest_temp": row["harvest_temp"],
+                    "target_sowing_rain": row["sowing_rain"],
+                    "target_growth_rain": row["growth_rain"],
+                    "target_harvest_rain": row["harvest_rain"],
+                    "target_sowing_hum": row["sowing_hum"],
+                    "target_growth_hum": row["growth_hum"],
+                    "target_harvest_hum": row["harvest_hum"]
                 }
                 row_data.update(phase_stats)
                 training_rows.append(row_data)
@@ -225,7 +293,14 @@ class CropSuitabilityModel:
             "rain_sowing", "temp_sowing", "hum_sowing",
             "rain_growth", "temp_growth", "hum_growth",
             "rain_harvest", "temp_harvest", "hum_harvest",
-            "water_dependency_num", "time_effort_num", "price_at_planting"
+            "rain_std_sowing", "temp_std_sowing", "hum_std_sowing",
+            "rain_std_growth", "temp_std_growth", "hum_std_growth",
+            "rain_std_harvest", "temp_std_harvest", "hum_std_harvest",
+            "water_dependency_num", "time_effort_num", "price_at_planting",
+            # New Expert Benchmarks
+            "target_sowing_temp", "target_growth_temp", "target_harvest_temp",
+            "target_sowing_rain", "target_growth_rain", "target_harvest_rain",
+            "target_sowing_hum", "target_growth_hum", "target_harvest_hum"
         ]]
         y = training_data["suitability_label"]
 
@@ -326,8 +401,7 @@ class CropSuitabilityModel:
             
             phase_stats = self._get_phase_stats(current_month, duration_months, direction='forward')
             
-            # THE CONTROL VARIABLE TRICK:
-            # Feed a fake neutral price to force the AI to ignore the Economy.
+           
             baseline_price = data_utils.BASE_PRICES.get(row['crop_name'].title(), 5000)
             
             pred_row = {
@@ -342,6 +416,9 @@ class CropSuitabilityModel:
             ["rain_sowing", "temp_sowing", "hum_sowing",
              "rain_growth", "temp_growth", "hum_growth",
              "rain_harvest", "temp_harvest", "hum_harvest",
+             "rain_std_sowing", "temp_std_sowing", "hum_std_sowing",
+             "rain_std_growth", "temp_std_growth", "hum_std_growth",
+             "rain_std_harvest", "temp_std_harvest", "hum_std_harvest",
              "water_dependency_num", "time_effort_num", "price_at_planting"]
         ]
         
@@ -350,13 +427,18 @@ class CropSuitabilityModel:
             continuous_scores = []
             predicted_labels = []
             for i, p in enumerate(probs):
-                # We now expect 10 buckets out of the XGBClassifier!
-                # Create a continuous 0.0 - 1.0 Expectation Ratio from the 10 probabilities:
+                
                 expected_ratio = sum(prob * (label_idx / 9.0) for label_idx, prob in enumerate(p))
                 
                 # FUSE THE ENSEMBLE ENGINE: 70% AI (Future N-month), 30% Physics (Next 30 days)
                 row = results.iloc[i]
-                physics_score = self._calculate_suitability(row, forecast_rainfall)
+                # Pass current weather to physics engine
+                physics_score = self._calculate_suitability(
+                    row, 
+                    forecast_rainfall, 
+                    temp=self.climatology_temp.get(current_month),
+                    hum=self.climatology_hum.get(current_month)
+                )
                 
                 # The blended physics/AI score tells us exactly which Bucket (0-9) to snap to!
                 blended_ratio = (expected_ratio * 0.70) + (physics_score * 0.30)
@@ -371,7 +453,12 @@ class CropSuitabilityModel:
             results["predicted_label"] = predicted_labels
         except Exception as e:
             print(f"Prediction failed, using fallback: {e}")
-            physics_scores = results.apply(lambda r: self._calculate_suitability(r, forecast_rainfall), axis=1)
+            physics_scores = results.apply(lambda r: self._calculate_suitability(
+                r, 
+                forecast_rainfall,
+                temp=self.climatology_temp.get(current_month),
+                hum=self.climatology_hum.get(current_month)
+            ), axis=1)
             results["suitability_score"] = physics_scores
             results["predicted_label"] = physics_scores.apply(lambda x: max(0, min(9, int(round(x * 9)))))
             

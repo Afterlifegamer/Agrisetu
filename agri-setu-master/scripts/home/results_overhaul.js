@@ -21,8 +21,16 @@ function renderResults() {
     const top = data.recommendations[0];
 
     // -- Hero Section --
-    document.getElementById('crop-name-main').innerHTML = `${top.crop_name}: <br/>${top.state || 'Selected Region'}`;
+    document.getElementById('crop-name-main').innerHTML = top.crop_name;
     document.getElementById('crop-desc-main').textContent = top.recommendation_text || `Optimized for your soil profile and climate conditions. High ROI potential based on 10-year yield averages.`;
+    
+    const heroImg = document.getElementById('hero-crop-image');
+    if (heroImg) {
+        // Map 'Rice' to 'Paddy' image for farmers
+        const imgName = top.crop_name.toLowerCase() === 'rice' ? 'paddy' : top.crop_name.toLowerCase();
+        heroImg.src = `images/${imgName}.jpg`;
+        heroImg.onerror = () => { heroImg.src = 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=2000'; };
+    }
 
     // -- Metrics --
     document.getElementById('roi-value').textContent = `+${top.est_roi}%`;
@@ -112,10 +120,11 @@ function renderAlternatives(alternatives) {
         const card = document.createElement('div');
         card.className = 'bg-surface-container-lowest p-6 rounded-xl group cursor-pointer hover:shadow-xl transition-all';
         
+        const imgName = alt.crop_name.toLowerCase() === 'rice' ? 'paddy' : alt.crop_name.toLowerCase();
         card.innerHTML = `
             <div class="h-40 w-full rounded-lg overflow-hidden mb-6">
                 <img alt="${alt.crop_name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
-                     src="images/${alt.crop_name.toLowerCase()}.jpg"
+                     src="images/${imgName}.jpg"
                      onerror="this.src='https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=800'">
             </div>
             <div class="flex justify-between items-start mb-4">

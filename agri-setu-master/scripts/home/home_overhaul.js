@@ -23,7 +23,7 @@ function getWeatherIcon(weatherMain) {
     }
 }
 
-async function updateWeather(city = 'Pune') {
+async function updateWeather(city = 'Kochi') {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${weatherApiKey}&units=metric`;
     
     try {
@@ -57,7 +57,7 @@ async function updateTopRecommendation() {
         
         if (data.success && data.top) {
             const top = data.top;
-            document.getElementById('top-crop-name').innerHTML = `${top.crop_name} <br/>Suggested`;
+            document.getElementById('top-crop-name').innerHTML = top.crop_name;
             document.getElementById('top-crop-desc').textContent = top.recommendation_text || `Optimal conditions detected for ${top.crop_name}. High ROI potential based on current market trends.`;
             document.getElementById('top-yield-prob').textContent = `${(top.hybrid_score * 100).toFixed(0)}%`;
             document.getElementById('top-market-price').textContent = `Rs. ${top.predicted_price.toLocaleString('en-IN')}`;
@@ -65,10 +65,11 @@ async function updateTopRecommendation() {
             
             // Map crop image if available locally, else use default or keep existing
             const imgEl = document.getElementById('top-crop-image');
-            const localImg = `images/${top.crop_name.toLowerCase()}.jpg`;
+            const imgName = top.crop_name.toLowerCase() === 'rice' ? 'paddy' : top.crop_name.toLowerCase();
+            const localImg = `images/${imgName}.jpg`;
             // We can check if image exists or just use a fallback
             imgEl.src = localImg; 
-            imgEl.onerror = () => { imgEl.src = 'https://lh3.googleusercontent.com/aida-public/AB6AXuCcPs_BjfNvvK4QbW-0oTBGp4dkxCEuz3OMD99h1kO3WIi711EfWM6CGMDqKsUcmJfDaTSjcxqKnqenLun5un0Lu34hNI4c6lWo8m83SDmN3LllElqBjh_ov8rHBvg-Na90AYxH_nwr6QLAiV83HBEhDnjyzPDNq0ijbpHM4V-uzvSxe0xCUR-lrfaNdAzKdBG0afdCnOFSOpt2ZqRwvOUq1C3JQoU-sOF6R3XblEUc9rxBtTtFO26T-FPvsjF9hRrbiW9s0iiX6xg'; };
+            imgEl.onerror = () => { imgEl.src = 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=2000'; };
         }
     } catch (err) {
         console.error('Recommendation error:', err);
